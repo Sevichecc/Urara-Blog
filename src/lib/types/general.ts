@@ -1,0 +1,51 @@
+export type ThemeConfig = {
+  text?: string
+  name: string
+}[]
+
+export type HeadConfig = {
+  custom?:
+    | {
+        common?: string[]
+        dev?: string[]
+        prod?: string[]
+      }
+    | string[]
+  relMe?: string[]
+}
+
+export type HeaderConfig = {
+  nav?: {
+    text: string
+    link?: string
+    children?: {
+      text: string
+      link: string
+    }[]
+  }[]
+  search?: {
+    provider: 'google' | 'duckduckgo'
+    colors?: boolean
+  }
+}
+
+export type FooterConfig = {
+  nav?: {
+    text: string
+    link: string
+  }[]
+  html?: string
+  since?: string
+}
+
+export type DateConfig = {
+  toPublishedString: { locales: string; options: Intl.DateTimeFormatOptions }
+  toUpdatedString: { locales: string; options: Intl.DateTimeFormatOptions }
+}
+
+export type FeedConfig = {
+  /** feed entry limit. */
+  limit?: number
+  /** WebSub (formerly PubSubHubbub) hubs. one per line */
+  hubs?: string[]
+}
