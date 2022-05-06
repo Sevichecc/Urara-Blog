@@ -81,10 +81,10 @@ export const theme: ThemeConfig = [
     name: 'luxury',
     text: '💰 Luxury'
   },
-  // {
-  //   name: 'dracula',
-  //   text: '🧛 Dracula'
-  // },
+  {
+    name: 'dracula',
+    text: '🧛 Dracula'
+  },
   {
     name: 'cmyk',
     text: '🖨️ CMYK'

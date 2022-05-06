@@ -41,7 +41,7 @@
 
   if (browser)
     currentTheme =
-      localStorage.getItem('theme') ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+      localStorage.getItem('theme') ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dracula' : 'bumblebee')
 </script>
 
 <svelte:head>
