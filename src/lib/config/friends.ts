@@ -30,26 +30,27 @@ export const friends: Friend[] = [
   {
     id: 'mantyke',
     rel: 'friend',
-    title: "mantyke.icu",
-    name: '小球飞鱼',
+    title: "小球飞鱼",
+    name: '塔塔',
     link: 'https://mantyke.icu/',
     descr: '我们会一起遇见鲸鱼吗？',
     avatar: 'https://mantyke.icu/images/logo.png'
   },
   {
     id: 'middleofnowhere',
-    title: '陆博学',
-    name: 'Middle of No where',
+    title: 'Middle of No where',
+    name: '陆博学',
     link: 'https://notes.midofnowhere.link/',
     descr: `Welcome to the middle of nowhere. That's right, absolute nowhere.`,
     avatar: 'https://github.com/yue2/picbed/blob/main/cutepic.png?raw=true'
   },
   {
     id: 'chestnut',
-    title: 'testtest',
+    title: '野生栗子🌰',
+    name:'栗',
     link: 'https://blog.chestnut.monster/',
-    descr: 'testtqsatsatsartsa',
-    avatar: 'https://kwaa.dev/assets/any@512.webp'
+    descr: '',
+    avatar: ``
   },
   // {
   //   id: 'test3',
