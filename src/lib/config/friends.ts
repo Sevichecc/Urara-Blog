@@ -44,13 +44,13 @@ export const friends: Friend[] = [
     descr: `Welcome to the middle of nowhere. That's right, absolute nowhere.`,
     avatar: 'https://github.com/yue2/picbed/blob/main/cutepic.png?raw=true'
   },
-  // {
-  //   id: 'test2',
-  //   title: 'testtest',
-  //   link: 'https://kwaa.dev',
-  //   descr: 'testtqsatsatsartsa',
-  //   avatar: 'https://kwaa.dev/assets/any@512.webp'
-  // },
+  {
+    id: 'chestnut',
+    title: 'testtest',
+    link: 'https://blog.chestnut.monster/',
+    descr: 'testtqsatsatsartsa',
+    avatar: 'https://kwaa.dev/assets/any@512.webp'
+  },
   // {
   //   id: 'test3',
   //   title: 'testtest',
