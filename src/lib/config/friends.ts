@@ -52,14 +52,14 @@ export const friends: Friend[] = [
     descr: '',
     avatar: ``
   },
-  // {
-  //   id: 'test3',
-  //   title: 'testtest',
-  //   link: 'https://kwaa.dev',
-  //   descr: 'testtqsatsatsartsa',
-  //   avatar: 'https://kwaa.dev/assets/any@512.webp'
-  // },
-  // {
+  {
+    id: 'nekolas',
+    title: 'Nic Tian',
+    name:`Nekolas's blog`,
+    link: 'https://blog.nekolas.cafe/',
+    descr: '欢迎加入锈栓抵抗军"',
+    avatar: 'https://blogpic-1308403500.cos.ap-shanghai.myqcloud.com/avatar/nic-avatar-tomato.png'
+  },
   //   id: 'test4',
   //   name: ':hatsunemiku: 藍 :hatsunemiku:',
   //   title: '~/kwaa.moe',
