@@ -1,10 +1,10 @@
 ---
-title: HTML - 基础笔记
+title: HTML · 基础笔记
 date: 2021-12-06T11:59:47+08:00
 slug: html-notes
 tags:
   - HTML
-lastmod: 2022-03-30T02:19:40.034Z
+lastmod: 2022-05-07T05:30:47.655Z
 ---
 
 课程：[Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)

@@ -1,5 +1,5 @@
 ---
-title: 翻译 - Material Design3
+title: 翻译 · Material Design3
 date: 2022-01-03 13:02:17
 tags:
   - 翻译
@@ -7,7 +7,7 @@ categories:
   - 翻译
 slug: material-design-3
 summary: 部分翻译内容
-lastmod: 2022-04-07T07:22:50.698Z
+lastmod: 2022-05-07T05:30:39.510Z
 ---
 
 上个月参与了  [Material Design 3 的中文版](https://www.yuque.com/advancedux/xr6e1n)翻译，我和搭档一起翻译了  [FAB (浮动操作按钮)](https://www.yuque.com/advancedux/xr6e1n/xip12y)  的部分内容。

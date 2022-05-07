@@ -4,7 +4,7 @@ created: 2022-05-06
 updated: 2022-05-06
 flags:
   - unlisted
-lastmod: 2022-05-07T05:11:01.523Z
+lastmod: 2022-05-07T05:16:45.265Z
 ---
 
 <script lang="ts">
@@ -34,9 +34,14 @@ lastmod: 2022-05-07T05:11:01.523Z
 <a href="https://wakatime.com/@75cfdcbc-7bca-41ef-90d1-b47d27818b7d"><img src="https://wakatime.com/badge/user/75cfdcbc-7bca-41ef-90d1-b47d27818b7d.svg?style=social" alt="Total time coded since Apr 12 2022" /></a>
 
 
-### 其他链接
+### 其他站点
 
 - [About Coding - Airtable](https://airtable.com/shrPHGWAGI8JypL16/tblEvtThXHNBMQ8lW)
 - [前端打怪笔记](https://book.seviche.cc)
+
+### 博客日志
+- 2022-05-06 从 Zola 搬到 Urara
+- 之前：静态博客尝试过 Hugo / Zola / Hexo / Nextra ，动态博客尝试过 Ghost / WordPress / QQ空间（？，部署平台 Vercel 和 Netlify 都试过，目前还没有试过的是CloudFare Page。
+
 
 *所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0 协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)，转载请注明出处

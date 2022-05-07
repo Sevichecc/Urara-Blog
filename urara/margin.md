@@ -1,12 +1,12 @@
 ---
-title: CSS - Add margin to buttons
+title: CSS · Add margin to buttons
 slug: css-margin
 tags:
   - CSS Trick
   - CSS
 date: 2022-01-13T10:04:21.000Z
 summary: 用helper class为单个按钮加margin，防止元素复用时产生不必要的margin
-lastmod: 2022-03-30T02:19:45.436Z
+lastmod: 2022-05-07T05:32:49.156Z
 ---
 
 用 helper class 为单个按钮加 margin，防止元素复用时产生不必要的 margin

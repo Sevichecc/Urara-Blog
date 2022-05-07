@@ -1,11 +1,11 @@
 ---
-title: CSS - Reusable Grid
+title: CSS · Reusable Grid
 slug: css-grid
 tags:
   - CSS
 date: 2022-01-13T10:01:44.000Z
 summary: 可复用的CSS Grid设置
-lastmod: 2022-03-30T02:19:19.127Z
+lastmod: 2022-05-07T05:32:52.372Z
 ---
 
 1. 先设置一个 class 为 grid，并设定 gap

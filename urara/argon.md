@@ -1,11 +1,11 @@
 ---
-title: CSS - Argon主题的CSS修改
+title: CSS · Argon主题的CSS修改
 date: 2022-01-16 14:04:17
 tags:
   - CSS
 slug: free-axure-cloud
 summary: 基于最近所学，对当前Argon主题做了一些微小的调整
-lastmod: 2022-03-30T02:18:38.823Z
+lastmod: 2022-05-07T05:30:35.639Z
 ---
 
 然后已经不用 Wordpress 了，这个主题加载太慢了（也可能是我自己的问题

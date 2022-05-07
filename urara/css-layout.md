@@ -1,11 +1,11 @@
 ---
-title: CSS - 三种布局方式
+title: CSS · 三种布局方式
 slug: css-layouts
 tags:
   - CSS
 date: 2022-01-13T10:07:00.000Z
 summary: Float / Flexbox / Grid /
-lastmod: 2022-04-07T07:21:44.358Z
+lastmod: 2022-05-07T05:30:20.613Z
 ---
 
 课程：[Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)

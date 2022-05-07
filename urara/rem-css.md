@@ -1,11 +1,11 @@
 ---
-title: CSS - Rem in CSS
+title: CSS · Rem in CSS
 slug: rem-css
 tags:
   - CSS
 date: 2022-01-12T09:50:27.000Z
 summary: CSS中的Rem是什么
-lastmod: 2022-04-07T07:21:55.123Z
+lastmod: 2022-05-07T05:32:42.708Z
 ---
 
 默认为浏览器默认字体大小：

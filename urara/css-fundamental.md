@@ -1,10 +1,10 @@
 ---
-title: CSS - 基础笔记
+title: CSS · 基础笔记
 date: 2021-12-06T11:59:47+08:00
 slug: css-fundamental
 tags:
   - CSS
-lastmod: 2022-03-30T02:18:51.805Z
+lastmod: 2022-05-07T05:30:27.910Z
 ---
 
 一些随堂笔记。

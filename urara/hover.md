@@ -1,12 +1,12 @@
 ---
-title: CSS - hover时图片放大的动效
+title: CSS · hover时图片放大的动效
 date: 2022-01-13T16:03:47.000Z
 slug: hover-image-scale
 tags:
   - CSS Trick
   - CSS
 summary: 通过transform设置
-lastmod: 2022-03-30T02:22:00.545Z
+lastmod: 2022-05-07T05:30:52.029Z
 ---
 
 思路：

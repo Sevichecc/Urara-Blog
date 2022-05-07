@@ -6,13 +6,15 @@ tags:
   - Self-hosted
 slug: halo
 summary: ""
-lastmod: 2022-03-30T02:19:29.713Z
+lastmod: 2022-05-07T05:39:19.169Z
 ---
 
 系统：ubuntn 20.04
+
 参考：
-[用 Nginx 反代实现 docker 安装 WordPress 与其他服务并存 – 沉默之沙](https://yukieyun.net/tech/shared-service-same-server-wordpress/)
-[RSS | RSSHub 搭配 Miniflux，实现订阅自由](https://mantyke.icu/2021/rsshub-miniflux/)
+- [用 Nginx 反代实现 docker 安装 WordPress 与其他服务并存 – 沉默之沙](https://yukieyun.net/tech/shared-service-same-server-wordpress/)
+- [RSS | RSSHub 搭配 Miniflux，实现订阅自由](https://mantyke.icu/2021/rsshub-miniflux/)
+
 Halo 官网：[Halo](https://halo.run/#quickstart)
 
 建议大家先去[Halo 官网主题仓库](https://halo.run/themes.html)看看有没有喜欢的主题再决定要不要装，不然很可能像我一样装了之后又跑路了…… ^^
@@ -193,22 +195,22 @@ nano halo.conf
 注意修改`www.yourdomain.com` 为自己的域名
 
 ```conf
-upstream halo {
-server 127.0.0.1:8090;
-}
-server {
-listen 80;
-listen [::]:80;
-server_name www.yourdomain.com;
-client_max_body_size 1024m;
-location / {
-proxy_pass http://127.0.0.1:8090;
-proxy_set_header HOST $host;
-proxy_set_header X-Forwarded-Proto $scheme;
-proxy_set_header X-Real-IP $remote_addr;
-proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-}
-}
+  upstream halo {
+    server 127.0.0.1:8090;
+    }
+    server {
+      listen 80;
+      listen [::]:80;
+      server_name www.yourdomain.com;
+      client_max_body_size 1024m;
+      location / {
+        proxy_pass http://127.0.0.1:8090;
+        proxy_set_header HOST $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      }
+    }
 ```
 
 用`nginx -t`测试配置文件，如果最后有出现`suceessful` ，那测试就成功了。
@@ -252,21 +254,25 @@ certbot --nginx -d example.com -d www.example.com
 
 一些选项，这里最好选择 1，如果选择 2，就没办法用 http 访问域名了：
 
-```
-1: No redirect - Make no further changes to the webserver configuration.
-2: Redirect - Make all requests redirect to secure HTTPS access. Choose this for
-new sites, or if you're confident your site works on HTTPS. You can undo this
-change by editing your web server's configuration.
+```text
+  1: No redirect - Make no further changes to the webserver configuration.
+  2: Redirect - Make all requests redirect to secure HTTPS access. Choose this for
+  new sites, or if you're confident your site works on HTTPS. You can undo this
+  change by editing your web server's configuration.
 ```
 
 然后同意条款后问是否暴露邮箱时选 No[^2]。
 
 ## 其他
 
-主题编辑：首页 / 外观 / 主题编辑 里修改具体文件
-进入后台：域名后面加/admin，如我的：https://halo.seviche.cc/admin
+- 主题编辑：首页 / 外观 / 主题编辑 里修改具体文件
+- 进入后台：域名后面加/admin，如：https://yourdomain/admin
 
+---
 [^1]: [WordPress + VPS 建站教程 - 少数派](https://sspai.com/post/66447#:~:text=sudo%20swapon%20/swapfile-,SSL%20%E8%B6%85%E8%BF%87%E4%BD%BF%E7%94%A8%E9%A2%91%E7%8E%87%E9%99%90%E9%A2%9D,-%E6%98%AF%E7%9A%84%EF%BC%8C%E5%85%8D%E8%B4%B9)
+
 [^2]: [用 Nginx 反代实现 docker 安装 WordPress 与其他服务并存 – 沉默之沙](https://yukieyun.net/tech/shared-service-same-server-wordpress/)
+
 [^3]: [如何在 Linux 中安装 netstat 命令 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1852241)
+
 [^4]: [使用 Docker 部署 Halo | Halo Documents](https://docs.halo.run/getting-started/install/docker#nginx)
