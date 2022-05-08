@@ -21,7 +21,7 @@ export const post: PostConfig = {
       repoID: 'R_kgDOHSra4Q',
       lang: 'en',
       mapping: 'og:title',
-      category: 'Announcements',
+      category: 'General',
       categoryID: 'DIC_kwDOHSra4c4CO9uZ',
       // theme: 'urara'
       theme: 'preferred_color_scheme'
