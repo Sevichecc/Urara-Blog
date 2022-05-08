@@ -20,6 +20,7 @@ export const post: PostConfig = {
       repo: 'sevichecc/urara-giscus',
       repoID: 'R_kgDOHSra4Q',
       lang: 'en',
+      mapping: 'title',
       category: 'Announcements',
       categoryID: 'DIC_kwDOHSra4c4CO9uZ',
       // theme: 'urara'
