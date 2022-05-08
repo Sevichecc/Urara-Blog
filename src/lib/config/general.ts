@@ -2,7 +2,7 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'bumblebee',
+    name: 'light',
     text: '🌕 Light'
   },
   {

@@ -6,7 +6,7 @@ export const site: SiteConfig = {
   title: "Seviche.cc",
   subtitle: 'Tech / Code / Random Life',
   lang: 'zh',
-  description: 'Powered by SvelteKit/Urara',
+  descr: 'Tech / Code / Random Life',
   author: {
     name: '酸橘汁腌鱼',
     photo: '/assets/avatar.png',

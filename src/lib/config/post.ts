@@ -18,7 +18,10 @@ export const post: PostConfig = {
     giscus: {
       // src: 'https://giscus.kwaa.dev/client.js',
       repo: 'sevichecc/urara-giscus',
+      repoID: 'R_kgDOHSra4Q',
       lang: 'en',
+      category: 'Announcements',
+      categoryID: 'DIC_kwDOHSra4c4CO9uZ',
       // theme: 'urara'
       theme: 'preferred_color_scheme'
     },
