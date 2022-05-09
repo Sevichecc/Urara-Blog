@@ -22,9 +22,10 @@ export const post: PostConfig = {
       lang: 'en',
       mapping: 'og:title',
       category: 'General',
+      reactionsEnabled: false,
       categoryID: 'DIC_kwDOHSra4c4CO9ua',
       // theme: 'urara'
-      theme: 'preferred_color_scheme'
+      theme: 'light_high_contrast'
     },
     disqus: {
       shortname: 'seviche-cc'
