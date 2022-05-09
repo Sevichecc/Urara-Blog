@@ -21,7 +21,6 @@ export const post: PostConfig = {
       repoID: 'R_kgDOHSra4Q',
       category: 'General',
       categoryID: 'DIC_kwDOHSra4c4CO9ua',
-      reactionsEnabled: false,
       theme: 'light',
       lang: 'en'
     },
