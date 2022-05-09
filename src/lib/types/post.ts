@@ -17,8 +17,6 @@ export type CommentConfig = {
   disqus?: DisqusConfig
   /** Utterances config, more at https://utteranc.es */
   utterances?: UtterancesConfig
-  /** Waline config, more at https://waline.js.org/reference/component.html */
-  waline?: WalineConfig 
 }
 
 export type WebmentionConfig = {
@@ -77,10 +75,10 @@ export type DisqusConfig = {
   lang?: string
 }
 
-export type WalineConfig = {
-  serverURL: string
-  path: string
-  lang: string | 'en'
-  emoji?: (string | WalineEmojiInfo)[] | false
-  dark: string | boolean
-}
+// export type WalineConfig = {
+//   serverURL: string
+//   path: string
+//   lang: string | 'en'
+//   emoji?: (string | WalineEmojiInfo)[] | false
+//   dark: string | boolean
+// }
