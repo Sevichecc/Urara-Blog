@@ -1,10 +1,10 @@
 ---
-title: JavaScript· 数组中的copyWithin方法
+title: JavaScript · 数组中的copyWithin方法
 created: 2022-05-08T17:13:47.671Z
 summary: 一种数组内元素复制的方法
 tags:
   - JavaScript
-lastmod: 2022-05-09T02:18:08.906Z
+lastmod: 2022-05-09T02:27:47.533Z
 ---
 
 > `copyWithin()` 方法浅复制数组的一部分到同一数组中的另一个位置，并返回它，不会改变原数组的长度   
