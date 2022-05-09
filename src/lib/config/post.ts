@@ -22,7 +22,7 @@ export const post: PostConfig = {
       lang: 'en',
       mapping: 'og:title',
       category: 'General',
-      categoryID: 'DIC_kwDOHSra4c4CO9uZ',
+      categoryID: 'DIC_kwDOHSra4c4CO9ua',
       // theme: 'urara'
       theme: 'preferred_color_scheme'
     },
