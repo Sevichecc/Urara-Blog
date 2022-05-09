@@ -17,7 +17,7 @@ export const post: PostConfig = {
     // },
     giscus: {
       // src: 'https://giscus.kwaa.dev/client.js',
-      repo: 'sevichecc/urara-giscus',
+      repo: 'Sevichecc/urara-giscus',
       repoID: 'R_kgDOHSra4Q',
       category: 'General',
       categoryID: 'DIC_kwDOHSra4c4CO9ua',
