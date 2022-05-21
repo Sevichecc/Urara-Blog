@@ -13,8 +13,6 @@ export type CommentConfig = {
   webmention?: WebmentionConfig
   /** Giscus config, more at https://giscus.app */
   giscus?: GiscusConfig
-  /** Disqus config */
-  disqus?: DisqusConfig
   /** Utterances config, more at https://utteranc.es */
   utterances?: UtterancesConfig
 }
@@ -73,16 +71,3 @@ export type UtterancesConfig = {
   /** choose an utterances theme that matches your blog. */
   theme?: string
 }
-
-export type DisqusConfig = {
-  shortname: string
-  lang?: string
-}
-
-// export type WalineConfig = {
-//   serverURL: string
-//   path: string
-//   lang: string | 'en'
-//   emoji?: (string | WalineEmojiInfo)[] | false
-//   dark: string | boolean
-// }
