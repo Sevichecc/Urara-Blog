@@ -1,9 +1,5 @@
 <script lang="ts">
   import { site } from '$lib/config/site'
-  import IconKey from '~icons/heroicons-solid/key'
-  import Github from '~icons/uil/github'
-  // import Discord from '~icons/ic/outline-discord'
-  // import Mailto from '~icons/ic/baseline-mail'
 </script>
 
 <div class="flex flex-row xl:flex-col gap-4 sticky top-24 card card-body items-right h-card">
@@ -23,40 +19,57 @@
     </div>
   {/if}
   <div class="flex-1 text-right my-auto">
-    <h2 class="text-2xl font-bold mt-0 mb-2 p-name">{site.author.name}</h2>
+    <h1 class="text-3xl font-bold mt-0 mb-2 p-name">{site.author.name}</h1>
     <p class="opacity-75 p-note">{@html site.author.bio}</p>
     <p class="pt-3 space-x-3">
-      <!-- <a
-        class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-tip="Mail"
-        aria-label="Mail"
-        href="mailto:contact@kwchang0831.dev">
-        <Mailto class="fill-current hover:text-lime-500 inline-block w-8 h-8 mr-1" />
-      </a> -->
-      <!-- <a
-        class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-tip="Discord"
-        aria-label="Discord"
-        href="https://discord.com/users/{site.author.discord}">
-        <Discord class="fill-current hover:text-blue-500 inline-block w-8 h-8 mr-1" />
-      </a> -->
-      <a
-        class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-tip="Github"
-        aria-label="Github"
-        href="https://github.com/{site.author.github}">
-        <Github class="fill-current hover:text-violet-500 inline-block w-8 h-8 mr-1" />
-      </a>
+      {#if site.author.email}
+        <a
+          class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-tip="Mail"
+          aria-label="Mail"
+          href="mailto:{site.author.email}">
+          <span class="i-ic-baseline-mail !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
+        </a>
+      {/if}
+      {#if site.author.discordID}
+        <a
+          class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-tip="Discord"
+          aria-label="Discord"
+          href="https://discordapp.com/users/{site.author.discordID}">
+          <span class="i-ic-outline-discord !w-8 !h-8 mr-1 fill-current inline-block hover:text-blue-500" />
+        </a>
+      {/if}
+      {#if site.author.github}
+        <a
+          class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-tip="Github"
+          aria-label="Github"
+          href="https://github.com/{site.author.github}">
+          <span class="i-uil-github !w-8 !h-8 mr-1 fill-current inline-block hover:text-violet-500" />
+        </a>
+      {/if}
+      {#if site.author.discordID}
+        <a
+          class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-tip="Discord"
+          aria-label="Discord"
+          href="https://discordapp.com/users/{site.author.discordID}">
+          <span class="i-ic-outline-discord !w-8 !h-8 mr-1 fill-current inline-block hover:text-blue-500" />
+        </a>
+      {/if}
     </p>
     {#if site.author.pgp}
       <a href={site.author.pgp.link} rel="pgpkey" class="btn btn-ghost btn-xs bg-base-300 font-mono rounded-full mt-4">
-        <IconKey class="inline-block w-4 h-4 mr-1" />
+        <span class="i-heroicons-solid-key !w-4 !h-4 mr-1" />
         {site.author.pgp.text}
       </a>
     {/if}

@@ -13,10 +13,10 @@ export const theme: ThemeConfig = [
     name: 'cupcake',
     text: '🧁 Cupcake'
   },
-  // {
-  //   name: 'bumblebee',
-  //   text: '🐝 Bumblebee'
-  // },
+  {
+    name: 'bumblebee',
+    text: '🐝 Bumblebee'
+  },
   {
     name: 'emerald',
     text: '✳️ Emerald'
@@ -120,8 +120,10 @@ export const theme: ThemeConfig = [
 ]
 
 export const head: HeadConfig = {
-    custom: {
-    prod: [
+    custom: ({ dev }) => 
+      dev
+      ? []
+      : [
         // Webmention.io
       // '<link rel="webmention" href="https://webmention.io/kwaa.dev/webmention" />',
       // '<link rel="pingback" href="https://webmention.io/kwaa.dev/xmlrpc" />',
@@ -136,9 +138,8 @@ export const head: HeadConfig = {
       // Block Baiduspider
       '<meta name="baiduspider" content="noindex">'
     ]
-  },
+  }
   // relMe: ['https://kwaa.moe/@kwa']
-}
 
 export const header: HeaderConfig = {
   search: {

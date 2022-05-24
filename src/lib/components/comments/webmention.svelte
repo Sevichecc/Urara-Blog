@@ -2,8 +2,6 @@
   import { onMount } from 'svelte'
   import { site } from '$lib/config/site'
   import type { WebmentionConfig } from '$lib/types/post'
-  import IconSortAscending from '~icons/heroicons-outline/sort-ascending'
-  import IconSortDescending from '~icons/heroicons-outline/sort-descending'
   export let config: WebmentionConfig
   export let post: Urara.Post
 
@@ -53,7 +51,7 @@
           )
         }
         if (feed.children.length > 0) mentions = [...mentions, ...feed.children]
-        else load()
+        // else load()
         page++
         loaded = true
       })
@@ -81,9 +79,9 @@
         reset()
       }}>
       {#if sortDirUp === true}
-        <IconSortAscending />
+        <span class="i-heroicons-outline-sort-ascending" />
       {:else}
-        <IconSortDescending />
+        <span class="i-heroicons-outline-sort-descending" />
       {/if}
     </button>
   </div>
