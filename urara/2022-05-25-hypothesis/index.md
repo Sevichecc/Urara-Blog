@@ -1,5 +1,5 @@
 ---
-title: Hypothesis使用小记
+title: Hypothesis 使用小记
 created: 2022-05-25
 summary: Hypothesis同步到Obsidian / Logseq的方法
 tags:
