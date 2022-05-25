@@ -3,7 +3,8 @@ title: Hypothesis 使用小记
 created: 2022-05-25
 summary: Hypothesis同步到Obsidian / Logseq的方法
 tags:
-  - SQL
+  - Logseq
+  - Obsidian
 ---
 
 Hypothesis太好用了，方便我满世界乱画写屁话(?)，用它在网页上高亮，就像用荧光笔在纸上标注一样轻松 ，写标注就写在3M便利贴上，哪里都好贴，而且还支持用Markdown写，真的越用越顺手
