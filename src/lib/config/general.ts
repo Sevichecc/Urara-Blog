@@ -147,6 +147,10 @@ export const header: HeaderConfig = {
   },
   nav: [
     {
+      text: 'Projects',
+      link: '/projects'
+    },
+    {
       text: 'Friends',
       link: '/friends'
     },
