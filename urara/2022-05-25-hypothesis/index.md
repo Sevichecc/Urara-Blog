@@ -58,7 +58,7 @@ https://github.com/c6p/logseq-hypothesis)
 
 点击 `Fetch Latest Notes` 会拉取最新的笔记
 
-如果选择了指定页面，然后点`Get Seleted Page`，会自动生成一篇相应的笔记，比如：
+如果选择了指定页面，然后点`Add page notes to graph`，会自动生成一篇相应的笔记，比如：
 ![](/2022-05-25-hypothesis/Snipaste_2022-05-25_21-47-28.png)
 
 ### 5. 修改笔记模板
