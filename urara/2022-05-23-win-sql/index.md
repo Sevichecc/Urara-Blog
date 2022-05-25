@@ -9,7 +9,8 @@ tags:
 ## 1. 下载二进制文件
 -   请访问 [SQLite 下载页面](http://www.sqlite.org/download.html)，从 Windows 区下载预编译的二进制文件。
 -   您需要下载 **sqlite-tools-win32-*.zip** 和 **sqlite-dll-win32-*.zip** 压缩文件。
-![](/2022-05-23-win-sql/Gtvk5yl2UTqzoJA.png)
+  
+![](/2022-05-23-win-sql/2.png)
 
 ## 2. 创建安装文件夹
 -   在C盘内创建文件夹 sqlite（在别的地方应该也可以？），并在此文件夹下解压上面两个压缩文件，将得到 sqlite3.def、sqlite3.dll 和 sqlite3.exe 文件。如：
