@@ -33,7 +33,7 @@ tags:
 明确了需求后，参考了几个项目平台的布局，在 [Whimsical](https://whimsical.com/) 上画了原型图如下：
 ![](https://s2.loli.net/2022/05/26/8kMa6LPrgUEC7Xb.png)
 
-//目前还没有做上面 Tag 的功能，之后可能会做吧
+目前还没有做上面 Tag 的分类功能，之后可能会做吧
 
 ## 2. 创建组件样式 CSS
 
