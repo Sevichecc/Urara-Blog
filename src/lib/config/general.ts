@@ -120,26 +120,26 @@ export const theme: ThemeConfig = [
 ]
 
 export const head: HeadConfig = {
-    custom: ({ dev }) => 
-      dev
+  custom: ({ dev }) =>
+    dev
       ? []
       : [
-        // Webmention.io
-      // '<link rel="webmention" href="https://webmention.io/kwaa.dev/webmention" />',
-      // '<link rel="pingback" href="https://webmention.io/kwaa.dev/xmlrpc" />',
-      // IndieAuth
-      '<link rel="authorization_endpoint" href="https://indieauth.com/auth">',
-      '<link rel="token_endpoint" href="https://tokens.indieauth.com/token">',
-      '<link rel="me" href="https://github.com/sevichecc" />',
-      // Umami Link
-      '<link href="https://hexoverc.vercel.app" rel="preconnect" crossorigin>',
-      // Umami Analytics
-      '<script async defer data-website-id="2403ea30-74ff-4ffa-8264-556b9f3b2897" src="https://hexoverc.vercel.app/umami.js"></script>',
-      // Block Baiduspider
-      '<meta name="baiduspider" content="noindex">'
-    ]
-  }
-  // relMe: ['https://kwaa.moe/@kwa']
+          // Webmention.io
+          // '<link rel="webmention" href="https://webmention.io/kwaa.dev/webmention" />',
+          // '<link rel="pingback" href="https://webmention.io/kwaa.dev/xmlrpc" />',
+          // IndieAuth
+          '<link rel="authorization_endpoint" href="https://indieauth.com/auth">',
+          '<link rel="token_endpoint" href="https://tokens.indieauth.com/token">',
+          '<link rel="me" href="https://github.com/sevichecc" />',
+          // Umami Link
+          '<link href="https://hexoverc.vercel.app" rel="preconnect" crossorigin>',
+          // Umami Analytics
+          '<script async defer data-website-id="2403ea30-74ff-4ffa-8264-556b9f3b2897" src="https://hexoverc.vercel.app/umami.js"></script>',
+          // Block Baiduspider
+          '<meta name="baiduspider" content="noindex">'
+        ]
+}
+// relMe: ['https://kwaa.moe/@kwa']
 
 export const header: HeaderConfig = {
   search: {
@@ -147,20 +147,19 @@ export const header: HeaderConfig = {
   },
   nav: [
     {
+      text: 'About',
+      link: '/about'
+    },
+    {
       text: 'Projects',
       link: '/projects'
     },
     {
       text: 'Friends',
       link: '/friends'
-    },
-    {
-      text: 'About',
-      link: '/about'
-    },
+    }
   ]
 }
-
 
 export const footer: FooterConfig = {
   nav: [
@@ -173,7 +172,7 @@ export const footer: FooterConfig = {
       link: '/sitemap.xml'
     }
   ],
-   html: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
+  html: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
 }
 
 export const date: DateConfig = {
@@ -200,5 +199,5 @@ export const date: DateConfig = {
 }
 
 export const feed: FeedConfig = {
-    // hubs: ['https://pubsubhubbub.appspot.com', 'https://bridgy-fed.superfeedr.com']
+  // hubs: ['https://pubsubhubbub.appspot.com', 'https://bridgy-fed.superfeedr.com']
 }

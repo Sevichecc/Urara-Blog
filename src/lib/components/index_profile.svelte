@@ -22,7 +22,7 @@
     <h1 class="text-3xl font-bold mt-0 mb-2 p-name">{site.author.name}</h1>
     <p class="opacity-75 p-note">{@html site.author.bio}</p>
     <p class="pt-3 space-x-3">
-      {#if site.author.email}
+      <!-- {#if site.author.email}
         <a
           class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
           target="_blank"
@@ -32,8 +32,8 @@
           href="mailto:{site.author.email}">
           <span class="i-ic-baseline-mail !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
         </a>
-      {/if}
-      {#if site.author.discordID}
+      {/if} -->
+      <!-- {#if site.author.discordID}
         <a
           class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
           target="_blank"
@@ -43,7 +43,7 @@
           href="https://discordapp.com/users/{site.author.discordID}">
           <span class="i-ic-outline-discord !w-8 !h-8 mr-1 fill-current inline-block hover:text-blue-500" />
         </a>
-      {/if}
+      {/if} -->
       {#if site.author.github}
         <a
           class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
@@ -55,7 +55,7 @@
           <span class="i-uil-github !w-8 !h-8 mr-1 fill-current inline-block hover:text-violet-500" />
         </a>
       {/if}
-      {#if site.author.discordID}
+      <!-- {#if site.author.discordID}
         <a
           class="text-sm transition hover:text-gray-600 tooltip tooltip-secondary hover:text-secondary"
           target="_blank"
@@ -65,7 +65,7 @@
           href="https://discordapp.com/users/{site.author.discordID}">
           <span class="i-ic-outline-discord !w-8 !h-8 mr-1 fill-current inline-block hover:text-blue-500" />
         </a>
-      {/if}
+      {/if} -->
     </p>
     {#if site.author.pgp}
       <a href={site.author.pgp.link} rel="pgpkey" class="btn btn-ghost btn-xs bg-base-300 font-mono rounded-full mt-4">
