@@ -6,8 +6,6 @@ let project = item as unknown as Project
 let tags = project.tags
 </script>
 
-
-
 {#if project.id === 'footer'}
    <Footer rounded={true} class="max-w-4xl mx-auto p-4 md:p-8" />
 {:else}
@@ -19,8 +17,8 @@ let tags = project.tags
       {project.feature}
     </div>
     <div class="card-body p-4">
-      <div class="flex items-start gap-4">
-        <div class="mb-auto max-w-xs shrink-0">
+      <div class="flex flex-col md:flex-row items-start gap-4">
+         <div class="mb-auto  max-w-full shrink-0 md:max-w-xs">
           <img 
           class="rounded-md" 
           src={project.img} 
@@ -31,7 +29,7 @@ let tags = project.tags
             <h2 class="p-name text-left text-2xl mb-2">{project.name}</h2>
             <div class="mb-3 text-base font-normal">
               {#each tags as tag}
-                <span class="btn btn-sm btn-ghost normal-case border-dotted border-base-content/20 border-2 my-8 md:my-1 mr-1">
+                <span class="btn btn-sm btn-ghost normal-case border-dotted border-base-content/20 border-2 my-1 mr-1">
                 {tag}
                 </span>
               {/each}
