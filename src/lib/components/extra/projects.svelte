@@ -36,7 +36,7 @@ let tags = project.tags
             </div>
           </div>
           <p class="text-left text-base font-normal opacity-70">
-            {project.description}</p>
+            {@html project.description}</p>
         </div>
       </div>
     </div>
