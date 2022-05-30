@@ -1,9 +1,9 @@
 ---
 title: Contabo OSS + PicGo 图床配置
 created: 2022-05-30
-summary: OOS自建图床笔记
+summary: OSS自建图床笔记
 tags:
-  - OOS
+  - OSS
 ---
 
 ## 1. 购买套餐
