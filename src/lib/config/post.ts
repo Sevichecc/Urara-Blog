@@ -6,7 +6,7 @@ export const post: PostConfig = {
   // },
   comment: {
     // use: ['Webmention', 'Giscus', 'Disqus'],
-    use: ['Giscus', 'Disqus'],
+    use: ['Giscus', 'Disqus', 'Waline'],
     style: 'boxed',
     // webmention: {
     //   username: 'kwaa.dev',
@@ -26,6 +26,16 @@ export const post: PostConfig = {
     },
     disqus: {
       shortname: 'seviche-cc'
+    },
+    waline: {
+      serverURL: 'https://waline-seviche.vercel.app/',
+      lang: 'en',
+      emoji: [
+        'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+        'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+        'ttps://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
+      ],
+      requiredMeta: ['nick', 'mail']
     }
   }
 }

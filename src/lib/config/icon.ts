@@ -3,7 +3,7 @@ import { site } from '$lib/config/site'
 
 export const icon: IconConfig = {
   favicon: {
-    src: site.protocol + site.domain +'/assets/avatar.avif',
+    src: site.protocol + site.domain + '/assets/avatar.avif',
     sizes: '32x32',
     type: 'image/png'
   },

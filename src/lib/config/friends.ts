@@ -31,7 +31,7 @@ export const friends: Friend[] = [
     id: 'mantyke',
     rel: 'friend',
     name: '塔塔',
-    title: "小球飞鱼",
+    title: '小球飞鱼',
     link: 'https://mantyke.icu/',
     descr: '我们会一起遇见鲸鱼吗？',
     avatar: 'https://mantyke.icu/images/logo.png'
@@ -48,7 +48,7 @@ export const friends: Friend[] = [
   {
     id: 'chestnut',
     rel: 'friend',
-    name:'栗',
+    name: '栗',
     title: '野生栗子🌰',
     link: 'https://blog.chestnut.monster/',
     descr: '',
@@ -58,11 +58,11 @@ export const friends: Friend[] = [
     id: 'nekolas',
     rel: 'friend',
     name: 'Nic Tian',
-    title:`Nekolas's blog`,
+    title: `Nekolas's blog`,
     link: 'https://blog.nekolas.cafe/',
     descr: '欢迎加入锈栓抵抗军',
     avatar: 'https://blogpic-1308403500.cos.ap-shanghai.myqcloud.com/avatar/nic-avatar-tomato.png'
-  },
+  }
   //   id: 'test4',
   //   name: ':hatsunemiku: 藍 :hatsunemiku:',
   //   title: '~/kwaa.moe',

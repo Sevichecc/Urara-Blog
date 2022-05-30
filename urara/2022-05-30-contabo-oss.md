@@ -17,7 +17,7 @@ tags:
 进入控制面板：[Contabo Object Storage Panel](https://new.contabo.com/storage/object-storage/buckets)，然后点击`Create Bucket` 创建存储桶
 
 ![](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/05/114bf9578ffa81fb28c0010cd1d159f1.png)
-其中 **Bucket Name** 可以随便写，**Select Region** 不用选，默认是购买 OOS 时所选择的区域，如果换区域也可以另选
+其中 **Bucket Name** 可以随便写，**Select Region** 不用选，默认是购买 OSS 时所选择的区域，如果换区域也可以另选
 ![](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/05/d7e982a6b2e8ff37b7354d3d9b49a415.png)
 创建好后如图：
 （这个 Public Access 应该默认是红色的，也就是没有打开，我这里打开了）
