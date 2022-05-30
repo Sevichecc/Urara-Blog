@@ -1,5 +1,5 @@
 ---
-title: Contabo OOS + PicGo 图床配置
+title: Contabo OSS + PicGo 图床配置
 created: 2022-05-30
 summary: OOS自建图床笔记
 tags:
@@ -8,7 +8,7 @@ tags:
 
 ## 1. 购买套餐
 
-在官网购买 OOS 套餐，按月付费：[Object Storage: S3-Compatible with Free Data Transfer](https://contabo.com/en/object-storage/)
+在官网购买 OSS 套餐，按月付费：[Object Storage: S3-Compatible with Free Data Transfer](https://contabo.com/en/object-storage/)
 
 我没有修改设置，选的 250G 的容量，位于美国
 
