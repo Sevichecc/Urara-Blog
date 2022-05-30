@@ -37,10 +37,12 @@ tags:
 
 ### 应用密钥 ID 和 应用密钥
 
-在[Contabo Object Storage Panel](https://new.contabo.com/account/security)的 **Acount** > **Security & Access** 面板最下面的 **S3 Object Storage Credentials** 中：
+打开[Contabo Object Storage Panel](https://new.contabo.com/account/security)的 **Acount** > **Security & Access** 面板，找到最下面的 **S3 Object Storage Credentials**
 
-- **Access Key** → **应用密钥 ID**
-- **Secret Key** → **应用密钥**
+这里对应插件设置里的：
+
+- **应用密钥 ID** → **Access Key**
+- **应用密钥** → **Secret Key**
   ![](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/05/f1370bd49b1b7b54022e1203e8937ff1.png)
 
 ### 桶 / 自定义节点 /自定义域名
