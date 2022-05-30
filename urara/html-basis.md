@@ -21,7 +21,6 @@ HyperTextMarkupLanguage
 1. opening tag:`<p>`
 2. content : `Hello!`
 3. closing tag: `</p>`
- 
 
 ## 框架
 
@@ -64,7 +63,7 @@ HyperTextMarkupLanguage
 | h1         | 标题，一个页面只能有一个 h1                                           |
 | p          | 段落                                                                  |
 | span       | 行内文本                                                              |
-| `<!— —>`     | 注释                                                                  |
+| `<!— —>`   | 注释                                                                  |
 | b          | **加粗**，和`<strong>`不同，它没有语意，是过时的表述                  |
 | strong     | **加粗**，表示是页面中重要的元素                                      |
 | i          | _斜体_，过时的表述，应用`<em>`                                        |
@@ -97,7 +96,6 @@ HyperTextMarkupLanguage
 | address    | 地址                                                                  |
 | s          | 删除                                                                  |
 | blockquote | 引言                                                                  |
-
 
 - `<button>` 和`< a>` 的区别：
   - button ：一种页面内操作

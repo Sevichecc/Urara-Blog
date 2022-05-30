@@ -13,7 +13,6 @@ lastmod: 2022-05-07T05:30:52.029Z
 
 1. 设置放大
 2. 隐藏溢出
- 
 
 ```css
 .gallery-item {
@@ -31,5 +30,3 @@ lastmod: 2022-05-07T05:30:52.029Z
 ```
 
 效果：https://codepen.io/sevichee/pen/wvrRjjq
-
-

@@ -10,8 +10,6 @@ lastmod: 2022-05-07T05:30:35.639Z
 
 然后已经不用 Wordpress 了，这个主题加载太慢了（也可能是我自己的问题
 
- 
-
 ```css
 /*删掉tag图标*/
 
@@ -39,7 +37,7 @@ lastmod: 2022-05-07T05:30:35.639Z
 
 /*banner字体改为思源宋体*/
 .banner-title.text-white {
-  font-family: "Noto Serif SC", serif;
+  font-family: 'Noto Serif SC', serif;
 }
 /*删掉左侧搜索栏*/
 .card-body.text-center.leftbar-search-button {

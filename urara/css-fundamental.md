@@ -16,7 +16,6 @@ lastmod: 2022-05-07T05:30:27.910Z
 - **C**ascading**S**tyle**S**heets (层叠式样式表）
 - CSS describes the **visual style and presentation** of the **content written in HTML**
 - CSS consists of countless **properties** that developers use to format the content: properties about font, text, spacing, layout, etc.
- 
 
 ## 分类
 
@@ -236,7 +235,7 @@ li:nth-child(3) {
 
 ```html
 <article>
-  <head> </head>
+  <head></head>
   <p></p>
 </article>
 ```
@@ -336,7 +335,7 @@ h3 + p::first-line {
 
 ```css
 h2::after {
-  content: "TOP";
+  content: 'TOP';
   font-size: 16px;
   font-weight: bold;
   color: black;

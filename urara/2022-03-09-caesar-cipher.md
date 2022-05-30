@@ -23,7 +23,6 @@ lastmod: 2022-04-07T07:20:47.694Z
 
 - 点击加密按钮，根据用户输入的偏移量，对明文进行加密，加密后的为密文，显示在密文输入框中
 - 点击解密按钮，根据用户输入的偏移量，对密文进行加密，解密出来的为明文，显示在明文输入框中
- 
 
 ## 解法
 
@@ -36,41 +35,44 @@ lastmod: 2022-04-07T07:20:47.694Z
 ### HTML
 
 ```html
-<label>偏移:</label><input type="text" name="offset" size="5" value="3" /><br />
-<label
-  >明文:<label></label
-  ><input type="text" name="plain" size="50" value="This is a test." /><br />
-  <label>密文:</label><input type="text" name="enc" size="50" /><br />
-  <input type="button" value="加密" onClick="encrypt()" />&nbsp;
-  <input type="button" value="解密" onClick="decrypt()"
-/></label>
+<label>偏移:</label>
+<input type="text" name="offset" size="5" value="3" />
+<br />
+<label>
+  明文:
+  <label></label>
+  <input type="text" name="plain" size="50" value="This is a test." />
+  <br />
+  <label>密文:</label>
+  <input type="text" name="enc" size="50" />
+  <br />
+  <input type="button" value="加密" onClick="encrypt()" />
+  &nbsp;
+  <input type="button" value="解密" onClick="decrypt()" />
+</label>
 ```
 
 ### JS
 
 ```js
-let offsetInput = document.querySelector("input[name=offset]");
-let plain = document.querySelector("input[name=plain");
-let enc = document.querySelector("input[name=enc]");
+let offsetInput = document.querySelector('input[name=offset]')
+let plain = document.querySelector('input[name=plain')
+let enc = document.querySelector('input[name=enc]')
 
 // 加密
 function encrypt() {
-  let offset = Number(offsetInput.value);
+  let offset = Number(offsetInput.value)
   function conver(s) {
-    let charCode = s.charCodeAt(0);
+    let charCode = s.charCodeAt(0)
     // 替换大写字母 A-Z:65-90
     if (charCode <= 90 && charCode >= 65) {
-      return String.fromCharCode(
-        charCode + offset < 90 ? charCode + offset : charCode - offset
-      );
+      return String.fromCharCode(charCode + offset < 90 ? charCode + offset : charCode - offset)
     } else {
       //替换小写字母 a-z:97-122
-      return String.fromCharCode(
-        charCode + offset < 122 ? charCode + offset : charCode - offset
-      );
+      return String.fromCharCode(charCode + offset < 122 ? charCode + offset : charCode - offset)
     }
   }
-  enc.value = plain.value.replace(/[A-Za-z]/g, conver);
+  enc.value = plain.value.replace(/[A-Za-z]/g, conver)
 
   // 替换大写字母 A-Z:65-90
   // function transUpper(s) {
@@ -93,22 +95,18 @@ function encrypt() {
 
 // 解密
 function decrypt() {
-  let offset = Number(offsetInput.value);
+  let offset = Number(offsetInput.value)
   function conver(s) {
-    let charCode = s.charCodeAt(0);
+    let charCode = s.charCodeAt(0)
     // 替换大写字母 A-Z:65-90
     if (charCode <= 90 && charCode >= 65) {
-      return String.fromCharCode(
-        charCode - offset < 65 ? charCode + offset : charCode - offset
-      );
+      return String.fromCharCode(charCode - offset < 65 ? charCode + offset : charCode - offset)
     } else {
       //替换小写字母 a-z:97-122
-      return String.fromCharCode(
-        charCode - offset < 97 ? charCode + offset : charCode - offset
-      );
+      return String.fromCharCode(charCode - offset < 97 ? charCode + offset : charCode - offset)
     }
   }
-  plain.value = enc.value.replace(/[A-Za-z]/g, conver);
+  plain.value = enc.value.replace(/[A-Za-z]/g, conver)
 }
 ```
 

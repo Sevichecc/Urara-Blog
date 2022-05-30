@@ -12,8 +12,6 @@ lastmod: 2022-05-07T05:30:39.510Z
 
 上个月参与了  [Material Design 3 的中文版](https://www.yuque.com/advancedux/xr6e1n)翻译，我和搭档一起翻译了  [FAB (浮动操作按钮)](https://www.yuque.com/advancedux/xr6e1n/xip12y)  的部分内容。
 
- 
-
 这份翻译还存在一些问题，部分专有词汇还没统一翻译，但大概看看还是可以的。
 
 相关内容：

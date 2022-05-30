@@ -19,8 +19,6 @@ lastmod: 2022-04-07T07:20:39.933Z
 
 我近期的笔记目录页面（用 Logseq 发布）：[JavaScript](https://javascript-logseq.netlify.app/#/page/javascript)
 
- 
-
 ## 具体的方法
 
 我把几乎所有的笔记都放在一个叫 `Zone` 的文件夹内，常用的会打上星标，或者移到最外层文件夹，新笔记默认放在 `Zone` 文件夹下。

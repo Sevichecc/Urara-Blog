@@ -2,13 +2,13 @@
 title: Miniflux · 保存文章到 Pocket 以及 RSS
 summary: 将 Miniflux 上的文章到保存到 Pocket/Instapaper,以及 RSS 相关文章和资源
 date: 2022-03-10T16:24:38.663Z
-preview: ""
-draft: ""
+preview: ''
+draft: ''
 tags:
   - RSS
   - Miniflux
 changelogs:
-  - tag: "202203011"
+  - tag: '202203011'
     summary:
       - 添加了`instapaper`的连接方式
       - 添加了Pocket按钮嵌入方式
@@ -16,8 +16,6 @@ lastmod: 2022-04-07T07:38:52.406Z
 ---
 
 将 Miniflux 上的文章到保存到 Pocket/Instapaper,以及 RSS 相关文章和资源
-
- 
 
 Miniflux 文档： [Integration with External Services](https://miniflux.app/docs/services.html)
 
@@ -59,7 +57,6 @@ Miniflux 文档： [Integration with External Services](https://miniflux.app/doc
 ### 1.为博客添加 Pocket 收藏按钮
 
 在 [此处](https://getpocket.com/publisher/button)复制需要的 Pocket 收藏按钮样式，添加到主题的 layout 里面（具体要看不同主题的设置，wordpress 似乎有内置这功能，我不确定，有三种效果。
-
 
 ### 2.用 Fever 同步到 Reeder
 

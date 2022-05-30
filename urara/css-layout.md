@@ -10,8 +10,6 @@ lastmod: 2022-05-07T05:30:20.613Z
 
 课程：[Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
 
- 
-
 ## Overview
 
 ![](https://s2.loli.net/2022/01/08/SjgmE2nl7TkUAqM.png)
@@ -110,7 +108,7 @@ p {
 ```css
 .clearfix::after {
   clear: both;
-  content: "";
+  content: '';
   display: block;
 }
 ```

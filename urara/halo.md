@@ -5,21 +5,20 @@ tags:
   - Docker
   - Self-hosted
 slug: halo
-summary: ""
+summary: ''
 lastmod: 2022-05-07T05:39:19.169Z
 ---
 
 系统：ubuntn 20.04
 
 参考：
+
 - [用 Nginx 反代实现 docker 安装 WordPress 与其他服务并存 – 沉默之沙](https://yukieyun.net/tech/shared-service-same-server-wordpress/)
 - [RSS | RSSHub 搭配 Miniflux，实现订阅自由](https://mantyke.icu/2021/rsshub-miniflux/)
 
 Halo 官网：[Halo](https://halo.run/#quickstart)
 
 建议大家先去[Halo 官网主题仓库](https://halo.run/themes.html)看看有没有喜欢的主题再决定要不要装，不然很可能像我一样装了之后又跑路了…… ^^
-
- 
 
 ## 准备
 
@@ -269,10 +268,8 @@ certbot --nginx -d example.com -d www.example.com
 - 进入后台：域名后面加/admin，如：https://yourdomain/admin
 
 ---
+
 [^1]: [WordPress + VPS 建站教程 - 少数派](https://sspai.com/post/66447#:~:text=sudo%20swapon%20/swapfile-,SSL%20%E8%B6%85%E8%BF%87%E4%BD%BF%E7%94%A8%E9%A2%91%E7%8E%87%E9%99%90%E9%A2%9D,-%E6%98%AF%E7%9A%84%EF%BC%8C%E5%85%8D%E8%B4%B9)
-
 [^2]: [用 Nginx 反代实现 docker 安装 WordPress 与其他服务并存 – 沉默之沙](https://yukieyun.net/tech/shared-service-same-server-wordpress/)
-
 [^3]: [如何在 Linux 中安装 netstat 命令 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1852241)
-
 [^4]: [使用 Docker 部署 Halo | Halo Documents](https://docs.halo.run/getting-started/install/docker#nginx)

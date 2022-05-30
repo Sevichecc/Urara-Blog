@@ -20,10 +20,10 @@ lastmod: 2022-04-07T07:40:27.758Z
 - 在输入框中输入需要实现打字机效果的文本
 - 实现原理使用定时器间隔一段时间递增地截取字符串的长度
 - 点击 button 实现打字机效果的生成，将文本输出到 id 为 showText 的标签中
- 
 
 ```html
-<label>请输入文本:</label><input type="text" />
+<label>请输入文本:</label>
+<input type="text" />
 <button onclick="generateTypeEffect()">生成打字效果</button>
 <h2 id="showText"></h2>
 <script>
@@ -37,17 +37,18 @@ lastmod: 2022-04-07T07:40:27.758Z
 ## 解法
 
 ```html
-<label>请输入文本:</label><input type="text" />
+<label>请输入文本:</label>
+<input type="text" />
 <button onclick="generateTypeEffect()">生成打字效果</button>
 <h2 id="showText"></h2>
 <script>
-  let i = 0;
+  let i = 0
   function generateTypeEffect() {
-    const output = document.getElementById("showText");
-    const input = document.querySelector("input").value;
+    const output = document.getElementById('showText')
+    const input = document.querySelector('input').value
     if (i < input.length) {
-      output.textContent += input[i];
-      setTimeout(generateTypeEffect, 200, ++i);
+      output.textContent += input[i]
+      setTimeout(generateTypeEffect, 200, ++i)
     }
   }
 </script>
