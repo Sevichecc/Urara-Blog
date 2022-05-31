@@ -50,9 +50,7 @@ export const friends: Friend[] = [
     rel: 'friend',
     name: '栗',
     title: '野生栗子🌰',
-    link: 'https://blog.chestnut.monster/',
-    descr: '',
-    avatar: ``
+    link: 'https://blog.chestnut.monster/'
   },
   {
     id: 'nekolas',
@@ -62,14 +60,15 @@ export const friends: Friend[] = [
     link: 'https://blog.nekolas.cafe/',
     descr: '欢迎加入锈栓抵抗军',
     avatar: 'https://blogpic-1308403500.cos.ap-shanghai.myqcloud.com/avatar/nic-avatar-tomato.png'
+  },
+  {
+    id: 'summerblue',
+    rel: 'friend',
+    name: '夏诤',
+    title: 'SummberBlue',
+    link: 'https://summerblue.space/',
+    descr: '早睡早起身体好'
   }
-  //   id: 'test4',
-  //   name: ':hatsunemiku: 藍 :hatsunemiku:',
-  //   title: '~/kwaa.moe',
-  //   link: 'https://kwaa.moe/@kwa',
-  //   descr: 'ゴミ溜めで埋もれたまま、星空を眺めてるよ',
-  //   avatar: 'https://kwaa.moe/media/975fc04911e242147be77b60b93839b6dd1a317112717562944e3c7aef1f0203.png'
-  // },
   // {
   //   id: 'test5',
   //   name: '藍',
