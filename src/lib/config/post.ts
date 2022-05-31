@@ -6,7 +6,7 @@ export const post: PostConfig = {
   // },
   comment: {
     // use: ['Webmention', 'Giscus', 'Disqus'],
-    use: ['Giscus', 'Disqus', 'Waline'],
+    use: ['Giscus', 'Disqus'],
     style: 'boxed',
     // webmention: {
     //   username: 'kwaa.dev',
