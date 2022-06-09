@@ -12,7 +12,7 @@ export const site: SiteConfig = {
     photo: '/assets/avatar.avif',
     status: '🖤',
     github: 'sevichecc',
-    bio: ' Code / Tech  <br> Live a Random Life '
+    bio: ' Code / Tech  <br> Living a Random Life '
   },
   themeColor: '#3D4451'
 }
