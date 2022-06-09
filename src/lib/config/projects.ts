@@ -12,9 +12,10 @@ export const projects: Project[] = [
   {
     id: 'zheye',
     name: '者也专栏',
-    tags: ['Vue 3', 'Vue Router', 'Vuex', 'Axios', 'JWT','easyMDE','BootStrap'],
+    tags: ['Vue 3', 'Vue Router', 'Vuex', 'Axios', 'JWT', 'easyMDE', 'BootStrap'],
     feature: 'Vue3 + TypeScript',
-    description: '这是一个前后端分离的应用，功能类似于知乎专栏，支持表单验证、文件上传、Markdown输入和编辑等功能。其中用Vue实现了权限验证，JWT实现了鉴权，并用Vue Router实现了路由守卫。',
+    description:
+      '这是一个前后端分离的应用，功能类似于知乎专栏，支持表单验证、文件上传、Markdown输入和编辑等功能。其中用Vue实现了权限验证，JWT实现了鉴权，并用Vue Router实现了路由守卫。',
     img: 'https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/06/d4d2489936e4f647c25df6982c6ef924.png',
     link: 'https://zheye.seviche.cc'
   },
@@ -31,13 +32,13 @@ export const projects: Project[] = [
   {
     id: 'fokify',
     name: 'Forkify',
-    tags: ['MVC', 'Vanilla JS', 'ES6', 'Parcel','SCSS', 'HTML5'],
+    tags: ['MVC', 'Vanilla JS', 'ES6', 'Parcel', 'SCSS', 'HTML5'],
     feature: 'JavaScript',
     description:
       '一个基于Web端的菜谱搜索平台，有菜谱搜索、上传、收藏等功能，并使用 LocalStorage 来存储用户数据，让用户在退出页面后仍能浏览所收藏的菜谱。',
     img: 'https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/06/c3f41e397af1e480f57dd75e82334819.png',
     link: 'https://forkify.seviche.cc'
-  },
+  }
   // {
   //   id: 'bankist',
   //   name: 'Bankist',
