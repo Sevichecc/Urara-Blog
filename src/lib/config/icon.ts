@@ -31,7 +31,7 @@ export const icon: IconConfig = {
     purpose: 'maskable'
   },
   maskable512: {
-    src: site.protocol + site.domain + '/assets/andy@512.png',
+    src: site.protocol + site.domain + '/assets/maskable@512.png',
     sizes: '512x512',
     type: 'image/png',
     purpose: 'maskable'
