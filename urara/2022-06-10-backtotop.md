@@ -6,6 +6,7 @@ tags:
   - Vue3
   - BootStrap
 ---
+
 Demo : [者也专栏の右边](https://zheye.seviche.cc)
 
 主要参考：[Simple Vue.js and Tailwind.css Scroll To Top Button | Adam Bailey](https://adambailey.io/blog/scroll-to-top-button-vue/)
@@ -15,7 +16,6 @@ CSS 库：[bootstarp V5.2](https://getbootstrap.com/docs/5.2/getting-started/int
 - 按钮的布局方式为 sticky
 - 因为可能需要频繁切换显示状态，所以用`v-show` 而不是 `v-if`来控制按钮可见性
 - 使用 Vue 中内置的`<transition>`组件实现状态之间的平滑过渡
-
 
 ```vue title="BackToTop.vue"
 <template>
@@ -29,45 +29,45 @@ CSS 库：[bootstarp V5.2](https://getbootstrap.com/docs/5.2/getting-started/int
 </template>
 
 <script lang="ts">
-  import { defineComponent, ref, onMounted, onBeforeUnmount } from 'vue'
+import { defineComponent, ref, onMounted, onBeforeUnmount } from 'vue'
 
-  export default defineComponent({
-    name: 'BackToTop',
-    setup() {
-      const isVisible = ref(false)
-      const handleScroll = () => {
-        isVisible.value = window.scrollY > 0
-      }
-      const scrollToTop = () => {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        })
-      }
-      onMounted(() => {
-        window.addEventListener('scroll', handleScroll)
-      })
-      onBeforeUnmount(() => {
-        window.removeEventListener('scroll', handleScroll)
-      })
-      return {
-        isVisible,
-        handleScroll,
-        scrollToTop
-      }
+export default defineComponent({
+  name: 'BackToTop',
+  setup() {
+    const isVisible = ref(false)
+    const handleScroll = () => {
+      isVisible.value = window.scrollY > 0
     }
-  })
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+    onMounted(() => {
+      window.addEventListener('scroll', handleScroll)
+    })
+    onBeforeUnmount(() => {
+      window.removeEventListener('scroll', handleScroll)
+    })
+    return {
+      isVisible,
+      handleScroll,
+      scrollToTop
+    }
+  }
+})
 </script>
 
 <style>
-  .v-enter-active,
-  .v-leave-active {
-    transition: opacity 0.2s ease;
-  }
-  .v-enter-from,
-  .v-leave-to {
-    opacity: 0;
-  }
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.2s ease;
+}
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
 </style>
 ```
 
@@ -85,9 +85,9 @@ CSS 库：[bootstarp V5.2](https://getbootstrap.com/docs/5.2/getting-started/int
 其他参考/实现方式：
 
 - [vue 返回顶部的组件 BackTop](https://blog.csdn.net/m0_46217225/article/details/117933815)
-- [vue-simple-scroll-up/ScrollToTop.vue  · GitHub](https://github.com/asdf1899/vue-simple-scroll-up/blob/master/src/ScrollToTop.vue)
+- [vue-simple-scroll-up/ScrollToTop.vue · GitHub](https://github.com/asdf1899/vue-simple-scroll-up/blob/master/src/ScrollToTop.vue)
 - [Vue.js - Scroll Back To Top Button Without Library](https://codepen.io/webty_mizusawa/pen/QWLMeqE)
 - [Vue3 从 0 到 1 组件开发-基础组件：BackTop 回顶 - 掘金](https://juejin.cn/post/6993729338843594783)
 - [vue 相同路径刷新怎么回到顶部 - 掘金](https://juejin.cn/post/6873264845915947016)
 
-题外话：||BootStrap的文档写得好烂||
+题外话：||BootStrap 的文档写得好烂||

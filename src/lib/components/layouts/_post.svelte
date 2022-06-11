@@ -7,6 +7,8 @@
   import Pagination from '$lib/components/post_pagination.svelte'
   import Comment from '$lib/components/post_comment.svelte'
   import Footer from '$lib/components/footer.svelte'
+  import { onMount } from 'svelte'
+  import { copyCode } from '$lib/utils/copyCode'
 
   export let layout: Urara.Post['layout']
   export let created: Urara.Post['created']
@@ -33,6 +35,10 @@
         .find(post => !post.flags?.includes('unlisted'))
       next = posts.slice(index + 1).find(post => !post.flags?.includes('unlisted'))
     })
+
+  onMount(() => {
+    copyCode()
+  })
 </script>
 
 <div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">

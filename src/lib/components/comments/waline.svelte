@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
   import { onMount } from 'svelte'
   import { site } from '$lib/config/site'
   import type { WalineConfig } from '$lib/types/post'
@@ -114,4 +114,4 @@
   .v[data-class='v'] .vpanel {
     border-radius: 8px; /*输入框圆角*/
   }
-</style>
+</style> -->
