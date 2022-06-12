@@ -4,7 +4,7 @@ created: 2022-06-12
 summary: 关于如何申请Cloudflare的SSL证书并配置到Nginx的笔记
 tags:
   - Nginx
-  - SSL
+  - VPS
 ---
 
 声明：我不知道这样安不安全哈，It just works，个人笔记，操作有风险
