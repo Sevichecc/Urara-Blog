@@ -9,3 +9,4 @@ build/
 .netlify/
 .env.local
 .env.**.local
+myblog/urara/2022-06-12-appwrite.md
