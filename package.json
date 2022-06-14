@@ -2,7 +2,6 @@
   "name": "urara",
   "type": "module",
   "version": "0.0.1",
-  "license": "WTFPL",
   "repository": "importantimport/urara",
   "homepage": "https://github.com/importantimport/urara",
   "bugs": "https://github.com/importantimport/urara/issues",
