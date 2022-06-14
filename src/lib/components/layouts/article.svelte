@@ -20,12 +20,13 @@
   export let title = undefined
   export let summary = undefined
   export let photo = undefined
+  export let alt = undefined
   export let toc = undefined
 </script>
 
-<Head post={{ layout: 'article', created, updated, published, title, tags, summary, photo, path }} />
+<Head post={{ layout: 'article', path, created, updated, published, tags, flags, title, summary, photo, alt, toc }} />
 
-<Post layout="article" {path} {flags} {tags} {created} {updated} {published}>
+<Post post={{ layout: 'article', path, created, updated, published, tags, flags, title, summary, photo, alt, toc }}>
   <div slot="right" class="h-full hidden xl:block">
     {#if browser && toc?.length > 1}
       <Toc {toc} />
@@ -33,13 +34,16 @@
   </div>
   <div slot="top">
     {#if photo}
-      <figure class="!block mx-4 md:mx-0 w-auto">
-        <Image class="u-featured rounded-box w-full shadow-xl" src={photo} loading="eager" decoding="auto" />
+      <figure class="flex-col gap-2 mx-4 md:mx-0 w-auto">
+        <Image class="u-featured rounded-box w-full shadow-xl" src={photo} alt={alt ?? photo} loading="eager" decoding="auto" />
+        {#if alt}
+          <figcaption>{@html alt}</figcaption>
+        {/if}
       </figure>
     {/if}
   </div>
   <div slot="middle-bottom">
-    <h1 itemprop="name headline" class="card-title text-3xl mb-8 p-name">{title ?? path.slice(1)}</h1>
+    <h1 itemprop="name headline" class="card-title text-3xl mt-2 mb-8 p-name">{title ?? path.slice(1)}</h1>
     {#if summary}
       <p class="hidden p-summary">{summary}</p>
     {/if}

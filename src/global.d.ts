@@ -1,7 +1,4 @@
 /// <reference types="@sveltejs/kit" />
-/// <reference types="svelte" />
-/// <reference types="vite/client" />
-/// <reference types="unplugin-icons/types/svelte" />
 
 interface ImportMetaEnv {
   [key: string]: string | boolean
@@ -17,6 +14,9 @@ declare namespace Urara {
       layout: 'article'
       /** post photo */
       photo?: string
+      /** post photo alternative */
+      alt?: string
+      /** table of content - auto generated or set `false` to disable */
       toc?: false | Article.Toc[]
     }
     namespace Article {
@@ -34,6 +34,8 @@ declare namespace Urara {
       layout: 'photo'
       /** post photo */
       photo?: string
+      /** post photo alternative */
+      alt?: string
     }
     interface Reply {
       layout: 'reply'

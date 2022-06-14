@@ -2,43 +2,29 @@
   import { fly } from 'svelte/transition'
   import { browser } from '$app/env'
   import { posts as storedPosts } from '$lib/stores/posts'
+  import { title as storedTitle } from '$lib/stores/title'
   import { post as postConfig } from '$lib/config/post'
   import Status from '$lib/components/post_status.svelte'
   import Pagination from '$lib/components/post_pagination.svelte'
   import Comment from '$lib/components/post_comment.svelte'
   import Footer from '$lib/components/footer.svelte'
-  import { onMount } from 'svelte'
-  import { copyCode } from '$lib/utils/copyCode'
 
-  export let layout: Urara.Post['layout']
-  export let created: Urara.Post['created']
-  export let updated: Urara.Post['updated']
-  export let published: Urara.Post['published'] = undefined
-  export let tags: Urara.Post['tags'] = undefined
-  export let path: Urara.Post['path']
-  export let flags: Urara.Post['flags'] = undefined
+  export let post: Urara.Post
 
-  let posts: Urara.Post[]
-  let post: Urara.Post
   let index: number
   let prev: Urara.Post
   let next: Urara.Post
 
   $: if (browser)
-    storedPosts.subscribe(storedPosts => {
-      posts = storedPosts as Urara.Post[]
-      post = posts.find(post => post.path === path)
-      index = posts.findIndex(post => post.path === path)
-      prev = posts
+    storedPosts.subscribe((storedPosts: Urara.Post[]) => {
+      index = storedPosts.findIndex(storedPost => storedPost.path === post.path)
+      prev = storedPosts
         .slice(0, index)
         .reverse()
         .find(post => !post.flags?.includes('unlisted'))
-      next = posts.slice(index + 1).find(post => !post.flags?.includes('unlisted'))
+      next = storedPosts.slice(index + 1).find(post => !post.flags?.includes('unlisted'))
+      storedTitle.set(post.title)
     })
-
-  onMount(() => {
-    copyCode()
-  })
 </script>
 
 <div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
@@ -59,7 +45,7 @@
       <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry">
         {#if postConfig.bridgy}
           <div id="bridgy" class="hidden">
-            {#each flags?.some( flag => flag.startsWith('bridgy') ) ? flags.flatMap( flag => (flag.startsWith('bridgy') ? flag.slice(7) : []) ) : [...(postConfig.bridgy.post ?? []), ...(postConfig.bridgy[layout] ?? [])] as target}
+            {#each post.flags?.some( flag => flag.startsWith('bridgy') ) ? post.flags.flatMap( flag => (flag.startsWith('bridgy') ? flag.slice(7) : []) ) : [...(postConfig.bridgy.post ?? []), ...(postConfig.bridgy[post.layout] ?? [])] as target}
               {#if target === 'fed'}
                 <a href="https://fed.brid.gy/">fed</a>
               {:else}
@@ -71,13 +57,13 @@
         <slot name="top" />
         <div class="card-body gap-0">
           <slot name="middle-top" />
-          <Status post={{ layout, created, updated, published, path, flags }} />
+          <Status {post} />
           <slot name="middle-bottom" />
           <slot name="content" />
-          {#if tags}
+          {#if post.tags}
             <div class="divider mt-4 mb-0" />
             <div>
-              {#each tags as tag}
+              {#each post.tags as tag}
                 <a href="/?tags={tag}" class="btn btn-sm btn-ghost normal-case mt-2 mr-2 p-category">
                   #{tag}
                 </a>
@@ -86,10 +72,10 @@
           {/if}
         </div>
       </article>
-      {#if (prev || next) && !flags?.includes('pagination-disabled') && !flags?.includes('unlisted')}
+      {#if (prev || next) && !post.flags?.includes('pagination-disabled') && !post.flags?.includes('unlisted')}
         <Pagination {next} {prev} />
       {/if}
-      {#if browser && postConfig.comment && !flags?.includes('comment-disabled')}
+      {#if browser && postConfig.comment && !post.flags?.includes('comment-disabled')}
         <Comment {post} config={postConfig.comment} />
       {/if}
     </div>

@@ -5,8 +5,8 @@ import adapterStatic from '@sveltejs/adapter-static'
 import mdsvexConfig from './mdsvex.config.js'
 import postcss from './postcss.config.js'
 import UnoCSS from 'unocss/vite'
-import { extractorSvelte } from '@unocss/core'
-import { presetIcons } from 'unocss'
+import { presetIcons, extractorSvelte } from 'unocss'
+import { VitePWA } from 'vite-plugin-pwa'
 import { mdsvex } from 'mdsvex'
 
 export default /** @type {import('@sveltejs/kit').Config} */ {
@@ -42,6 +42,13 @@ export default /** @type {import('@sveltejs/kit').Config} */ {
               }
             })
           ]
+        }),
+        VitePWA({
+          srcDir: './build',
+          outDir: './.svelte-kit/output/client',
+          registerType: 'autoUpdate',
+          scope: '/',
+          base: '/'
         })
       ]
     }

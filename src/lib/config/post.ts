@@ -1,20 +1,20 @@
 import type { PostConfig } from '$lib/types/post'
 
 export const post: PostConfig = {
-  // bridgy: {
-  //   post: ['mastodon']
-  // },
+  bridgy: {
+    post: ['mastodon']
+  },
   comment: {
-    // use: ['Webmention', 'Giscus', 'Disqus'],
-    use: ['Giscus', 'Disqus'],
+    use: ['Webmention', 'Giscus', 'Disqus'],
+    // use: ['Giscus', 'Disqus'],
     style: 'boxed',
-    // webmention: {
-    //   username: 'kwaa.dev',
-    //   sortBy: 'created',
-    //   sortDir: 'down',
-    //   form: true,
-    //   commentParade: true
-    // },
+    webmention: {
+      username: 'Sevichecc',
+      sortBy: 'created',
+      sortDir: 'down',
+      form: true,
+      commentParade: true
+    },
     giscus: {
       // src: 'https://giscus.kwaa.dev/client.js',
       repo: 'Sevichecc/urara-giscus',
