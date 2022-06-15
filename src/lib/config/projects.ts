@@ -32,11 +32,11 @@ export const projects: Project[] = [
     {
     id: 'coach',
     name: 'Find a Coach',
-    tags: ['Vue 3', 'Composition API',],
+    tags: ['Vue 3', 'Vite','Vuex', 'Vue Router','CSS Animation'],
     feature: 'Vue3',
     description:
-      '既然如何， 问题的关键究竟为何？ 要想清楚，科学和人文谁更有意义，到底是一种怎么样的存在。 普列姆昌德曾经提到过，希望的灯一旦熄灭，生活刹那间变成了一片黑暗。这启发了我， 那么， 我认为， 总结的来说，',
-    img: 'https://uneorange.oss-cn-guangzhou.aliyuncs.com/202205251801454.avif',
+      '一个基于Vue3组合式API的师生对接的在线平台，有注册登录、筛选老师、联系老师、注册成为老师等功能。使用Vue3的transition组件和CSS动画为页面提供流畅的过渡效果',
+    img: '/assets/coach.png',
     link: 'https://coach.seviche.cc'
   }
   // ,
