@@ -9,7 +9,7 @@ export const site: SiteConfig = {
   descr: 'Tech / Code / Random Life',
   author: {
     name: '酸橘汁腌鱼',
-    photo: '/assets/avatar.avif',
+    photo: '/assets/avatar.jpg',
     status: '🖤',
     github: 'sevichecc',
     bio: ' Code / Tech  <br> Living a Random Life '
