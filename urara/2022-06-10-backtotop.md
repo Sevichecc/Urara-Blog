@@ -11,7 +11,7 @@ Demo : [者也专栏の右边](https://zheye.seviche.cc)
 
 主要参考：[Simple Vue.js and Tailwind.css Scroll To Top Button | Adam Bailey](https://adambailey.io/blog/scroll-to-top-button-vue/)
 
-CSS 库：[bootstarp V5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+CSS 库：[Bootstrap V5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
 - 按钮的布局方式为 sticky
 - 因为可能需要频繁切换显示状态，所以用`v-show` 而不是 `v-if`来控制按钮可见性
