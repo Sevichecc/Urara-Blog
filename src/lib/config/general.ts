@@ -2,17 +2,17 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'light',
+    name: 'Cupcake',
     text: '🌕 Light'
   },
   {
     name: 'dracula',
     text: '🌑 Dark'
   },
-  {
-    name: 'cupcake',
-    text: '🧁 Cupcake'
-  },
+  // {
+  //   name: 'cupcake',
+  //   text: '🧁 Cupcake'
+  // },
   {
     name: 'bumblebee',
     text: '🐝 Bumblebee'
@@ -132,10 +132,10 @@ export const head: HeadConfig = {
           '<script async defer data-do-not-track="true" data-website-id="2403ea30-74ff-4ffa-8264-556b9f3b2897" src="https://hexoverc.vercel.app/vercel.js"></script>',
           // Block Baiduspider
           '<meta name="baiduspider" content="noindex">',
-            // Microsub
-          '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">',
+          // Microsub
+          '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">'
         ],
-      relMe: ['https://o3o.ca/@nonsense']
+  relMe: ['https://o3o.ca/@nonsense']
 }
 
 export const header: HeaderConfig = {

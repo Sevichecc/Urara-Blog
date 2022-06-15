@@ -69,7 +69,8 @@
 <div class="flex flex-col gap-8">
   <div class="flex">
     <p class="flex-1 m-auto italic opacity-50">
-      {`sort-by=${config?.sortBy ?? 'created'}&sort-dir=${sortDirUp ? 'up' : 'down'}`}
+      <!-- {`Sort by=${config?.sortBy ?? 'Created'}&sort-dir=${sortDirUp ? 'up' : 'down'}`} -->
+      {`Sort ${sortDirUp ? 'up' : 'down'}`}
     </p>
     <button
       class="btn btn-ghost btn-sm float-right"
@@ -87,9 +88,9 @@
   {#key mentions}
     {#each mentions as mention}
       {@const [wmProperty, borderColor, textColor, tooltipColor] = {
-        'in-reply-to': ['💬 replied', 'border-primary/50', 'text-primary', 'tooltip-primary'],
+        'in-reply-to': ['💬 Replied', 'border-primary/50', 'text-primary', 'tooltip-primary'],
         'like-of': ['❤️ liked', 'border-secondary/50', 'text-secondary', 'tooltip-secondary'],
-        'repost-of': ['🔄 reposted', 'border-accent/50', 'text-accent', 'tooltip-accent'],
+        'repost-of': ['🔄 Reposted', 'border-accent/50', 'text-accent', 'tooltip-accent'],
         'bookmark-of': ['⭐️ bookmarked', 'border-neutral/50', 'text-neutral', 'tooltip-neutral'],
         'mention-of': ['💬 mentioned', 'border-base-300/50', 'text-base-content', 'tooltip-base-content'],
         rsvp: [

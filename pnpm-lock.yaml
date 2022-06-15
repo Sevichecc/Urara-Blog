@@ -3,6 +3,9 @@ lockfileVersion: 5.4
 specifiers:
   '@iconify-json/heroicons-outline': ^1.1.1
   '@iconify-json/heroicons-solid': ^1.1.1
+  '@iconify-json/ic': ^1.1.4
+  '@iconify-json/mdi': ^1.1.19
+  '@iconify-json/uil': ^1.1.1
   '@sveltejs/adapter-auto': ^1.0.0-next.50
   '@sveltejs/adapter-node': ^1.0.0-next.78
   '@sveltejs/adapter-static': ^1.0.0-next.34
@@ -48,6 +51,9 @@ specifiers:
 devDependencies:
   '@iconify-json/heroicons-outline': 1.1.1
   '@iconify-json/heroicons-solid': 1.1.1
+  '@iconify-json/ic': 1.1.4
+  '@iconify-json/mdi': 1.1.20
+  '@iconify-json/uil': 1.1.1
   '@sveltejs/adapter-auto': 1.0.0-next.50
   '@sveltejs/adapter-node': 1.0.0-next.78
   '@sveltejs/adapter-static': 1.0.0-next.34
@@ -1297,6 +1303,24 @@ packages:
 
   /@iconify-json/heroicons-solid/1.1.1:
     resolution: {integrity: sha512-yTq+PjF543FEp37gqLLQLMGBhZXaHJOY8wLPsWyQZzIDJ9h773ofvp32fgMh9YlgQT4MaeDH2VULvFBBCRmJgQ==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/ic/1.1.4:
+    resolution: {integrity: sha512-NkcyCh3VHwm3L19Ys4PDnbJmMoSE6vd83xjfWofmoeKKebs4tktz/LhPIy9vcaDqRENTNVtDORQdv0e+HCOjSg==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/mdi/1.1.20:
+    resolution: {integrity: sha512-EeDKq2oZKnISEn7WqKyNq/yYrNcCXGPXws3Gj3+tcUckVwc/KbmoJUN38ML3uBRZEieGAzaszUmeDwhftZ80Cw==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/uil/1.1.1:
+    resolution: {integrity: sha512-bzhLHaeO1qIJpgSNk4uiu1mOXb3437IrFmA61qubBne/xhfErUnEOGRnDOPqk3fZ8NekHkU8qCyIVTM5+Zokcg==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
