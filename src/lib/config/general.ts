@@ -124,21 +124,18 @@ export const head: HeadConfig = {
     dev
       ? []
       : [
-          // Webmention.io
-          '<link rel="webmention" href="https://webmention.io/Sevichecc/webmention" />',
-          '<link rel="pingback" href="https://webmention.io/Sevichecc/xmlrpc" />',
           // IndieAuth
           '<link rel="authorization_endpoint" href="https://indieauth.com/auth">',
           '<link rel="token_endpoint" href="https://tokens.indieauth.com/token">',
           '<link rel="me" href="https://github.com/sevichecc" />',
-          // Umami Link
-          '<link href="https://hexoverc.vercel.app" rel="preconnect" crossorigin>',
           // Umami Analytics
-          '<script async defer data-website-id="2403ea30-74ff-4ffa-8264-556b9f3b2897" src="https://hexoverc.vercel.app/vercel.js"></script>',
+          '<script async defer data-do-not-track="true" data-website-id="2403ea30-74ff-4ffa-8264-556b9f3b2897" src="https://hexoverc.vercel.app/vercel.js"></script>',
           // Block Baiduspider
-          '<meta name="baiduspider" content="noindex">'
+          '<meta name="baiduspider" content="noindex">',
+            // Microsub
+          '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">',
         ],
-      // relMe: ['https://kwaa.moe/@']
+      relMe: ['https://o3o.ca/@nonsense']
 }
 
 export const header: HeaderConfig = {
