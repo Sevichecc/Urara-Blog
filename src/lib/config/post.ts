@@ -9,7 +9,7 @@ export const post: PostConfig = {
     // use: ['Giscus', 'Disqus'],
     style: 'boxed',
     webmention: {
-      username: 'Sevichecc',
+      username: 'seviche.cc',
       sortBy: 'created',
       sortDir: 'down',
       form: true,
