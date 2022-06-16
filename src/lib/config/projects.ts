@@ -29,10 +29,10 @@ export const projects: Project[] = [
     img: 'https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/06/c3f41e397af1e480f57dd75e82334819.png',
     link: 'https://forkify.seviche.cc'
   },
-    {
+  {
     id: 'coach',
     name: 'Find a Coach',
-    tags: ['Vue 3', 'Vite','Vuex', 'Vue Router','CSS Animation'],
+    tags: ['Vue 3', 'Vite', 'Vuex', 'Vue Router', 'CSS Animation'],
     feature: 'Vue3',
     description:
       '一个基于Vue3组合式API的师生对接的在线平台，有注册登录、筛选老师、联系老师、注册成为老师等功能。使用Vue3的transition组件和CSS动画为页面提供流畅的过渡效果',

@@ -1,3 +1,6 @@
+// sveltekit config type
+import type { Config } from '@sveltejs/kit'
+
 // svelte preprocess
 import preprocess from 'svelte-preprocess'
 import adapterAuto from '@sveltejs/adapter-auto'
@@ -5,18 +8,22 @@ import adapterNode from '@sveltejs/adapter-node'
 import adapterStatic from '@sveltejs/adapter-static'
 import { mdsvex } from 'mdsvex'
 import mdsvexConfig from './mdsvex.config.js'
+
 // vite plugin
 import UnoCSS from 'unocss/vite'
 import { presetIcons, extractorSvelte } from 'unocss'
 import { VitePWA } from 'vite-plugin-pwa'
+
 // postcss & tailwindcss
 import TailwindCSS from 'tailwindcss'
 import tailwindConfig from './tailwind.config.js'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
-const defineConfig = config => config
+
+const defineConfig = (config: Config) => config
+
 export default defineConfig({
-  extensions: ['.svelte', ...mdsvexConfig.extensions],
+  extensions: ['.svelte', ...(mdsvexConfig.extensions as string[])],
   preprocess: [mdsvex(mdsvexConfig), preprocess()],
   kit: {
     adapter: Object.keys(process.env).some(key => ['VERCEL', 'CF_PAGES', 'NETLIFY'].includes(key))
@@ -36,7 +43,7 @@ export default defineConfig({
       css: {
         postcss: {
           plugins: [
-            TailwindCSS(tailwindConfig),
+            TailwindCSS(tailwindConfig as any) as any,
             autoprefixer(),
             ...(process.env.NODE_ENV === 'production'
               ? [
