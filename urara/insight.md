@@ -6,8 +6,6 @@ tags:
   - 翻译
 keywords:
   - insight
-series: 翻译
-lastmod: 2022-05-07T09:33:28.582Z
 ---
 
 原文： [thrivethinking.com](https://thrivethinking.com/2016/03/28/what-is-insight-definition/)

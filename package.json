@@ -25,7 +25,8 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --write --plugin-search-dir=. ."
+    "format": "prettier --write --plugin-search-dir=. .",
+    "zhlint": "zhlint urara/*/*.md --fix && zhlint urara/*.md --fix"
   },
   "devDependencies": {
     "@iconify-json/heroicons-outline": "^1.1.1",
