@@ -13,4 +13,4 @@ My Tech Blog, base on [Urara](https://github.com/importantimport/urara)
 
 ### License:
 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)''
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
