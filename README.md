@@ -9,6 +9,7 @@ My Tech Blog, base on [Urara](https://github.com/importantimport/urara)
 
 - Copy code to clipboard
 - Project page
+- [zhlint](https://github.com/Jinjiang/zhlint)
 
 ### License:
 
