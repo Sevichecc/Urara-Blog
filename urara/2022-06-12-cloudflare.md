@@ -1,7 +1,7 @@
 ---
 title: VPS · 配置 Cloudflare 的免费 SSL 证书
 created: 2022-06-12
-summary: 关于如何申请Cloudflare的SSL证书并配置Nginx的笔记
+summary: 关于如何为多个域名配置SSL证书的操作笔记
 tags:
   - Nginx
   - VPS
@@ -58,6 +58,13 @@ sudo chmod 600 private.key
 ```
 
 ## 3. 修改 Nginx 配置
+
+如果有用防火墙，请先打开 80 端口和 443 端口，不然可能会像我一样，卡在一个毫无意义的 522 Error 上 ^\_^
+
+```bash
+sudo ufw allow 80
+sudo ufw allow 443
+```
 
 打开 Nginx 配置
 
