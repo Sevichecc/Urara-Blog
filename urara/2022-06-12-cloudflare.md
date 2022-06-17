@@ -59,7 +59,9 @@ sudo chmod 600 private.key
 
 ## 3. 修改 Nginx 配置
 
-如果有用防火墙，请先打开 80 端口和 443 端口，不然可能会像我一样，卡在一个毫无意义的 522 Error 上 ^\_^
+参考：[How to Redirect HTTP to HTTPS in Nginx](https://phoenixnap.com/kb/redirect-http-to-https-nginx)
+
+如果有用防火墙，请先打开 80 端口和 443 端口，不然可能会像我一样，卡在一个毫无意义的 522 Error 上 ^ ^
 
 ```bash
 sudo ufw allow 80
