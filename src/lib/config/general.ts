@@ -167,6 +167,10 @@ export const footer: FooterConfig = {
     {
       text: 'Sitemap',
       link: '/sitemap.xml'
+    },
+    {
+      text: 'Pravicy',
+      link: '/privacy'
     }
   ],
   html: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'

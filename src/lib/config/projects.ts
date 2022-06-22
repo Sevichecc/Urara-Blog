@@ -10,18 +10,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'zheye',
-    name: '者也专栏',
+    id: 'haibian',
+    name: '海边小站',
     tags: ['Vue 3', 'Vue Router', 'Vuex', 'Axios', 'JWT', 'easyMDE', 'BootStrap'],
     feature: 'Vue3 + TypeScript',
     description:
-      '这是一个前后端分离的应用，功能类似于知乎专栏，支持表单验证、文件上传、Markdown输入和编辑等功能。其中用Vue实现了权限验证，JWT实现了鉴权，并用Vue Router实现了路由守卫。',
+      '海边小站是一个面向成人英语学习的博文平台，为用户提供丰富的英文文摘、英语词汇教程、英语口语教程。网站有用户注册登录、博文发布编辑、用户资料更新等功能。',
     img: 'https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/06/d4d2489936e4f647c25df6982c6ef924.png',
-    link: 'https://zheye.seviche.cc'
+    link: 'https://haibian.seviche.cc'
   },
   {
     id: 'fokify',
-    name: 'Forkify',
+    name: 'Pocket-Food ',
     tags: ['MVC', 'Vanilla JS', 'ES6', 'Parcel', 'SCSS', 'HTML5'],
     feature: 'JavaScript',
     description:
@@ -30,14 +30,14 @@ export const projects: Project[] = [
     link: 'https://forkify.seviche.cc'
   },
   {
-    id: 'coach',
+    id: 'Coachlist',
     name: 'Find a Coach',
     tags: ['Vue 3', 'Vite', 'Vuex', 'Vue Router', 'CSS Animation'],
     feature: 'Vue3',
     description:
       '一个基于Vue3组合式API的师生对接的在线平台，有注册登录、筛选老师、联系老师、注册成为老师等功能。使用Vue3的transition组件和CSS动画为页面提供流畅的过渡效果',
     img: '/assets/coach.png',
-    link: 'https://coach.seviche.cc'
+    link: 'https://coachlist.seviche.cc'
   }
   // ,
   // {
