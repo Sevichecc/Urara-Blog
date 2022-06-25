@@ -177,26 +177,34 @@ export const footer: FooterConfig = {
 }
 
 export const date: DateConfig = {
-  toPublishedString: {
-    locales: 'en-US',
-    options: {
-      year: 'numeric',
-      weekday: 'short',
-      month: 'short',
-      day: 'numeric',
-      timeZone: 'Asia/Shanghai'
-    }
+  // toPublishedString: {
+  //   locales: 'en-US',
+  //   options: {
+  //     year: 'numeric',
+  //     weekday: 'short',
+  //     month: 'short',
+  //     day: 'numeric',
+  //     timeZone: 'Asia/Shanghai'
+  //   }
+  // },
+  // toUpdatedString: {
+  //   locales: 'en-US',
+  //   options: {
+  //     year: 'numeric',
+  //     weekday: 'short',
+  //     month: 'short',
+  //     day: 'numeric',
+  //     timeZone: 'Asia/Shanghai'
+  //   }
+  // },
+  locales: "en-US",
+  options: {
+    year: "2-digit",
+    weekday: "long",
+    month: "short",
+    day: "numeric",
+    timeZone: "Asia/Shanghai",
   },
-  toUpdatedString: {
-    locales: 'en-US',
-    options: {
-      year: 'numeric',
-      weekday: 'short',
-      month: 'short',
-      day: 'numeric',
-      timeZone: 'Asia/Shanghai'
-    }
-  }
 }
 
 export const feed: FeedConfig = {
