@@ -147,14 +147,19 @@ export const header: HeaderConfig = {
       text: 'About',
       link: '/about'
     },
-    {
-      text: 'Projects',
-      link: '/projects'
-    },
+    // {
+    //   text: 'Projects',
+    //   link: '/projects'
+    // },
     {
       text: 'Friends',
       link: '/friends'
     }
+    // ,
+    // {
+    //   text: 'Notes',
+    //   link: '/notes'
+    // }
   ]
 }
 
@@ -197,14 +202,14 @@ export const date: DateConfig = {
   //     timeZone: 'Asia/Shanghai'
   //   }
   // },
-  locales: "en-US",
+  locales: 'en-US',
   options: {
-    year: "2-digit",
-    weekday: "long",
-    month: "short",
-    day: "numeric",
-    timeZone: "Asia/Shanghai",
-  },
+    year: 'numeric',
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    timeZone: 'Asia/Shanghai'
+  }
 }
 
 export const feed: FeedConfig = {
