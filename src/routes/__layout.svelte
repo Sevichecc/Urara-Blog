@@ -17,6 +17,7 @@
   import { registerSW } from 'virtual:pwa-register'
   import Head from '$lib/components/head_static.svelte'
   import Header from '$lib/components/header.svelte'
+  import Search from '$lib/components/header_search.svelte'
   import '../app.css'
   export let res: Urara.Post[]
   export let path: string
@@ -34,7 +35,7 @@
 </script>
 
 <Head />
-
+<Search />
 <Header {path} />
 
 {#key path}
