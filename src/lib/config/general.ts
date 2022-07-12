@@ -133,7 +133,9 @@ export const head: HeadConfig = {
           // Block Baiduspider
           '<meta name="baiduspider" content="noindex">',
           // Microsub
-          '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">'
+          '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">',
+          // splitbee
+          '<script async src="https://cdn.splitbee.io/sb.js"></script>'
         ],
   relMe: ['https://o3o.ca/@nonsense']
 }

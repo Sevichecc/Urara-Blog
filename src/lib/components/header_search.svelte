@@ -4,7 +4,7 @@
   import { header as headerConfig } from '$lib/config/general'
   import Typeahead from 'svelte-typeahead'
   import { page } from '$app/stores'
-//  ref : https://github.com/saadeghi/daisyui/blob/master/src/docs/src/components/Search.svelte
+  //  ref : https://github.com/saadeghi/daisyui/blob/master/src/docs/src/components/Search.svelte
 </script>
 
 <form>
@@ -31,18 +31,12 @@
   import { goto } from "$app/navigation"
   import Typeahead from "svelte-typeahead"
   import { pages } from "@src/lib/data.js"
-  import { getOS } from "../utils/getOS"
   const dispatch = createEventDispatcher()
   let searchIndex = []
   pages.forEach((group) => {
     group.items.forEach((item) => {
       searchIndex.push(item)
     })
-  })
-
-  let os:st
-  onMount(() => {
-    os = getOS()
   })
 
   let seachboxEl
