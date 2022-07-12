@@ -130,14 +130,14 @@ export const head: HeadConfig = {
           '<link rel="me" href="https://github.com/sevichecc" />',
           // Umami Analytics
           '<script defer data-do-not-track="true" data-website-id="2403ea30-74ff-4ffa-8264-556b9f3b2897" src="https://hexoverc.vercel.app/umami.js"></script>',
+          // splitbee
+          '<script async src="https://cdn.splitbee.io/sb.js"></script>',
           // Block Baiduspider
           '<meta name="baiduspider" content="noindex">',
           // Microsub
-          '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">',
-          // splitbee
-          '<script async src="https://cdn.splitbee.io/sb.js"></script>'
+          '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">'
         ],
-  relMe: ['https://o3o.ca/@nonsense']
+  me: ['https://kongwoo.icu/@seviche']
 }
 
 export const header: HeaderConfig = {
