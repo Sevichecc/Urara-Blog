@@ -73,7 +73,7 @@ Miniflux 文档： [Integration with External Services](https://miniflux.app/doc
 
 需要在 Instapaper 里设置 user name（用户名）:
 
-![](https://s2.loli.net/2022/03/11/8PGCdNh35SvLKqT.png)
+
 
 设置好后，在 Miniflux 后台填入用户名和账号密码，更新后就可以了～
 
