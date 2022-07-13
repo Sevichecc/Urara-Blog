@@ -5,8 +5,7 @@ export const post: PostConfig = {
     post: ['mastodon']
   },
   comment: {
-    use: ['Webmention', 'Giscus', 'Disqus'],
-    // use: ['Giscus', 'Disqus'],
+    use: ['Webmention', 'Giscus'],
     style: 'boxed',
     webmention: {
       username: 'seviche.cc',
@@ -23,19 +22,16 @@ export const post: PostConfig = {
       categoryID: 'DIC_kwDOHSra4c4CO9ua',
       theme: 'light',
       lang: 'en'
-    },
-    disqus: {
-      shortname: 'seviche-cc'
-    },
-    waline: {
-      serverURL: 'https://waline-seviche.vercel.app/',
-      lang: 'en',
-      emoji: [
-        'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
-        'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
-        'ttps://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
-      ],
-      requiredMeta: ['nick', 'mail']
     }
+    // waline: {
+    //   serverURL: 'https://waline-seviche.vercel.app/',
+    //   lang: 'en',
+    //   emoji: [
+    //     'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+    //     'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+    //     'ttps://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
+    //   ],
+    //   requiredMeta: ['nick', 'mail']
+    // }
   }
 }

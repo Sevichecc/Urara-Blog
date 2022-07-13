@@ -71,11 +71,7 @@ Miniflux 文档： [Integration with External Services](https://miniflux.app/doc
 
 官网：[Instapaper](https://www.instapaper.com/)
 
-需要在 Instapaper 里设置 user name（用户名）:
-
-
-
-设置好后，在 Miniflux 后台填入用户名和账号密码，更新后就可以了～
+用户名为 Instapaper 的登录邮箱，设置好更新下就可以了～
 
 ## RSS 相关内容
 
