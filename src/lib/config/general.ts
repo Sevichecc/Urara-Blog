@@ -3,15 +3,15 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 export const theme: ThemeConfig = [
   {
     name: 'bumblebee',
-    text: '🌕 Light'
+    text: 'Light'
   },
   {
     name: 'night',
-    text: '🌑 Dark'
+    text: 'Dark'
   },
   {
     name: 'cupcake',
-    text: '🧁 Cupcake'
+    text: 'Cupcake'
   },
   // {
   //   name: 'bumblebee',
@@ -19,91 +19,91 @@ export const theme: ThemeConfig = [
   // },
   {
     name: 'emerald',
-    text: '✳️ Emerald'
+    text: 'Emerald'
   },
   {
     name: 'corporate',
-    text: '🏢 Corporate'
+    text: 'Corporate'
   },
   {
     name: 'valentine',
-    text: '🌸 Valentine'
+    text: 'Valentine'
   },
   {
     name: 'synthwave',
-    text: '🌃 Synthwave'
+    text: 'Synthwave'
   },
   {
     name: 'retro',
-    text: '🌇 Retro'
+    text: 'Retro'
   },
   {
     name: 'cyberpunk',
-    text: '🌐 Cyberpunk'
+    text: 'Cyberpunk'
   },
   {
     name: 'halloween',
-    text: '🎃 Halloween'
+    text: 'Halloween'
   },
   {
     name: 'garden',
-    text: '🏡 Garden'
+    text: 'Garden'
   },
   {
     name: 'forest',
-    text: '🌲 Forest'
+    text: 'Forest'
   },
   {
     name: 'aqua',
-    text: '💦 Aqua'
+    text: 'Aqua'
   },
   {
     name: 'lofi',
-    text: '🎶 Lo-Fi'
+    text: 'Lo-Fi'
   },
   {
     name: 'pastel',
-    text: '🌈 Pastel'
+    text: 'Pastel'
   },
   {
     name: 'fantasy',
-    text: '🐣 Fantasy'
+    text: 'Fantasy'
   },
   {
     name: 'wirefream',
-    text: '📱 Wireframe'
+    text: 'Wireframe'
   },
   {
     name: 'black',
-    text: '🖤 Black'
+    text: 'Black'
   },
   {
     name: 'luxury',
-    text: '💰 Luxury'
+    text: 'Luxury'
   },
   {
     name: 'dracula',
-    text: '🧛 Dracula'
+    text: 'Dracula'
   },
   {
     name: 'cmyk',
-    text: '🖨️ CMYK'
+    text: 'CMYK'
   },
   {
     name: 'autumn',
-    text: '🍂 Autumn'
+    text: 'Autumn'
   },
   {
     name: 'business',
-    text: '🗄️ Business'
+    text: 'Business'
   },
   {
     name: 'acid',
-    text: '🌧️ Acid'
+    text: 'Acid'
   },
   {
     name: 'lemonade',
-    text: '🍋 Lemonade'
+    text: 'Lemonade'
   },
   // {
   //   name: 'night',
@@ -111,11 +111,11 @@ export const theme: ThemeConfig = [
   // },
   {
     name: 'coffee',
-    text: '☕ Coffee'
+    text: 'Coffee'
   },
   {
     name: 'winter',
-    text: '❄️ Winter'
+    text: 'Winter'
   }
 ]
 
