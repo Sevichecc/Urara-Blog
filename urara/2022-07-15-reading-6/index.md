@@ -4,6 +4,7 @@ created: 2022-07-14
 summary:
 tags:
   - 我在看什么
+photo: /2022-07-15-reading-6/june.png
 ---
 
 ## 编程相关
