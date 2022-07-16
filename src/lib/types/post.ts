@@ -20,8 +20,6 @@ export type CommentConfig = {
   webmention?: WebmentionConfig
   /** Giscus config, more at https://giscus.app */
   giscus?: GiscusConfig
-  /** Disqus config */
-  disqus?: DisqusConfig
   /** Utterances config, more at https://utteranc.es */
   utterances?: UtterancesConfig
   /** Waline config, more at  https://waline.js.org/en/reference/component.html#texrenderer */

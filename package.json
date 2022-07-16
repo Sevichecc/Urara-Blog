@@ -31,8 +31,8 @@
   "devDependencies": {
     "@iconify-json/heroicons-outline": "^1.1.2",
     "@iconify-json/heroicons-solid": "^1.1.2",
-    "@iconify-json/ic": "^1.1.6",
-    "@iconify-json/mdi": "^1.1.24",
+    "@iconify-json/ic": "^1.1.7",
+    "@iconify-json/mdi": "^1.1.28",
     "@iconify-json/uil": "^1.1.2",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-node": "next",
@@ -63,8 +63,8 @@
     "rehype-external-links": "^1.0.1",
     "rehype-slug": "^5.0.1",
     "remark": "^14.0.2",
-    "remark-footnotes": "~4.0.1",
-    "shiki-twoslash": "^3.0.2",
+    "remark-footnotes": "~2.0.0",
+    "shiki-twoslash": "^3.1.0",
     "svelte": "^3.49.0",
     "svelte-bricks": "^0.1.7",
     "svelte-check": "^2.8.0",
@@ -74,9 +74,9 @@
     "tslib": "^2.4.0",
     "typescript": "^4.7.4",
     "unist-util-visit": "^4.1.0",
-    "unocss": "^0.41.1",
-    "vite": "^2.9.13",
-    "vite-plugin-pwa": "^0.12.2",
+    "unocss": "^0.44.3",
+    "vite": "^3.0.0",
+    "vite-plugin-pwa": "^0.12.3",
     "workbox-window": "^6.5.3"
   }
 }
