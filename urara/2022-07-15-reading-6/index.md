@@ -14,7 +14,7 @@ photo: /2022-07-15-reading-6/june.png
 1. [Learn Debounce And Throttle In 16 Minutes](https://www.youtube.com/watch?v=cjIswDCKgu0)
 
    讲得挺好的一个视频。
-   防抖（Throttle）和节流（debounce）是优化高频率执行代码的一种手段 [^1] 如果把执行代码比喻成下楼拿快递的话:
+   防抖（Throttle）和节流（debounce）是优化高频率执行代码的一种手段[^1] 如果把执行代码比喻成下楼拿快递的话:
 
    - 不做任何处理时就是快递来了就下楼拿。
    - 防抖是不管快递来没来，每隔 10 分钟下一次楼。
@@ -40,6 +40,9 @@ photo: /2022-07-15-reading-6/june.png
 10. [Vue-测试](https://staging-cn.vuejs.org/guide/scaling-up/testing.html)
 11. [前后端加密（一）：前端请求加密封装](https://www.hsmus.top/202011210.html)
 12. [深入浅出 npm & yarn & pnpm 包管理机制](https://mp.weixin.qq.com/s/ZTI-8RI0l314Ki9oBxqRWw)
+    > 很多人认为 npm 是 node package manager 的缩写，其实不是，而且 npm 根本也不是任何短语的缩写。
+    > 它的前身其实是名为 pm（pkgmakeinst） 的 bash 工具，它可以在各种平台上安装各种东西。
+    > 硬要说缩写的话，也应该是 node pm 或者 new pm。
 13. [过度使用懒加载对 Web 性能的影响](https://juejin.cn/post/7074759905197948935)
 14. [Vue 项目性能优化 — 实践指南（网上最全 / 详细）](https://juejin.cn/post/6844903913410314247)
 15. [Vue 打包 chunk-vendors.js 文件过大解决方案（compression-webpack-plugin）](https://blog.csdn.net/zz00008888/article/details/119893222)
