@@ -6,6 +6,7 @@
   import { post as postConfig } from '$lib/config/post'
   import Status from '$lib/components/post_status.svelte'
   import Pagination from '$lib/components/post_pagination.svelte'
+  import Action from '$lib/components/post_action.svelte'
   import Comment from '$lib/components/post_comment.svelte'
   import Footer from '$lib/components/footer.svelte'
   import { onMount } from 'svelte'
@@ -37,7 +38,9 @@
     in:fly={{ x: 25, duration: 300, delay: 500 }}
     out:fly={{ x: 25, duration: 300 }}
     class="flex-1 w-full max-w-screen-md order-first ease-out transform mx-auto xl:mr-0">
-    <slot name="left" />
+    {#if browser}
+      <Action {post} />
+    {/if}
   </div>
   <div
     in:fly={{ x: -25, duration: 300, delay: 500 }}
@@ -61,9 +64,16 @@
         {/if}
         <slot name="top" />
         <div class="card-body gap-0">
-          <slot name="middle-top" />
-          <Status {post} />
-          <slot name="middle-bottom" />
+          <div class="flex flex-col">
+            {#if $$slots.middle}
+              <slot name="middle" />
+            {:else}
+              <!-- legacy fallback -->
+              <slot name="middle-top" />
+              <Status {post} />
+              <slot name="middle-bottom" />
+            {/if}
+          </div>
           <slot name="content" />
           {#if post.tags}
             <div class="divider mt-4 mb-0" />

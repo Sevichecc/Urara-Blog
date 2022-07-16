@@ -85,7 +85,4 @@ tags:
 
    相关阅读：[Next Browser](https://mp.weixin.qq.com/s/6vKJxVhXXqLvBqf_V1KCwQ)
 
-## 其他
-
-[Green Day Crowd Singing Bohemian Rhapsody [Live in Hyde Park 2017]](https://youtu.be/cZnBNuqqz5g)
 [^1]: [什么是防抖和节流？有什么区别？如何实现？](https://vue3js.cn/interview/JavaScript/debounce_throttle.html#%E4%B8%80%E3%80%81%E6%98%AF%E4%BB%80%E4%B9%88)
