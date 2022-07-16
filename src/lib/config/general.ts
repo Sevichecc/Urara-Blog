@@ -146,17 +146,17 @@ export const header: HeaderConfig = {
   },
   nav: [
     {
+      text: 'Friends',
+      link: '/friends'
+    },
+    {
       text: 'About',
       link: '/about'
-    },
+    }
     // {
     //   text: 'Projects',
     //   link: '/projects'
     // },
-    {
-      text: 'Friends',
-      link: '/friends'
-    }
     // ,
     // {
     //   text: 'Notes',
