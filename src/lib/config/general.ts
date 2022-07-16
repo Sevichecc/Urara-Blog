@@ -2,7 +2,7 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'bumblebee',
+    name: 'lemonade',
     text: 'Light'
   },
   {
@@ -13,10 +13,10 @@ export const theme: ThemeConfig = [
     name: 'cupcake',
     text: 'Cupcake'
   },
-  // {
-  //   name: 'bumblebee',
-  //   text: '🐝 Bumblebee'
-  // },
+  {
+    name: 'bumblebee',
+    text: 'Bumblebee'
+  },
   {
     name: 'emerald',
     text: 'Emerald'
@@ -101,10 +101,10 @@ export const theme: ThemeConfig = [
     name: 'acid',
     text: 'Acid'
   },
-  {
-    name: 'lemonade',
-    text: 'Lemonade'
-  },
+  // {
+  //   name: 'lemonade',
+  //   text: 'Lemonade'
+  // },
   // {
   //   name: 'night',
   //   text: '🌃 Night'

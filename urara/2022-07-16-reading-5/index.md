@@ -4,7 +4,7 @@ created: 2022-07-16
 summary: Anki / JSDoc / 蘑菇 / Music-Map ……
 tags:
   - 我在看什么
-photo: https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/07/b98fa7718c1e5fccb0d1278643efd04b.webp
+photo: https://uneorange.oss-cn-guangzhou.aliyuncs.com/202207162222886.png
 ---
 
 ## Productivity
