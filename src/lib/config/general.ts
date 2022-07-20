@@ -150,13 +150,13 @@ export const header: HeaderConfig = {
       link: '/friends'
     },
     {
+      text: 'Projects',
+      link: '/projects'
+    },
+    {
       text: 'About',
       link: '/about'
     }
-    // {
-    //   text: 'Projects',
-    //   link: '/projects'
-    // },
     // ,
     // {
     //   text: 'Notes',
