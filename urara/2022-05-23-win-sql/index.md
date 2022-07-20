@@ -1,7 +1,7 @@
 ---
-title: SQL · 在 Windows 10 上安装 SQL
+title: SQL · 在 Windows 10 上安装 sqlite
 created: 2022-05-23
-summary: 写给计算机小白的 SQL 安装笔记
+summary: 写给计算机小白的 sqlite 安装笔记
 tags:
   - SQL
 ---
