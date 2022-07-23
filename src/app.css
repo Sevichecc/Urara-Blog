@@ -1,5 +1,5 @@
 /* tailwind */
-
+@import url('http://fonts.cdnfonts.com/css/lato');
 @tailwind base;
 
 @tailwind components;
@@ -10,6 +10,7 @@
 
 html {
   @apply !bg-base-200 scroll-smooth	overflow-x-hidden overflow-y-scroll;
+  font-family: Lato, pingfang sc, microsoft yahei, sans-serif;
 }
 
 ::selection {
@@ -167,3 +168,17 @@ pre.twoslash data-lsp:hover::before {
 }
 
 /* your code here */
+
+.urara-prose blockquote {
+  @apply font-normal text-current  not-italic  before:content-['“'];
+  border-left: 4px solid rgba(0, 0, 0, 0.05);
+}
+
+.urara-prose blockquote:before {
+  vertical-align: -0.4em;
+  @apply mr-2 text-5xl leading-3 italic font-serif  opacity-25;
+}
+
+.urara-prose blockquote p {
+  @apply inline opacity-80  before:content-[''] after:content-[''];
+}

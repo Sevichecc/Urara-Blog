@@ -24,7 +24,8 @@ const defineConfig = (config: Config) => config
 export default defineConfig({
   content: ['./src/**/*.{html,md,js,svelte,ts}'],
   theme: {
-    extend: {}
+    extend: {
+    }
   },
   plugins: [typography as TailwindPluginWithoutOptions, daisyui as TailwindPluginWithoutOptions],
   daisyui: {

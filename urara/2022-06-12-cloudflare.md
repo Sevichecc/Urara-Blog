@@ -12,6 +12,7 @@ tags:
 参考：[申请 CloudFlare 免费 SSL 证书并应用到 nginx – 65536.io | 自娱自乐](https://65536.io/2020/03/607.html)
 
 先设置加密方式为`完全` ，否则之后可能会出现 526 错误
+
 ![](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/06/45ff9edefcc93a134b8478525bf6767b.png)
 
 ## 1. 创建证书
