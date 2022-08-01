@@ -20,7 +20,7 @@ CSS 库：[Bootstrap V5.2](https://getbootstrap.com/docs/5.2/getting-started/int
   <div class="position-sticky bottom-0 end-0 w-100 d-flex justify-content-end b-0 pb-3 pe-5">
     <transition>
       <button class="btn btn-secondary btn-sm" v-show="isVisible" @click="scrollToTop" aria-label="scroll to top of the page">
-        <img src="../assets/to-top.min.svg" alt="a arrow point to top" />
+        <img src="../assets/to-top.min.svg" alt="an arrow point to top" />
       </button>
     </transition>
   </div>
