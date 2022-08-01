@@ -120,7 +120,7 @@ export const projects: Project[] = [
     description:
       '既然如何， 问题的关键究竟为何？ 要想清楚，科学和人文谁更有意义，到底是一种怎么样的存在。 普列姆昌德曾经提到过，希望的灯一旦熄灭，生活刹那间变成了一片黑暗。这启发了我， 那么， 我认为， 总结的来说，',
     img: 'https://uneorange.oss-cn-guangzhou.aliyuncs.com/202205251801454.avif',
-    link: 'https://zheye.seviche.cc'
+    link: 'https://seviche.cc'
   }
 ]
 ```

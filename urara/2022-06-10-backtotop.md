@@ -7,8 +7,6 @@ tags:
   - BootStrap
 ---
 
-Demo : [者也专栏の右边](https://zheye.seviche.cc)
-
 主要参考：[Simple Vue.js and Tailwind.css Scroll To Top Button | Adam Bailey](https://adambailey.io/blog/scroll-to-top-button-vue/)
 
 CSS 库：[Bootstrap V5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
