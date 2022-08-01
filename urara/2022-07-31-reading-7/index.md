@@ -50,7 +50,7 @@ photo: /2022-07-31-reading-7/july.webp
     2. 在 meta 标签中声明
   - 具体配置中：
     1. 如果同一个限制选项使用多次，只有第一次会生效。
-    2. `script-src`和`bject-src`是必设的，除非设置了`default-src`。
+    2. `script-src`和`object-src`是必设的，除非设置了`default-src`。
     3. `script-src`不能使用`unsafe-inline`关键字（除非伴随一个`nonce`值），也不能允许设置`data:URL`。
   - 补充阅读：
     - [Web Security](https://infosec.mozilla.org/guidelines/web_security#content-security-policy)
