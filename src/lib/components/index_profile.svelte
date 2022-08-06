@@ -9,7 +9,7 @@
     <div class="justify-end flex-none w-32 h-32 my-auto ml-auto avatar">
       <img
         class="rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
-         src={site.author.avatar}
+        src={site.author.avatar}
         alt={site.author.name} />
       {#if site.author.status}
         <div class="heart absolute rounded-full w-10 h-10 bottom-0 right-0 bg-base-100 shadow-xl text-xl text-center py-1.5">
@@ -22,14 +22,15 @@
     <h1 class="mt-0 mb-2 text-3xl font-bold p-name">{site.author.name}</h1>
     <p class="opacity-75 p-note">{@html site.author.bio}</p>
     <p class="pt-3 space-x-3">
-            <a
+      <a
         class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
         target="_blank"
         rel="noopener noreferrer"
         data-tip="Bookmark"
         aria-label="Bookmark"
         href="https://airtable.com/shrpftxf6JgRomP2X">
-        <span class="i-ic-round-bookmark-border
+        <span
+          class="i-ic-round-bookmark-border
  !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
       </a>
       <a
