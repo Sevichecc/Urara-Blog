@@ -1,7 +1,7 @@
 ---
 title: Requirement Gathering
 summary: Introduction to User Experience Design｜Week2
-created 2021-11-09T22:26:49+08:00
+created: 2021-11-09T22:26:49+08:00
 categories:
   - UX学习笔记
   - Introduction to User Experience Design

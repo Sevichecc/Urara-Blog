@@ -6,7 +6,7 @@ categories:
   - 实用技巧
 slug: vscode-tips
 summary: 字体/插件/设置……
-created 2022-01-27T13:40:28.920Z
+created: 2022-01-27T13:40:28.920Z
 lastmod: 2022-03-30T02:20:34.584Z
 ---
 

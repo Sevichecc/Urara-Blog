@@ -1,7 +1,7 @@
 ---
 title: Obsidian · 网课学习笔记整理
 summary: 拆分整合的过程
-created 2022-03-06T16:23:33.118Z
+created: 2022-03-06T16:23:33.118Z
 tags:
   - Obsidian
 categories:

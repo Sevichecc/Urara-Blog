@@ -1,7 +1,7 @@
 ---
 title: Prototyping
 summary: Introduction to User Experience Design｜Week4
-created 2021-11-18T21:26:41+08:00
+created: 2021-11-18T21:26:41+08:00
 categories:
   - UX学习笔记
   - Introduction to User Experience Design

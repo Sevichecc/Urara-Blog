@@ -1,7 +1,7 @@
 ---
 title: Overview of User Experience Design
 summary: Introduction to User Experience Design｜Week1
-created 2021-11-08T10:54:40+08:00
+created: 2021-11-08T10:54:40+08:00
 # categories:
 #   - UX学习笔记
 #   - Introduction to User Experience Design
