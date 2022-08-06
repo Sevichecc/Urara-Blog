@@ -63,9 +63,9 @@
       <a href="/" sveltekit:prefetch class="btn btn-ghost normal-case text-lg">{site.title}</a>
     </div>
     <div class="navbar-end">
-      {#if headerConfig.search}
+      <!-- {#if headerConfig.search} -->
         <!-- The button to open modal -->
-        <label for="search-modal" class="btn btn-square btn-ghost ml-2"><span class="i-heroicons-outline-search" /></label>
+        <!-- <label for="search-modal" class="btn btn-square btn-ghost ml-2"><span class="i-heroicons-outline-search" /></label> -->
         <!-- <button
             on:click={() => {
               search = !search
@@ -74,7 +74,7 @@
             class="btn btn-square btn-ghost ml-2">
             <span class="i-heroicons-outline-search" />
           </button> -->
-      {/if}
+      <!-- {/if} -->
       <div id="change-theme" class="dropdown dropdown-end">
         <div tabindex="0" class="btn btn-square btn-ghost">
           <span class="i-heroicons-outline-color-swatch" />
