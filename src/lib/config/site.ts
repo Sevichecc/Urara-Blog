@@ -6,12 +6,11 @@ export const site: SiteConfig = {
   title: 'Seviche.cc',
   subtitle: 'Tech / Code / Random Life',
   lang: 'zh',
-  descr: 'Tech / Code / Random Life',
+  description: 'Tech / Code / Random Life',
   author: {
     name: '酸橘汁腌鱼',
-    photo: '/assets/avatar.jpg',
+    avatar: '/assets/avatar.jpg',
     status: '🖤',
-    github: 'sevichecc',
     bio: ' Code / Tech  <br> Living a Random Life '
   },
   themeColor: '#3D4451'

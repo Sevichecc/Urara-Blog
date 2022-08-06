@@ -4,12 +4,12 @@
 
 <div class="sticky flex flex-row gap-4 xl:flex-col top-24 card card-body items-right h-card">
   <a href={site.protocol + site.domain} class="hidden u-url" rel="me">{site.title}</a>
-  {#if site.author.photo}
-    <img class="hidden u-photo" src={site.author.photo} alt={site.author.name} decoding="async" loading="lazy" />
+  {#if site.author.avatar}
+    <img class="hidden u-photo" src={site.author.avatar} alt={site.author.name} decoding="async" loading="lazy" />
     <div class="justify-end flex-none w-32 h-32 my-auto ml-auto avatar">
       <img
         class="rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
-        src={site.author.photo}
+         src={site.author.avatar}
         alt={site.author.name} />
       {#if site.author.status}
         <div class="heart absolute rounded-full w-10 h-10 bottom-0 right-0 bg-base-100 shadow-xl text-xl text-center py-1.5">

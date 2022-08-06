@@ -4,7 +4,7 @@ created: 2022-07-31
 summary: eval / CSP&XSS / Commonplace Book ……
 tags:
   - 我在看什么
-photo: /2022-07-31-reading-7/july.webp
+image: /2022-07-31-reading-7/july.webp
 ---
 
 ## 前端

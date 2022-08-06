@@ -2,7 +2,7 @@
 title: VPS · Jellyfin结合Cloudreve开启线上影院
 created: 2022-06-15
 summary: 基于 Docker 和 Nginx 的信心搭建过程
-photo: /2022-06-15-jellyfin/1.jpg
+image: /2022-06-15-jellyfin/1.jpg
 tags:
   - Nginx
   - VPS

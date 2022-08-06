@@ -1,9 +1,10 @@
 <script lang="ts" context="module">
+  import type { Load } from './__types'
   export const prerender = true
-  export const load = async ({ url, fetch }) => ({
+  export const load: Load = async ({ url, fetch }) => ({
     props: {
       path: url.pathname,
-      res: await (await fetch('/posts.json')).json()
+      res: await fetch('/posts.json').then(res => res.json())
     }
   })
 </script>
@@ -17,7 +18,6 @@
   import { registerSW } from 'virtual:pwa-register'
   import Head from '$lib/components/head_static.svelte'
   import Header from '$lib/components/header.svelte'
-  import Search from '$lib/components/header_search.svelte'
   import '../app.css'
   export let res: Urara.Post[]
   export let path: string
@@ -35,7 +35,7 @@
 </script>
 
 <Head />
-<Search />
+
 <Header {path} />
 
 {#key path}

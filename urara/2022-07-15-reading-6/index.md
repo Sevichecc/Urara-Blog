@@ -4,7 +4,7 @@ created: 2022-07-15
 summary: Vue / 网页性能优化 / npm ……
 tags:
   - 我在看什么
-photo: /2022-07-15-reading-6/june.png
+image: /2022-07-15-reading-6/june.png
 ---
 
 ## 编程相关
