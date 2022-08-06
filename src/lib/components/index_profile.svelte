@@ -22,6 +22,16 @@
     <h1 class="mt-0 mb-2 text-3xl font-bold p-name">{site.author.name}</h1>
     <p class="opacity-75 p-note">{@html site.author.bio}</p>
     <p class="pt-3 space-x-3">
+            <a
+        class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-tip="Bookmark"
+        aria-label="Bookmark"
+        href="https://airtable.com/shrpftxf6JgRomP2X">
+        <span class="i-ic-round-bookmark-border
+ !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
+      </a>
       <a
         class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
         target="_blank"
@@ -31,15 +41,7 @@
         href="/atom.xml">
         <span class="i-ic-twotone-rss-feed !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
       </a>
-      <a
-        class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-tip="Bookmark"
-        aria-label="Bookmark"
-        href="https://airtable.com/shrpftxf6JgRomP2X">
-        <span class="ic:baseline-bookmarks !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
-      </a>
+
       {#if site.author.email}
         <a
           class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
