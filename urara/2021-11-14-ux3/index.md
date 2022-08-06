@@ -1,7 +1,7 @@
 ---
 title: Design Alternatives
 summary: Introduction to User Experience Design｜Week3
-date: 2021-11-14T11:18:45+08:00
+created 2021-11-14T11:18:45+08:00
 categories:
   - UX学习笔记
   - Introduction to User Experience Design

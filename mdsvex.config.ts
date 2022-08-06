@@ -21,6 +21,9 @@ import { lex, parse as parseFence } from 'fenceparser'
 import { renderCodeToHTML, runTwoSlash, createShikiHighlighter } from 'shiki-twoslash'
 type VALUE = { [key in string | number]: VALUE } | Array<VALUE> | string | boolean | number
 
+// lightbox
+import { Lightbox } from 'svelte-lightbox'
+
 const remarkUraraFm =
   () =>
   (tree: Node<Data>, { data, filename }: { data: { fm?: Record<string, unknown> }; filename?: string }) => {

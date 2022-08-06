@@ -1,7 +1,7 @@
 ---
 title: JavaScript · 打字机效果生成器
 summary: 用 JavaScript 实现网页打字机效果
-date: 2022-03-08T16:19:05.137Z
+created 2022-03-08T16:19:05.137Z
 tags:
   - JavaScript
 categories:

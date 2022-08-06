@@ -1,6 +1,6 @@
 ---
 title: 什么是设计洞察 · What is Insight
-date: 2021-10-15T15:07:14.533Z
+created 2021-10-15T15:07:14.533Z
 tags:
   - Design Thinking
   - 翻译

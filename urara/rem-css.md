@@ -3,7 +3,7 @@ title: CSS · Rem in CSS
 slug: rem-css
 tags:
   - CSS
-date: 2022-01-12T09:50:27.000Z
+created 2022-01-12T09:50:27.000Z
 summary: CSS中的Rem是什么
 lastmod: 2022-05-07T05:32:42.708Z
 ---
