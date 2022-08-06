@@ -16,11 +16,12 @@ export const copyCode = () => {
     range.setStart(el, 2)
     range.setEnd(el, end)
     const selection = window.getSelection()
+    if (!selection) return
     selection.removeAllRanges()
     selection.addRange(range)
 
     // copy to clipboard
-    document.execCommand('copy', false, null)
+    document.execCommand('copy', false)
     const clip = async () => navigator.clipboard.writeText(selection.toString())
 
     if (!clip) return

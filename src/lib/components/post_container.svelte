@@ -7,6 +7,13 @@
   import Action from '$lib/components/post_action.svelte'
   import Footer from '$lib/components/footer.svelte'
   export let post: Urara.Post
+
+  import { onMount } from 'svelte'
+  import { copyCode } from '$lib/utils/copyCode'
+
+  onMount(() => {
+    copyCode()
+  })
 </script>
 
 <Head {post} />

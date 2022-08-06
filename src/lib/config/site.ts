@@ -13,5 +13,6 @@ export const site: SiteConfig = {
     status: '🖤',
     bio: ' Code / Tech  <br> Living a Random Life '
   },
+  keywords: ['Tech', 'Code', 'Frontend Developer'],
   themeColor: '#3D4451'
 }
