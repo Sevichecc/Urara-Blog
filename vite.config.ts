@@ -11,6 +11,7 @@ import TailwindCSS from 'tailwindcss'
 import tailwindConfig from './tailwind.config'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
+import { visualizer } from 'rollup-plugin-visualizer'
 
 export default defineConfig({
   mode: process.env.MODE || 'production',
@@ -49,6 +50,10 @@ export default defineConfig({
       scope: '/',
       base: '/'
     }),
-    sveltekit()
+    sveltekit(),
+    visualizer({
+      emitFile: true,
+      file: 'stats.html'
+    })
   ]
 })
