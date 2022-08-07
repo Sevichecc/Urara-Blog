@@ -78,10 +78,6 @@
     "unocss": "^0.45.1",
     "vite": "^3.0.4",
     "vite-plugin-pwa": "^0.12.3",
-    "workbox-window": "^6.5.4",
-    "rollup": "^2.0.0"
-  },
-  "dependencies": {
-    "rollup-plugin-visualizer": "^5.7.1"
+    "workbox-window": "^6.5.4"
   }
 }

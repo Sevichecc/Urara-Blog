@@ -10,7 +10,7 @@
   // auto-generated
   export let path
   export let slug
-  export let toc
+  export let toc 
   // common
   export let created
   export let updated
