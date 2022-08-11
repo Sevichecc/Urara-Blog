@@ -18,6 +18,7 @@ specifiers:
   autoprefixer: ^10.4.7
   chalk: ^5.0.1
   chokidar: ^3.5.3
+  cross-env: ^7.0.3
   cssnano: ^5.1.12
   daisyui: ^2.20.0
   eslint: ^8.21.0
@@ -70,6 +71,7 @@ devDependencies:
   autoprefixer: 10.4.7_postcss@8.4.14
   chalk: 5.0.1
   chokidar: 3.5.3
+  cross-env: 7.0.3
   cssnano: 5.1.12_postcss@8.4.14
   daisyui: 2.20.0_ugi4xkrfysqkt4c4y6hkyfj344
   eslint: 8.21.0
@@ -2414,6 +2416,14 @@ packages:
     dependencies:
       browserslist: 4.21.2
       semver: 7.0.0
+    dev: true
+
+  /cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
     dev: true
 
   /cross-spawn/6.0.5:
