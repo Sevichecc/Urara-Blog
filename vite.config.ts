@@ -31,7 +31,6 @@ export default defineConfig({
   },
   plugins: [
     UnoCSS({
-      mode: 'svelte-scoped',
       include: [/\.svelte$/, /\.md?$/, /\.ts$/],
       extractors: [extractorSvelte],
       presets: [
