@@ -64,9 +64,9 @@
     </div>
     <div class="navbar-end">
       <!-- {#if headerConfig.search} -->
-        <!-- The button to open modal -->
-        <!-- <label for="search-modal" class="btn btn-square btn-ghost ml-2"><span class="i-heroicons-outline-search" /></label> -->
-        <!-- <button
+      <!-- The button to open modal -->
+      <!-- <label for="search-modal" class="btn btn-square btn-ghost ml-2"><span class="i-heroicons-outline-search" /></label> -->
+      <!-- <button
             on:click={() => {
               search = !search
             }}
