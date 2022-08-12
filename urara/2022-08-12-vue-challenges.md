@@ -1090,13 +1090,13 @@ async function increment() {
 
 ### 生命周期钩子
 
-[同上：生命周期钩子](###生命周期钩子)
+[同上：生命周期钩子](#生命周期钩子)
 
 ## Reactivity:Advanced
 
 ### 浅层 ref
 
-[同上：浅层 ref](###浅层ref)
+[同上：浅层 ref](#浅层-ref)
 
 ### 原始值 API
 
@@ -1137,31 +1137,31 @@ console.log(isReactive(reactiveInfo))
 
 ### Effect 作用域 API
 
-[同上：Effect 作用域 API](###Effect作用域API)
+[同上：Effect 作用域 API](#effect-作用域-api)
 
 ### 自定义 ref
 
-[同上：自定义 ref](###自定义ref)
+[同上：自定义 ref](#自定义-ref)
 
 ## Reactivity:Core
 
 ### ref 全家桶
 
-[同上：ref 全家桶](###ref全家桶)
+[同上：ref 全家桶](#ref-全家桶)
 
 ### 可写的计算属性
 
-[同上：可写的计算属性](###可写的计算属性)
+[同上：可写的计算属性](#可写的计算属性)
 
 ### watch 全家桶
 
-[同上：watch 全家桶](###watch全家桶)
+[同上：watch 全家桶](#watch-全家桶)
 
 ## Reactivity:Utilities
 
 ### 响应性丟失
 
-[同上：响应性丟失](###响应性丟失)
+[同上：响应性丟失](#响应性丟失)
 
 ## Utility Function
 
