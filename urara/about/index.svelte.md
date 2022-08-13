@@ -29,6 +29,20 @@ lastmod: 2022-05-20T04:07:08.760Z
 
 这里是我的部落格，随便看看喔。
 
+### 联系我
+
+可以通过[Matrix](https://matrix.to/#/@seviche:kongwoo.icu)或者通过邮箱`sevichecc[AT]outlook[DOT]com` 联系我，如果需要发加密邮件的话，下面是我的相关信息：
+
+```bash
+uid:
+Fingerprint: 76DF 9F9C C0C3 619A A12C B914 AFF1 8B98 6818 D8AD
+```
+
+我的最新公钥:
+
+- [openGDP](https://seviche.cc/pgp/0xAFF18B986818D8AD.asc)
+- [keys.opengpd.org](https://keys.openpgp.org/vks/v1/by-fingerprint/76DF9F9CC0C3619AA12CB914AFF18B986818D8AD)
+
 ### 写码进度
 
 <a href='https://www.codewars.com/users/sevichecc'><img src='https://www.codewars.com/users/sevichecc/badges/micro?theme=light' alt='codewar badge'/></a>
