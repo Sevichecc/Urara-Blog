@@ -40,13 +40,7 @@ uid           [ unknown] Seviche CC <sevichecc@outlook.com>
 sub   cv25519 2022-08-13 [E] [expires: 2025-08-12]
 ```
 
-我的最新公钥:
-
-- [keys.opengpd.org](https://keys.openpgp.org/vks/v1/by-fingerprint/76DF9F9CC0C3619AA12CB914AFF18B986818D8AD)
-
-```bash
-
-```
+我的最新公钥: [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/76DF9F9CC0C3619AA12CB914AFF18B986818D8AD)
 
 ### 写码进度
 
