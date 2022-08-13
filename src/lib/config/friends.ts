@@ -68,14 +68,25 @@ export const friends: Friend[] = [
     title: 'SummberBlue',
     link: 'https://summerblue.space/',
     descr: '早睡早起身体好'
+  },
+  {
+    id: 'loikin',
+    rel: 'friend',
+    name: 'Loikin',
+    title: '此生未命名',
+    link: 'https://blog.loikein.one/',
+    descr: '用爱和理性对抗荒谬',
+    avatar: 'https://github.com/loikein/blog-hugo/blob/main/static/favicon.ico'
+  },
+  {
+    id: 'sharktale',
+    rel: 'friend',
+    name: '鲨',
+    title: '一只脆脆鲨',
+    link: 'http://blog.sharktale.xyz/',
+    descr: '遇见一只脆脆鲨',
+    avatar: 'https://s2.loli.net/2022/03/30/xwOzn9G8TIqFPvR.jpg'
   }
-  // {
-  //   id: 'test5',
-  //   name: '藍',
-  //   title: '藍藍藍藍藍',
-  //   link: 'https://kwaa.dev',
-  //   descr: 'without avatar'
-  // },
   // {
   //   id: 'test6',
   //   title: 'Test6',
