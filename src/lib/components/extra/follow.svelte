@@ -24,7 +24,7 @@
       .then(
         ({ links }) => links.find((link: { rel: string }) => link.rel === 'http://ostatus.org/schema/1.0/subscribe').template
       )
-      .then(template => (window.location.href = template.replace('{uri}', `dotdev@kwaa.moe`)))
+      .then(template => (window.location.href = template.replace('{uri}', `blog@kongwoo.icu`)))
       .catch(error => console.error(error))
   $: if (input)
     input.length < 5 ? (status = '') : input.includes('@') && input.includes('.') ? (status = 'success') : (status = 'warning')

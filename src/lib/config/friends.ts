@@ -87,9 +87,4 @@ export const friends: Friend[] = [
     descr: '遇见一只脆脆鲨',
     avatar: 'https://s2.loli.net/2022/03/30/xwOzn9G8TIqFPvR.jpg'
   }
-  // {
-  //   id: 'test6',
-  //   title: 'Test6',
-  //   name: 'test6'
-  // }
 ]

@@ -2,75 +2,56 @@
   import { site } from '$lib/config/site'
 </script>
 
-<div class="sticky flex flex-row gap-4 xl:flex-col top-24 card card-body items-right h-card">
-  <a href={site.protocol + site.domain} class="hidden u-url" rel="me">{site.title}</a>
-  {#if site.author.avatar}
-    <img class="hidden u-photo" src={site.author.avatar} alt={site.author.name} decoding="async" loading="lazy" />
-    <div class="justify-end flex-none w-32 h-32 my-auto ml-auto avatar">
-      <img
-        class="rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
-        src={site.author.avatar}
-        alt={site.author.name} />
-      {#if site.author.status}
-        <div class="heart absolute rounded-full w-10 h-10 bottom-0 right-0 bg-base-100 shadow-xl text-xl text-center py-1.5">
-          {site.author.status}
-        </div>
-      {/if}
-    </div>
-  {/if}
-  <div class="flex-1 my-auto text-right">
-    <h1 class="mt-0 mb-2 text-3xl font-bold p-name">{site.author.name}</h1>
+<div
+  class="h-card flex flex-col gap-4 sticky top-24 card card-body p-4 items-right xl:border-2 xl:py-8 border-base-content/10 xl:ml-auto xl:mr-8 xl:max-w-xs">
+  <a href={site.protocol + site.domain} class="hidden u-url u-uid">{site.author.name}</a>
+  <figure class="relative mx-auto group">
+    <img
+      class="rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
+      src={site.author.avatar}
+      alt={site.author.name} />
+    {#if site.author.status}
+      <div class="heart absolute rounded-full w-10 h-10 bottom-0 right-0 bg-base-100 shadow-xl text-xl text-center py-1.5">
+        {site.author.status}
+      </div>
+    {/if}
+  </figure>
+  <div class="text-center flex flex-col gap-2">
+    <h2 class="text-2xl font-bold mt-0 mb-2 p-name">{site.author.name}</h2>
     <p class="opacity-75 p-note">{@html site.author.bio}</p>
-    <p class="pt-3 space-x-3">
-      <a
-        class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-tip="Bookmark"
-        aria-label="Bookmark"
-        href="https://airtable.com/shrpftxf6JgRomP2X">
-        <span
-          class="i-ic-round-bookmark-border
- !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
-      </a>
-      <a
-        class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-tip="RSS"
-        aria-label="RSS"
-        href="/atom.xml">
-        <span class="i-ic-twotone-rss-feed !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
-      </a>
-
-      {#if site.author.email}
-        <a
-          class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-tip="Mail"
-          aria-label="Mail"
-          href="mailto:{site.author.email}">
-          <span class="i-ic-baseline-mail !w-8 !h-8 mr-1 fill-current inline-block hover:text-lime-500" />
-        </a>
-      {/if}
-      {#if site.author.github}
-        <a
-          class="text-sm transition tooltip tooltip-secondary hover:text-secondary"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-tip="Github"
-          aria-label="Github"
-          href="https://github.com/{site.author.github}">
-          <span class="i-uil-github !w-8 !h-8 mr-1 fill-current inline-block hover:text-violet-500" />
-        </a>
-      {/if}
-    </p>
-    {#if site.author.pgp}
-      <a href={site.author.pgp.link} rel="pgpkey" class="mt-4 font-mono rounded-full btn btn-ghost btn-xs bg-base-300">
-        <span class="i-heroicons-solid-key !w-4 !h-4 mr-1" />
-        {site.author.pgp.text}
-      </a>
+    <label for="remote-follow" class="btn btn-ghost modal-button w-fit mx-auto normal-case mt-4 gap-2">
+      <span class="i-heroicons-outline-user-add" />
+      Remote follow
+    </label>
+    {#if site.author.metadata}
+      <div class="flex gap-1 flex-wrap justify-center">
+        {#each site.author.metadata as { text, icon, link, rel }}
+          {#if link}
+            <a
+              href={link}
+              rel={rel ?? 'me noopener external'}
+              class:btn-square={!text}
+              class="btn btn-sm btn-ghost normal-case gap-2 u-url"
+              target="_blank">
+              {#if icon}
+                <span class="{icon} !w-5 !h-5" />
+              {/if}
+              {#if text}
+                {text}
+              {/if}
+            </a>
+          {:else}
+            <button class:btn-square={!text} class="btn btn-sm btn-ghost normal-case gap-2" {rel}>
+              {#if icon}
+                <span class="{icon} !w-5 !h-5" />
+              {/if}
+              {#if text}
+                {text}
+              {/if}
+            </button>
+          {/if}
+        {/each}
+      </div>
     {/if}
   </div>
 </div>
