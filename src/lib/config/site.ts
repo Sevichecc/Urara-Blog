@@ -32,7 +32,7 @@ export const site: SiteConfig = {
       {
         text: '0xAFF18B986818D8AD',
         icon: 'i-heroicons-solid-key',
-        link: 'https://seviche.cc/pgp/0xAFF18B986818D8AD.asc',
+        link: 'https://keys.openpgp.org/vks/v1/by-fingerprint/76DF9F9CC0C3619AA12CB914AFF18B986818D8AD',
         rel: 'pgpkey'
       }
       // ,

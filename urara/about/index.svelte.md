@@ -34,14 +34,19 @@ lastmod: 2022-05-20T04:07:08.760Z
 可以通过[Matrix](https://matrix.to/#/@seviche:kongwoo.icu)或者通过邮箱`sevichecc[AT]outlook[DOT]com` 联系我，如果需要发加密邮件的话，下面是我的相关信息：
 
 ```bash
-uid:
-Fingerprint: 76DF 9F9C C0C3 619A A12C B914 AFF1 8B98 6818 D8AD
+pub   ed25519 2022-08-13 [SC] [expires: 2025-08-12]
+      76DF9F9CC0C3619AA12CB914AFF18B986818D8AD
+uid           [ unknown] Seviche CC <sevichecc@outlook.com>
+sub   cv25519 2022-08-13 [E] [expires: 2025-08-12]
 ```
 
 我的最新公钥:
 
-- [openGDP](https://seviche.cc/pgp/0xAFF18B986818D8AD.asc)
 - [keys.opengpd.org](https://keys.openpgp.org/vks/v1/by-fingerprint/76DF9F9CC0C3619AA12CB914AFF18B986818D8AD)
+
+```bash
+
+```
 
 ### 写码进度
 
