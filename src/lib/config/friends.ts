@@ -76,7 +76,7 @@ export const friends: Friend[] = [
     title: '此生未命名',
     link: 'https://blog.loikein.one/',
     descr: '用爱和理性对抗荒谬',
-    avatar: 'https://github.com/loikein/blog-hugo/blob/main/static/favicon.ico'
+    avatar: '/assets/loikin.png'
   },
   {
     id: 'sharktale',
