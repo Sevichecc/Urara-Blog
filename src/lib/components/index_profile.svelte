@@ -19,9 +19,9 @@
   <div class="text-center flex flex-col gap-2">
     <h2 class="text-2xl font-bold mt-0 mb-2 p-name">{site.author.name}</h2>
     <p class="opacity-75 p-note">{@html site.author.bio}</p>
-    <label for="remote-follow" class="btn btn-ghost modal-button w-fit mx-auto normal-case mt-4 gap-2">
-      <span class="i-heroicons-outline-user-add" />
-      Remote follow
+    <label for="remote-follow" class="btn  btn-active  btn-outline btn-xs modal-button w-fit mx-auto normal-case mt-4 gap-2 ">
+      <span class="i-material-symbols-group-add-rounded" />
+      Remote Follow
     </label>
     {#if site.author.metadata}
       <div class="flex gap-1 flex-wrap justify-center">

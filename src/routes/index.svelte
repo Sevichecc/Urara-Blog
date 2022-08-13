@@ -10,7 +10,8 @@
   import Post from '$lib/components/post_card.svelte'
   // import Post from '$lib/components/index_post.svelte'
   import Profile from '$lib/components/index_profile.svelte'
-
+ import RemoteFollow from '$lib/components/extra/follow.svelte'
+ 
   let allPosts: Urara.Post[]
   let allTags: string[]
   let loaded: boolean
@@ -124,3 +125,5 @@
     {/key}
   </div>
 </div>
+
+<RemoteFollow />
