@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify-json/eos-icons': ^1.0.4
   '@iconify-json/heroicons-outline': ^1.1.2
   '@iconify-json/heroicons-solid': ^1.1.2
   '@iconify-json/ic': ^1.1.9
@@ -57,7 +56,6 @@ specifiers:
   workbox-window: ^6.5.4
 
 devDependencies:
-  '@iconify-json/eos-icons': 1.1.2
   '@iconify-json/heroicons-outline': 1.1.2
   '@iconify-json/heroicons-solid': 1.1.2
   '@iconify-json/ic': 1.1.9
@@ -1335,12 +1333,6 @@ packages:
 
   /@iarna/toml/2.2.5:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
-    dev: true
-
-  /@iconify-json/eos-icons/1.1.2:
-    resolution: {integrity: sha512-Hi9jmX/pRzpEB0gtC98NdgZaXuw55g6hmml3o9vbLYCUO0JJv4w48baqYhArmjcpzfedTszo1o4FIxe8HlM+2g==}
-    dependencies:
-      '@iconify/types': 1.1.0
     dev: true
 
   /@iconify-json/heroicons-outline/1.1.2:

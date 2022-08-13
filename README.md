@@ -13,6 +13,10 @@ My Tech Blog, base on [Urara](https://github.com/importantimport/urara)
 - Quote Style
   ![](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/07/637fdb5526081256980d8876bae46c23.png)
 
+## Deploy
+
+- [Netlify]
+
 ## TODO
 
 - [ ] Note Page
