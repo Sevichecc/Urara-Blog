@@ -5,7 +5,7 @@ summary: Universal Design VS. Inclusive Design
 tag:
   - Design
   - Notes
-photo: /2022-08-14-design/photo.png
+image: /2022-08-14-design/photo.png
 ---
 
 这篇博文为测试博文，是读论文[《通用设计与包容性设计原则的发展和挑战》](https://www.researchgate.net/publication/328981184_tongyongshejiyubaorongxingshejiyuanzedefazhanhetiaozhan)的学习笔记，内容可能有不对的地方，逻辑也可能不通顺，感兴趣的朋友可以再研究一下。
