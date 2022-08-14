@@ -39,7 +39,7 @@ photo: /2022-08-14-design/photo.png
 
 ## 相关概念
 
-### 无障碍设计（Barrier-free Design ）
+### 无障碍设计 Barrier-free Design
 
 - 特点
 
