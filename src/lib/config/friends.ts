@@ -53,15 +53,6 @@ export const friends: Friend[] = [
     link: 'https://blog.chestnut.monster/'
   },
   {
-    id: 'nekolas',
-    rel: 'friend',
-    name: 'Nic Tian',
-    title: `Nekolas's blog`,
-    link: 'https://blog.nekolas.cafe/',
-    descr: '欢迎加入锈栓抵抗军',
-    avatar: 'https://blogpic-1308403500.cos.ap-shanghai.myqcloud.com/avatar/nic-avatar-tomato.png'
-  },
-  {
     id: 'summerblue',
     rel: 'friend',
     name: '夏诤',
