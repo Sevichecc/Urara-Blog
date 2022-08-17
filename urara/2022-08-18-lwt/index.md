@@ -22,7 +22,7 @@ LWT 可以在本地安装也可以在 VPS 上安装，鉴于买了就要用的�
 ## 0. 准备
 前提：安装好 docker 和 docker composer、nginx
 
-安装 docker 和 docker composer
+如果还没安装的话，可以这样安装（Ubuntu）：
 ```bash
 sudo apt update
 sudo apt install docker docker-compose
