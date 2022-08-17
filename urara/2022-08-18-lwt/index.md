@@ -43,7 +43,7 @@ cd /opt
 sudo git clone https://github.com/jsz4n/lwt-docker.git 
 cd lwt-docker
 ```
-原README有讲需要本地 build 一下images，但是感觉不是很必要？
+原README有讲需要本地 build 一下 image，但是感觉不是很必要？我直接用了 `suzanje/lwt:latest` 中的 image
 ## 2. 修改配置
 
 打开`docker-compose.yml`文件：
