@@ -1,5 +1,5 @@
 ---
-title: VPS · 用docker安装语言学习工具LWT
+title: VPS · 用 docker 安装语言学习工具 LWT
 created: 2022-08-18
 summary: Installing LWT with docker and docker composer 
 tag:
