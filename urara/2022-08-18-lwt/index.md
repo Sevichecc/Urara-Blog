@@ -51,7 +51,7 @@ cd lwt-docker
 sudo nano docker-compose.yml	
 ```
 修改密码：
-```yml
+```yaml title="docker-compose.yml" {7,15}
 version: '3'
 
 services:
