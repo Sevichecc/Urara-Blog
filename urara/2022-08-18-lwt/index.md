@@ -1,7 +1,7 @@
 ---
 title: VPS · 用docker安装语言学习工具LWT
 created: 2022-08-18
-summary: Install LWT with docker and docker composer 
+summary: Installing LWT with docker and docker composer 
 tag:
   - VPS
   - Self-host
@@ -52,26 +52,26 @@ sudo nano docker-compose.yml
 ```
 修改密码：
 ```yaml title="docker-compose.yml" {7,15}
-version: '3'
+  version: '3'
 
-services:
-  mariadb:
-    image: mariadb:10.6
-    restart: always
-    environment:
-      - "MARIADB_ROOT_PASSWORD=密码" #改这里
-    volumes:
-      - ./media/:/var/lib/mysql
-  lwt:
-    image: lwt:latest
-    restart: always
-    environment:
-      - "MARIADB_SERVER=mariadb"
-      - "MARIADB_ROOT_PASSWORD=密码" #和上面的一样
-    ports:
-      - "8080:80" #如果需要改端口的话改8080的地方
-    depends_on:
-      - mariadb
+  services:
+    mariadb:
+      image: mariadb:10.6
+      restart: always
+      environment:
+        - "MARIADB_ROOT_PASSWORD=密码" #改这里
+      volumes:
+        - ./media/:/var/lib/mysql
+    lwt:
+      image: lwt:latest
+      restart: always
+      environment:
+        - "MARIADB_SERVER=mariadb"
+        - "MARIADB_ROOT_PASSWORD=密码" #和上面的一样
+      ports:
+        - "8080:80" #如果需要改端口的话改8080的地方
+      depends_on:
+        - mariadb
 ```
 
 ## 3. 上线容器
@@ -108,7 +108,7 @@ server {
 	}
 }
 ```
-接着`sudo nginx -t` 之后 `sudo systemctl reload nginx` 重启nginx之后就可以在配置好的域名看到lwt啦
+接着`sudo nginx -t` 之后 `sudo systemctl reload nginx` 重启nginx之后就可以在配置好的域名看到 LWT 啦
 
 ## 后续
 如果我有继续使用的话后面可能会更新阅读配置和使用细节等内容（不确定）
