@@ -63,7 +63,7 @@ sudo nano docker-compose.yml
       volumes:
         - ./media/:/var/lib/mysql
     lwt:
-      image: lwt:latest
+      image: suzanje/lwt:latest
       restart: always
       environment:
         - "MARIADB_SERVER=mariadb"
