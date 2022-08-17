@@ -3,6 +3,7 @@ node_modules
 .svelte-kit
 /package
 src/routes/**/
+src/routes/*.md
 static/
 build
 .vercel_build_output/
