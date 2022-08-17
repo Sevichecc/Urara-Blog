@@ -78,7 +78,7 @@ sudo nano docker-compose.yml
 ```bash
 sudo docker compose up -d
 ```
-然后 `sudo docker compose ps`  一下看`lwt-docker-lwt-1` 和` lwt-docker-mariadb-1` 这两项的情况
+然后 `sudo docker compose ps`  一下看`lwt-docker-lwt-1` 和` lwt-docker-mariadb-1` 这两项的情况。
 
 如果有错误的话，可以`sudo docker logs lwt-docker-lwt-1`看下日志
 或者试着在`/opt/lwt-docker`文件夹下创建一个media文件夹：
