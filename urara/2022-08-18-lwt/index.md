@@ -29,9 +29,9 @@ sudo apt install docker docker-compose
 sudo apt install nginx
 ```
 
-准备一个解析好了的域名，如在cloudflare里面配置域名`n.example.org` ：添加一个A记录，名称为`n` ，内容为VPS的IP地址，如`123.123.123.14`
+准备一个解析好了的域名，如在 Cloudflare 里面配置域名`n.example.org` ：添加一个A记录，名称为`n` ，内容为VPS的IP地址，如`123.123.123.14`
 
-我之前安装了比较新的docker composer版本(1.27.4)，如果没有装新版的话，下面操作的`docker compose`请全部替换为`docker-compose`
+我之前安装了比较新的 docker composer版本(1.27.4)，如果没有装新版的话，下面操作的`docker compose`请全部替换为`docker-compose`
 
 ## 1. 下载仓库源码
 我决定在`/opt/`文件夹下面安装，首先进入opt文件夹
