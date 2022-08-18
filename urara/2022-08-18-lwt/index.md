@@ -17,7 +17,7 @@ image: /2022-08-18-lwt/wizard.png
 
 LWT 可以在本地安装也可以在 VPS 上安装，鉴于买了就要用的原则，我决定在VPS上安装看看。
 
-我安装的 docker image 来源于：[GitHub - jsz4n/lwt-docker: Learning With Texts with Docker](https://github.com/jsz4n/lwt-docker)，还有试过一些其他的 docker image ，都不太顺利，这安装介绍也写得不太清楚，几番周折之后，我修改了`docker-compose.yml` 中的部分内容后部署成功了，下面这是我的搭建过程。
+我安装的 docker image 来源于：[GitHub - jsz4n/lwt-docker: Learning With Texts with Docker](https://github.com/jsz4n/lwt-docker)，还有试过一些其他的 docker image ，都不太顺利，这安装介绍也写得不太清楚，几番周折之后，我修改了`docker-compose.yml` 中的部分内容后部署成功了，下面是我的搭建过程。
 
 ## 0. 准备
 前提：安装好 docker 和 docker composer、nginx
