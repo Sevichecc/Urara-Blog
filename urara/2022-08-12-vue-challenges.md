@@ -243,10 +243,29 @@ function toggle(index: number) {
 
 > 使用 h 渲染函数来实现一个组件。
 
-```vue
-import { defineComponent, h } from 'vue'; export default defineComponent({ name: 'MyButton', props: { disabled: { type: Boolean,
-default: false, }, }, emits: ['custom-click'], setup(props, { emit, slots }) { return () => h( 'button', { disabled:
-props.disabled, onClick: () => emit('custom-click'), }, slots.default?.() ); }, });
+```js
+import { defineComponent, h } from 'vue'
+export default defineComponent({
+  name: 'MyButton',
+  props: {
+    disabled: {
+      type: Boolean,
+      default: false
+    }
+  },
+  emits: ['custom-click'],
+  setup(props, { emit, slots }) {
+    return () =>
+      h(
+        'button',
+        {
+          disabled: props.disabled,
+          onClick: () => emit('custom-click')
+        },
+        slots.default?.()
+      )
+  }
+})
 ```
 
 ### 树组件
