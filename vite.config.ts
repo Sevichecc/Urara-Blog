@@ -12,7 +12,6 @@ import tailwindConfig from './tailwind.config'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
 export default defineConfig({
-  mode: process.env.MODE || 'production',
   envPrefix: 'URARA_',
   css: {
     postcss: {
