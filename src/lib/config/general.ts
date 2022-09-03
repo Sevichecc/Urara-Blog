@@ -135,7 +135,8 @@ export const head: HeadConfig = {
           // Block Baiduspider
           '<meta name="baiduspider" content="noindex,noarchive">',
           // Microsub
-          '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">'
+        '<link rel="microsub" href="https://aperture.p3k.io/microsub/761">'
+          
         ],
   me: ['https://kongwoo.icu/@seviche']
 }

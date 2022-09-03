@@ -1,15 +1,24 @@
-.DS_Store
-node_modules
-.svelte-kit
-/package
-src/routes/**/
-src/routes/*.md
-static/
+# build output
 build
-.vercel_build_output/
-.netlify/
-.env.local
-.env.**.local
-myblog/urara/2022-06-12-appwrite.md
-*.config.js 
+static
+.svelte-kit
+.netlify
+.vercel_build_output
+
+# dependencies
+node_modules
+
+# env
+*.local
+
+# logs
+pnpm-debug.log*
+
+# macOS-specific files
+.DS_Store
+
+# temp file
+src/routes/**/+page.svelte.md
+src/routes/**/+page.md
+*.config.js
 urara.js

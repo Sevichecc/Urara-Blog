@@ -29,7 +29,7 @@ const remarkUraraFm =
     if (!data.fm) data.fm = {}
     // Generate slug & path
     data.fm.slug = filepath
-    data.fm.path = join(dir, `/${name}`.replace('/index', '').replace('.svelte', ''))
+    data.fm.path = join(dir, `/${name}`.replace('/+page', '').replace('.svelte', ''))
     // Generate ToC
     if (data.fm.toc !== false) {
       const [slugs, toc]: [slugs: Slugger, toc: { depth: number; title: string; slug: string }[]] = [new Slugger(), []]
@@ -48,15 +48,6 @@ const remarkUraraFm =
       if (!data.fm.created) data.fm.created = ctime
       if (!data.fm.updated) data.fm.updated = mtime
     }
-    // Remark FFF Experimental (Hugo -> MDsveX)
-    Object.entries({
-      image: 'images',
-      tags: 'category',
-      bookmark_of: 'bookmarkOf',
-      like_of: 'likeOf',
-      repost_of: 'repostOf',
-      in_reply_to: 'inReplyTo'
-    }).forEach(([output, input]: string[]) => (data.fm = { ...data.fm, [output]: data.fm![input] }))
   }
 
 // Better type definitions needed
