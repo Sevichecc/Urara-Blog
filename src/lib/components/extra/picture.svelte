@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { dev } from'$app/environment'
+  import { dev } from '$app/environment'
   let className = undefined
   export { className as class }
   export let src = undefined
