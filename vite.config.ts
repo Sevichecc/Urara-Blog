@@ -1,16 +1,16 @@
 // vite define config
 import { defineConfig } from 'vite'
-// vite sveltekit
-import { sveltekit } from '@sveltejs/kit/vite'
 // vite plugin
 import UnoCSS from 'unocss/vite'
 import { presetTagify, presetIcons, extractorSvelte } from 'unocss'
 import { VitePWA } from 'vite-plugin-pwa'
+import { sveltekit } from '@sveltejs/kit/vite'
 // postcss & tailwindcss
 import TailwindCSS from 'tailwindcss'
 import tailwindConfig from './tailwind.config'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
+
 export default defineConfig({
   envPrefix: 'URARA_',
   css: {
