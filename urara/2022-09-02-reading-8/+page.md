@@ -4,7 +4,7 @@ created: 2022-09-02
 summary: eval / CSP&XSS / Commonplace Book ……
 tags:
   - 我在看什么
-image: /2022-09-02-reading-8/Augest.png
+image: /2022-09-02-reading-8/Augest.jpg
 ---
 
 ## 小碎步

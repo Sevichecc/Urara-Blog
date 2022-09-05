@@ -35,11 +35,10 @@
   itemprop="blogPost"
   class:md:mb-8={!preview}
   class:lg:mb-16={!preview}
-  class:h-entry={preview}
   class:group={preview}
   class:image-full={preview && post.type === 'article' && post.image}
   class:before:!rounded-none={preview && post.image}
-  class="card bg-base-100 rounded-none md:rounded-box md:shadow-xl z-10">
+  class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl z-10">
   {#if !preview && postConfig.bridgy}
     <div id="bridgy" class="hidden">
       {#each post.flags?.some( flag => flag.startsWith('bridgy') ) ? post.flags.flatMap( flag => (flag.startsWith('bridgy') ? flag.slice(7) : []) ) : [...(postConfig.bridgy.post ?? []), ...(postConfig.bridgy[post.type] ?? [])] as target}
@@ -87,7 +86,7 @@
         {#if preview}
           <h2
             itemprop="name headline"
-            class="card-title text-2xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300">
+            class="card-title text-3xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300">
             <a itemprop="url" class="u-url p-name" href={post.path}>{post.title ?? post.path.slice(1)}</a>
           </h2>
         {:else}

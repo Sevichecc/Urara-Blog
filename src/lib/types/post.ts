@@ -85,35 +85,3 @@ export type DisqusConfig = {
   shortname: string
   lang?: string
 }
-
-// Ref：https://waline.js.org/reference/component.html
-export type WalineConfig = {
-  /** Waline server address url */
-  serverURL: string
-  /** Article path id*/
-  path?: string
-  /** Display language. */
-  lang?: string
-  /** Emoji settings, for details see https://waline.js.org/en/guide/client/emoji.html */
-  emoji?: (string | WalineEmojiInfo)[] | false
-  /** Darkmode support */
-  dark?: string | boolean
-  /**  Reviewer attributes. Optional values: 'nick', 'mail', 'link' */
-  meta?: string[]
-  /** Set required fields*/
-  requiredMeta?: string[]
-  /** login mode status */
-  login?: string
-  /** Comment word s limit. */
-  wordLimit?: number | [number, number]
-  /**number of comments per page. */
-  pageSize?: number
-  /** Custom image upload method. */
-  imageUploader?: WalineImageUploader | false
-  /** Code highlighting, use hanabi by default  */
-  highlighter?: WalineHighlighter | false
-  /** Customize \TeX rendering */
-  texRender?: WalineTexRenderer | false
-  /** Whether show copyright and version in footer. */
-  copyright?: boolean
-}
