@@ -3,7 +3,8 @@ build
 static
 .svelte-kit
 .netlify
-.vercel_build_output
+.vercel
+
 
 # dependencies
 node_modules
