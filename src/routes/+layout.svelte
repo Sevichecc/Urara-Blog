@@ -12,7 +12,7 @@
   import '../app.css'
 
   export let data: LayoutData
-  
+
   posts.set(data.res)
   tags.set(genTags(data.res))
   onMount(
