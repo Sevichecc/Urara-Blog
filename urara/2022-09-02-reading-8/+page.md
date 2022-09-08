@@ -1,7 +1,7 @@
 ---
 title: 我在看什么 · 8 月
 created: 2022-09-02
-summary: eval / CSP&XSS / Commonplace Book ……
+summary: 蝴蝶 / 驴肉火烧 / 如何给你的代码祝寿 / The Chicken and the Pig
 tags:
   - 我在看什么
 image: /2022-09-02-reading-8/Augest.jpg

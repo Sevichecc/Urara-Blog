@@ -8,6 +8,7 @@ import adapterStatic from '@sveltejs/adapter-static'
 import { mdsvex } from 'mdsvex'
 import mdsvexConfig from './mdsvex.config.js'
 import preprocess from 'svelte-preprocess'
+import { prerendered } from '$service-worker'
 
 const defineConfig = (config: Config) => config
 
