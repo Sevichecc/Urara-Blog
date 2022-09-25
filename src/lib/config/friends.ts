@@ -77,5 +77,14 @@ export const friends: Friend[] = [
     link: 'http://blog.sharktale.xyz/',
     descr: '遇见一只脆脆鲨',
     avatar: 'https://s2.loli.net/2022/03/30/xwOzn9G8TIqFPvR.jpg'
+  },
+  {
+    id: 'kwaa',
+    rel: 'friend',
+    name: '藍' || '藍+85CD',
+    title: './kwaa.dev',
+    link: 'https://kwaa.dev',
+    descr: '[DATA EXPUNGED]',
+    avatar: 'https://kwaa.dev/assets/any@512.webp'
   }
 ]
