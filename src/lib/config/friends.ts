@@ -81,7 +81,7 @@ export const friends: Friend[] = [
   {
     id: 'kwaa',
     rel: 'friend',
-    name: '藍' || '藍+85CD',
+    name: '藍+85CD',
     title: './kwaa.dev',
     link: 'https://kwaa.dev',
     descr: '[DATA EXPUNGED]',
