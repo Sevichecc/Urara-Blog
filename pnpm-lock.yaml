@@ -26,8 +26,8 @@ specifiers:
   eslint: ^8.23.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
-  fenceparser: ^2.2.0
-  fff-flavored-frontmatter: ~0.3.0
+  fenceparser: 2.0.0
+  fff-flavored-frontmatter: ~0.2.2
   github-slugger: ^1.4.0
   mdast-util-to-string: ^3.1.0
   mdsvex: ^0.10.6
@@ -36,7 +36,7 @@ specifiers:
   prettier: ^2.7.1
   prettier-plugin-svelte: ^2.7.0
   rehype-autolink-headings: ^6.1.1
-  rehype-external-links: ^2.0.1
+  rehype-external-links: ^1.0.1
   rehype-slug: ^5.0.1
   remark: ^14.0.2
   remark-fff: ^0.3.0
@@ -82,8 +82,8 @@ devDependencies:
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0_eslint@8.23.0
   eslint-plugin-svelte3: 4.0.0_jtvgu4usxe4xoavzb5jpyaoyje
-  fenceparser: 2.2.0
-  fff-flavored-frontmatter: 0.3.0
+  fenceparser: 2.0.0
+  fff-flavored-frontmatter: 0.2.2
   github-slugger: 1.4.0
   mdast-util-to-string: 3.1.0
   mdsvex: 0.10.6_svelte@3.50.1
@@ -92,7 +92,7 @@ devDependencies:
   prettier: 2.7.1
   prettier-plugin-svelte: 2.7.0_nk6d2fkgcllkkdynqbuearcure
   rehype-autolink-headings: 6.1.1
-  rehype-external-links: 2.0.1
+  rehype-external-links: 1.0.1
   rehype-slug: 5.0.1
   remark: 14.0.2
   remark-fff: 0.3.0
@@ -3516,8 +3516,8 @@ packages:
       reusify: 1.0.4
     dev: true
 
-  /fenceparser/2.2.0:
-    resolution: {integrity: sha512-fdXOPciCALTWvooKxyRUmYERiw1L1mzqVsfpk5F9kGr3NoT/Sdwew4BqGctY6xZpUXiZ7dXXPb27Om2nmUmHMg==}
+  /fenceparser/2.0.0:
+    resolution: {integrity: sha512-E9VwROet683ky1b3RuuLbfSaUD5lFlr5oT3dZr7eObA08zzhh+FFwacGPqsvPhW0nm175bkmpNHWwDDkFMNXMg==}
     dev: true
 
   /fetch-blob/3.2.0:
@@ -3528,8 +3528,8 @@ packages:
       web-streams-polyfill: 3.2.1
     dev: true
 
-  /fff-flavored-frontmatter/0.3.0:
-    resolution: {integrity: sha512-6EIuC+QbJuVWaQWO/MeRCRsYtz69lsncXt/bnBROGbGLzxBER9d/kP1bAj7ZLxY6e56+aVDkSugdcsYTiQVmXg==}
+  /fff-flavored-frontmatter/0.2.2:
+    resolution: {integrity: sha512-9o5OAYWuRn+g4ZAwje6kT1BAW/o2DdX0O66f/cJmDQehnAeZr7yzpl2Uu+UkUyReblhFL5XI2z73JgSaMpeBWw==}
     dev: true
 
   /file-entry-cache/6.0.1:
@@ -5381,8 +5381,8 @@ packages:
       unist-util-visit: 4.1.1
     dev: true
 
-  /rehype-external-links/2.0.1:
-    resolution: {integrity: sha512-u2dNypma+ps12SJWlS23zvbqwNx0Hl24t0YHXSM/6FCZj/pqWETCO3WyyrvALv4JYvRtuPjhiv2Lpen15ESqbA==}
+  /rehype-external-links/1.0.1:
+    resolution: {integrity: sha512-SrMMtIO2tPLWDfvibhECAn9cuEMW6Fi40ZVK2UQSPTnDEv3LraLzGVyKGb/vrDlUy4RCYTcmm0rq/ss9nPqrsw==}
     dependencies:
       '@types/hast': 2.3.4
       extend: 3.0.2
