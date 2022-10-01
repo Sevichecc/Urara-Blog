@@ -27,17 +27,26 @@ tags:
 - 本地生成文件： `yarn build` or `pnpm build`
 - 需要的文件：`.output`文件夹
 
+我这里将`.output` 文件夹重命名为了 `output`，下面的操作中也进行了相应的修改
+
 ## Step2-上传云端
 
-可以用 scp 或者 sftp 的方式上传，如果用 scp 的话：
+可以用 scp 或者 sftp 的方式上传，如果用 scp 的话，先用命令行进入`output` 文件夹，然后再用 scp 上传
+如：
+
+```bash
+cd output && scp -P 22 -i ~/.ssh/id_rsa -r * root@127.0.0.1:/opt/work/example
+```
+
+其中 scp 的配置为：
 ![](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/06/f54a99d39a88a38c569c73dc65533277.png)
 
-**文件夹结构**：
+**服务器文件夹结构**：
 以放在`/opt/test/`下面为例
 
 - opt
   - test
-    - **output** (我这里重命名去掉了前面的点，也可以不去）
+    - **output**
       - **public**
       - **server**(这里面有 node_module 了，不需要额外 npm install，重新装会破坏原有的内容）
       - **nitro.json**
