@@ -41,7 +41,7 @@ tags:
       - **public**
       - **server**(这里面有 node_module 了，不需要额外 npm install，重新装会破坏原有的内容）
       - **nitro.json**
-    - ecosystem.config.js
+    - **ecosystem.config.js**
 
 ## Step3 - 配置 pm2
 
@@ -80,7 +80,7 @@ module.exports = {
 ## Step4-启动 pm2
 
 ```Bash
-pm2 start ecosystem.config.js
+  pm2 start ecosystem.config.js
 ```
 
 这个命令其实是涵盖了`node output/server/index.mjs` 这一个操作，如果 pm2 不行的话，可以直接到该目录下`node index.mjs` , 然后用别的方式让 node 服务在后台持久运行，不过需要另外研究一下端口的配置。
@@ -99,7 +99,9 @@ pm2 start ecosystem.config.js
 
 - **[nuxt] [request error] [unhandled] [500] Cannot find package '@popperjs/core'**
   [https://github.com/element-plus/element-plus/issues/6233](https://github.com/element-plus/element-plus/issues/6233)
+
   换成`yarn install`，这个应该是 element plus 或者 pnpm、npm 的问题，没有把这个依赖包包进去
+
 - **ENOENT: no such file or directory**
   除去真的没有这个文件的情况，一般是切换包管理工具的时候会出现这个问题，比如 pnpm 切换到 yarn，此时可以试试重新`npx nuxi init nuxt-app` 初始化一个 nuxt 项目文件夹`nuxt-app`，初始化 install 之后，把东西搬过去再`yarn install`
 
