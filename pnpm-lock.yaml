@@ -22,7 +22,7 @@ specifiers:
   chokidar: ^3.5.3
   cross-env: ^7.0.3
   cssnano: ^5.1.13
-  daisyui: ^2.25.0
+  daisyui: ^2.31.0
   eslint: ^8.23.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
@@ -78,7 +78,7 @@ devDependencies:
   chokidar: 3.5.3
   cross-env: 7.0.3
   cssnano: 5.1.13_postcss@8.4.16
-  daisyui: 2.25.0_25hquoklqeoqwmt7fwvvcyxm5e
+  daisyui: 2.31.0_25hquoklqeoqwmt7fwvvcyxm5e
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0_eslint@8.23.0
   eslint-plugin-svelte3: 4.0.0_jtvgu4usxe4xoavzb5jpyaoyje
@@ -2651,8 +2651,8 @@ packages:
       css-tree: 1.1.3
     dev: true
 
-  /daisyui/2.25.0_25hquoklqeoqwmt7fwvvcyxm5e:
-    resolution: {integrity: sha512-tv2sFHMOCEr+3A2JOFMaFjV6O/tkXYrytCSptXU8GRS7FDCR0pUmHA/o6K+3nydor7rQ06gMyVbCDHE9WdMW0Q==}
+  /daisyui/2.31.0_25hquoklqeoqwmt7fwvvcyxm5e:
+    resolution: {integrity: sha512-qepRXgQPLNcJ8ZPZy+dUvsC7mRWvMLRcVMe85/wZA60Tnhm/bkidhOzdllL8aAk2JX+W/xlIsTJ8NZFpPm+eyw==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
