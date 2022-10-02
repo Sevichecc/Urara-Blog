@@ -81,7 +81,7 @@
         </div>
         <ul
           tabindex="0"
-          class="flex shadow-2xl menu dropdown-content bg-base-100 text-base-content rounded-box w-52 p-2 gap-2 overflow-y-auto max-h-[21.5rem]"
+          class=" grid grid-cols-1 gap-3 p-3shadow-2xl menu dropdown-content bg-base-100 text-base-content rounded-box w-52 p-2 gap-2 overflow-y-auto max-h-[21.5rem]"
           class:hidden={!pin}>
           {#each theme as { name, text }}
             <button
