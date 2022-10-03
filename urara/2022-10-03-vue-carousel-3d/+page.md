@@ -34,7 +34,7 @@ import Carousel3d from 'vue-carousel-3d'
 Vue.use(Carousel3d)
 ```
 
-然后在 nuxt.config.js 里面配置插件，这个插件需要关闭 ssr
+然后在 `nuxt.config.js` 里面配置插件，这个插件需要关闭 ssr
 
 ```js
 export.module{
