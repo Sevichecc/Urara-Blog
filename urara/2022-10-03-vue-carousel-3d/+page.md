@@ -3,7 +3,7 @@ title: nuxt2 安装3d轮播图插件vue-3d-carousel
 created: 2022-10-03
 summary: Using Vue-3d-carousel in nuxt2
 tags:
-  - Nuxt2
+  - Nuxt
 ---
 
 [Vue-3d-carousel](https://github.com/Wlada/vue-carousel-3d)是一个 vue2 的 3d 轮播图组件包，比起 swipe 里面的轮播图其 3d 方面的自定义选项更多，缺点是单位只能用 px，自适应不太方便，而且点击左右两边的卡片时会连跳两级，动画效果不太流畅。
