@@ -6,7 +6,7 @@ tags:
   - Nuxt
 ---
 
-[Vue-3d-carousel](https://github.com/Wlada/vue-carousel-3d)是一个 vue2 的 3d 轮播图组件包，比起 swipe 里面的轮播图其 3d 方面的自定义选项更多，缺点是单位只能用 px，自适应不太方便，而且点击左右两边的卡片时会连跳两级，动画效果不太流畅。
+[Vue-3d-carousel](https://github.com/Wlada/vue-carousel-3d)是一个 vue2 的 3d 轮播图组件包，比起 swiper 里面的轮播图其 3d 方面的自定义选项更多，缺点是单位只能用 px，自适应不太方便，而且点击左右两边的卡片时会连跳两级，动画效果不太流畅。
 
 - 文档：[Vue Carousel 3D - 3D Carousel for Vue.js](https://wlada.github.io/vue-carousel-3d/)
 - Nuxt 版本：2.15.8
