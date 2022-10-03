@@ -1,5 +1,5 @@
 ---
-title: nuxt2 安装3d轮播图插件vue-3d-carousel
+title: nuxt2安装3d轮播图插件vue-3d-carousel
 created: 2022-10-03
 summary: Using Vue-3d-carousel in nuxt2
 tags:
@@ -48,14 +48,10 @@ export.module{
 需要包裹在`<client-only>`里面
 
 ```html
-<template>
-  <div>
-    <client-only>
-      <carousel-3d>
-        <slide :index="0">Slide 1 Content</slide>
-        <slide :index="1">Slide 2 Content</slide>
-      </carousel-3d>
-    </client-only>
-  </div>
-</template>
+<client-only>
+  <carousel-3d>
+    <slide :index="0">Slide 1 Content</slide>
+    <slide :index="1">Slide 2 Content</slide>
+  </carousel-3d>
+</client-only>
 ```
