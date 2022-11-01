@@ -4,7 +4,7 @@ created: 2022-11-01
 summary: Bash 脚本 / Vue-> React / Git / Project book / The rules of friendship
 tags:
   - 我在看什么
-image: /2022-11-01-reading-10/October.webp
+image: /2022-11-01-reading-10/October.jpg
 ---
 
 ## 前端相关
