@@ -4,7 +4,7 @@ created: 2022-11-01
 summary: Bash 脚本 / Vue-> React / Git / Project book / The rules of friendship
 tags:
   - 我在看什么
-image: /2022-11-02-reading-10/October.webp
+image: /2022-11-01-reading-10/October.webp
 ---
 
 ## 前端相关
@@ -21,7 +21,7 @@ image: /2022-11-02-reading-10/October.webp
 
   > 工厂函数是一个最后返回值是对象的函数，但它既不是类，也不是构造函数。在 JavaScript 中，任何函数都可以返回一个对象。但当函数没有使用 new 关键字时，那它便是一个工厂函数。
 
-  > 当你想要返回一个对象字面量的时候，如果你使用了大括号，JavaScript 会默认你想要创建一个函数体。像是{ broken: true }。如果你想要通过隐式返回来返回一个字面量对象，那你就需要在你的字面量对象外面包裹一层小括号来消除这种歧义
+  > 当你想要返回一个对象字面量的时候，如果你使用了大括号，JavaScript 会默认你想要创建一个函数体。像是`{ broken: true }`。如果你想要通过隐式返回来返回一个字面量对象，那你就需要在你的字面量对象外面包裹一层小括号来消除这种歧义
 
 - [ECMAScript 6 入门 ——Promise 对象](https://es6.ruanyifeng.com/#docs/promise)
 
