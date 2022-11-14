@@ -33,6 +33,11 @@ node_bundler = "esbuild"
     Content-Security-Policy = "style-src 'self' 'unsafe-inline' https://cdn.commento.io/css/commento.css http://fonts.cdnfonts.com/css/lato ; script-src 'self' 'unsafe-inline' https://*.seviche.cc https://giscus.app https://hexoverc.vercel.app/umami.js https://cdn.splitbee.io/sb.js https://cdn.commento.io/js/commento.js"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "usb=()"
+[[redirects]]
+  from = "/.well-known/webfinger"
+  to = "https://kongwoo.icu/.well-known/webfinger?resource=acct:blog@kongwoo.icu"
+  status = 302
+  force = true
 
 [[redirects]]
   from = "/.well-known/host-meta"
