@@ -13,6 +13,7 @@ import { parse, join } from 'path'
 import { visit } from 'unist-util-visit'
 import { toString } from 'mdast-util-to-string'
 import Slugger from 'github-slugger'
+import remarkFFF from 'remark-fff'
 import remarkFootnotes from 'remark-footnotes'
 
 // highlighter
@@ -24,7 +25,7 @@ type VALUE = { [key in string | number]: VALUE } | Array<VALUE> | string | boole
 const remarkUraraFm =
   () =>
   (tree: Node<Data>, { data, filename }: { data: { fm?: Record<string, unknown> }; filename?: string }) => {
-    const filepath = (filename as string).split('/src/routes')[1]
+    const filepath = filename ? filename.split('/src/routes')[1] : 'unknown'
     const { dir, name } = parse(filepath)
     if (!data.fm) data.fm = {}
     // Generate slug & path
@@ -41,12 +42,6 @@ const remarkUraraFm =
         })
       })
       data.fm.toc = toc
-    }
-    // Auto-read created & updated
-    if (!data.fm.created || !data.fm.updated) {
-      const { ctime, mtime } = statSync(new URL(`./urara${filepath}`, import.meta.url))
-      if (!data.fm.created) data.fm.created = ctime
-      if (!data.fm.updated) data.fm.updated = mtime
     }
   }
 
@@ -95,9 +90,24 @@ export default defineConfig({
       )}\` }`
     }
   },
-  remarkPlugins: [remarkUraraFm, remarkUraraSpoiler, [remarkFootnotes, { inlineNotes: true }]],
+  remarkPlugins: [
+    [
+      remarkFFF as any,
+      {
+        presets: ['hugo'],
+        target: 'mdsvex',
+        autofill: {
+          provider: 'fs',
+          path: (path: string) => path.replace('/src/routes/', '/urara/')
+        }
+      }
+    ],
+    remarkUraraFm,
+    remarkUraraSpoiler,
+    [remarkFootnotes, { inlineNotes: true }]
+  ],
   rehypePlugins: [
-    rehypeSlug,
+    rehypeSlug as any,
     [rehypeAutolinkHeadings, { behavior: 'wrap' }],
     [
       rehypeExternalLinks,

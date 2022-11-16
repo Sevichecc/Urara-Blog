@@ -8,7 +8,6 @@
   import Head from '$lib/components/head.svelte'
   import Footer from '$lib/components/footer.svelte'
   import Post from '$lib/components/post_card.svelte'
-  // import Post from '$lib/components/index_post.svelte'
   import Profile from '$lib/components/index_profile.svelte'
 
   let allPosts: Urara.Post[]
@@ -18,9 +17,7 @@
 
   storedTitle.set('')
 
-  $: storedPosts.subscribe(
-    storedPosts => (allPosts = (storedPosts as Urara.Post[]).filter(post => !post.flags?.includes('unlisted')))
-  )
+  $: storedPosts.subscribe(storedPosts => (allPosts = storedPosts.filter(post => !post.flags?.includes('unlisted'))))
 
   $: storedTags.subscribe(storedTags => (allTags = storedTags as string[]))
 
