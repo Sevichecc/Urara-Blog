@@ -41,7 +41,7 @@
 
   if (browser)
     currentTheme =
-      localStorage.getItem('theme') ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'night' : 'lemonade')
+      localStorage.getItem('theme') ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
 </script>
 
 <svelte:head>
@@ -55,59 +55,61 @@
   class:-translate-y-32={!pin && scrollY > 0}
   class="fixed z-50 w-screen transition-all duration-500 ease-in-out border-b-2 border-transparent max-h-[4.125rem] {scrollY >
     32 && 'backdrop-blur border-base-content/10 bg-base-100/30 md:bg-base-200/30'}">
-  <div in:fly={{ x: -50, duration: 300, delay: 300 }} out:fly={{ x: -50, duration: 300 }} class="navbar">
-    <div class="navbar-start">
-      {#if headerConfig.nav}
-        <Nav {path} {title} {pin} {scrollY} nav={headerConfig.nav} />
-      {/if}
-      <a href="/" sveltekit:prefetch class="btn btn-ghost normal-case text-lg">{site.title}</a>
-    </div>
-    <div class="navbar-end">
-      <!-- {#if headerConfig.search} -->
-      <!-- The button to open modal -->
-      <!-- <label for="search-modal" class="btn btn-square btn-ghost ml-2"><span class="i-heroicons-outline-search" /></label> -->
-      <!-- <button
-            on:click={() => {
-              search = !search
-            }}
-            type="submit"
-            class="btn btn-square btn-ghost ml-2">
+  {#if !search}
+    <div in:fly={{ x: -50, duration: 300, delay: 300 }} out:fly={{ x: -50, duration: 300 }} class="navbar">
+      <div class="navbar-start">
+        {#if headerConfig.nav}
+          <Nav {path} {title} {pin} {scrollY} nav={headerConfig.nav} />
+        {/if}
+        <a href="/" sveltekit:prefetch class="btn btn-ghost normal-case text-lg">{site.title}</a>
+      </div>
+      <div class="navbar-end">
+        {#if headerConfig.search}
+          <button aria-label="search" on:click={() => (search = !search)} tabindex="0" class="btn btn-square btn-ghost">
             <span class="i-heroicons-outline-search" />
-          </button> -->
-      <!-- {/if} -->
-      <div id="change-theme" class="dropdown dropdown-end">
-        <div tabindex="0" class="btn btn-square btn-ghost">
-          <span class="i-heroicons-outline-color-swatch" />
+          </button>
+        {/if}
+        <div id="change-theme" class="dropdown dropdown-end">
+          <div tabindex="0" class="btn btn-square btn-ghost">
+            <span class="i-heroicons-outline-color-swatch" />
+          </div>
+          <ul
+            tabindex="0"
+            class="flex flex-nowrap shadow-2xl menu dropdown-content bg-base-100 text-base-content rounded-box w-52 p-2 gap-2 overflow-y-auto max-h-[21.5rem]"
+            class:hidden={!pin}>
+            {#each theme as { name, text }}
+              <button
+                data-theme={name}
+                on:click={() => {
+                  currentTheme = name
+                  localStorage.setItem('theme', name)
+                }}
+                class:border-2={currentTheme === name}
+                class:border-primary={currentTheme === name}
+                class="btn btn-ghost w-full hover:bg-primary group rounded-lg flex bg-base-100 p-2 transition-all">
+                <p class="flex-1 text-left text-base-content group-hover:text-primary-content transition-color">
+                  {text ?? name}
+                </p>
+                <div class="flex-none m-auto flex gap-1">
+                  <div class="bg-primary w-2 h-4 rounded" />
+                  <div class="bg-secondary w-2 h-4 rounded" />
+                  <div class="bg-accent w-2 h-4 rounded" />
+                  <div class="bg-neutral w-2 h-4 rounded" />
+                </div>
+              </button>
+            {/each}
+          </ul>
         </div>
-        <ul
-          tabindex="0"
-          class=" grid grid-cols-1 shadow-2xl menu dropdown-content bg-base-100 text-base-content rounded-box w-52 p-2 gap-2 overflow-y-auto max-h-[21.5rem]"
-          class:hidden={!pin}>
-          {#each theme as { name, text }}
-            <button
-              data-theme={name}
-              on:click={() => {
-                currentTheme = name
-                localStorage.setItem('theme', name)
-              }}
-              class:border-2={currentTheme === name}
-              class:border-primary={currentTheme === name}
-              class="btn btn-ghost hover:bg-primary group rounded-lg flex bg-base-100 p-2 transition-all">
-              <p class="flex-1 text-left text-base-content group-hover:text-primary-content transition-color">
-                {text ?? name}
-              </p>
-              <div class="flex-none m-auto flex gap-1">
-                <div class="bg-primary w-2 h-4 rounded" />
-                <div class="bg-secondary w-2 h-4 rounded" />
-                <div class="bg-accent w-2 h-4 rounded" />
-                <div class="bg-neutral w-2 h-4 rounded" />
-              </div>
-            </button>
-          {/each}
-        </ul>
       </div>
     </div>
-  </div>
+  {:else}
+    <div in:fly={{ x: 50, duration: 300, delay: 300 }} out:fly={{ x: 50, duration: 300 }} class="navbar">
+      <Search />
+      <button on:click={() => (search = !search)} tabindex="0" class="btn btn-square btn-ghost">
+        <span class="i-heroicons-outline-x" />
+      </button>
+    </div>
+  {/if}
 </header>
 
 <button
