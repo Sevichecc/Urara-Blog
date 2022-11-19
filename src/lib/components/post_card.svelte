@@ -72,9 +72,11 @@
     <div class="flex flex-col gap-2">
       {#if post.image && !preview}
         <figure
-          class={`md:order-last mb-4 ${post.type === 'article' ? 'flex-col gap-2 -mx-4 -mt-8 md:mt-0' : 'flex-col -mx-8'}`}>
+          class={`md:order-last rounded-box shadow-xl mb-4 ${
+            post.type === 'article' ? 'flex-col gap-2 -mx-4 -mt-8 md:mt-0' : 'flex-col -mx-8'
+          }`}>
           <Image
-            class={`${post.type === 'article' ? 'u-featured rounded-box shadow-xl' : 'u-photo'}`}
+            class={`${post.type === 'article' ? 'u-featured' : 'u-photo'}`}
             src={post.image}
             alt={post.image}
             {loading}
@@ -86,7 +88,7 @@
         {#if preview}
           <h2
             itemprop="name headline"
-            class="card-title text-2xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300">
+            class="card-title text-3xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300">
             <a itemprop="url" class="u-url p-name" href={post.path}>{post.title ?? post.path.slice(1)}</a>
           </h2>
         {:else}
