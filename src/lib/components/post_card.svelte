@@ -92,7 +92,7 @@
             <a itemprop="url" class="u-url p-name" href={post.path}>{post.title ?? post.path.slice(1)}</a>
           </h2>
         {:else}
-          <h1 itemprop="name headline" class="card-title text-3xl mb-8 p-name">{post.title ?? post.path.slice(1)}</h1>
+          <h1 itemprop="name headline" class="card-title text-2xl mb-8 p-name">{post.title ?? post.path.slice(1)}</h1>
         {/if}
       {/if}
       {#if post.summary}
