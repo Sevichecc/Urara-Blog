@@ -2,120 +2,52 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'lemonade',
+    name: 'garden',
     text: 'Light'
   },
   {
-    name: 'night',
+    name: 'dracula',
     text: 'Dark'
-  },
-  {
-    name: 'cupcake',
-    text: 'Cupcake'
-  },
-  {
-    name: 'bumblebee',
-    text: 'Bumblebee'
-  },
-  {
-    name: 'emerald',
-    text: 'Emerald'
-  },
-  {
-    name: 'corporate',
-    text: 'Corporate'
   },
   {
     name: 'valentine',
     text: 'Valentine'
   },
   {
+    name: 'aqua',
+    text: 'Aqua'
+  },
+  {
     name: 'synthwave',
     text: 'Synthwave'
   },
   {
-    name: 'retro',
-    text: 'Retro'
-  },
-  {
-    name: 'cyberpunk',
-    text: 'Cyberpunk'
-  },
-  {
-    name: 'halloween',
-    text: 'Halloween'
-  },
-  {
-    name: 'garden',
-    text: 'Garden'
-  },
-  {
-    name: 'forest',
-    text: 'Forest'
-  },
-  {
-    name: 'aqua',
-    text: 'Aqua'
+    name: 'night',
+    text: 'Night'
   },
   {
     name: 'lofi',
     text: 'Lo-Fi'
   },
   {
-    name: 'pastel',
-    text: 'Pastel'
+    name: 'lemonade',
+    text: 'Lemonade'
   },
   {
-    name: 'fantasy',
-    text: 'Fantasy'
-  },
-  {
-    name: 'wirefream',
-    text: 'Wireframe'
-  },
-  {
-    name: 'black',
-    text: 'Black'
-  },
-  {
-    name: 'luxury',
-    text: 'Luxury'
-  },
-  {
-    name: 'dracula',
-    text: 'Dracula'
+    name: 'cupcake',
+    text: 'Cupcake'
   },
   {
     name: 'cmyk',
     text: 'CMYK'
   },
   {
-    name: 'autumn',
-    text: 'Autumn'
+    name: 'retro',
+    text: 'Retro'
   },
   {
-    name: 'business',
-    text: 'Business'
-  },
-  {
-    name: 'acid',
-    text: 'Acid'
-  },
-  // {
-  //   name: 'lemonade',
-  //   text: 'Lemonade'
-  // },
-  // {
-  //   name: 'night',
-  //   text: '🌃 Night'
-  // },
-  {
-    name: 'coffee',
-    text: 'Coffee'
-  },
-  {
-    name: 'winter',
-    text: 'Winter'
+    name: 'black',
+    text: 'Black'
   }
 ]
 
@@ -184,26 +116,6 @@ export const footer: FooterConfig = {
 }
 
 export const date: DateConfig = {
-  // toPublishedString: {
-  //   locales: 'en-US',
-  //   options: {
-  //     year: 'numeric',
-  //     weekday: 'short',
-  //     month: 'short',
-  //     day: 'numeric',
-  //     timeZone: 'Asia/Shanghai'
-  //   }
-  // },
-  // toUpdatedString: {
-  //   locales: 'en-US',
-  //   options: {
-  //     year: 'numeric',
-  //     weekday: 'short',
-  //     month: 'short',
-  //     day: 'numeric',
-  //     timeZone: 'Asia/Shanghai'
-  //   }
-  // },
   locales: 'en-US',
   options: {
     year: 'numeric',
