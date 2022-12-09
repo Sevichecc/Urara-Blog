@@ -22,7 +22,7 @@ summary: logo / UI / 包装 / 儿童玩具 ……
 升级前
 ![](/2022-07-13-work/原包装.JPG)
 升级后（面对年轻人重新设计
-![](/2022-07-13-work/after.png)
+![](/2022-07-13-work/after.jpg)
 
 ## Logo
 
