@@ -105,7 +105,7 @@ sudo mkdir media
 
 ## 4. 配置反代和 SSL
 
-我比较懒，设置还是跟之前的[配置 Cloudflare 的免费 SSL 证书](2022-06-12-cloudflare)里面一样配置，如果不想按照这个方法来配置反代的话可以参考：[利用 Nginx 进行反代](https://mantyke.icu/posts/2021/rsshub-miniflux/#%E5%88%A9%E7%94%A8nginx%E8%BF%9B%E8%A1%8C%E5%8F%8D%E4%BB%A3)中的配置
+我比较懒，设置还是跟之前的[配置 Cloudflare 的免费 SSL 证书](/2022-06-12-cloudflare)里面一样配置，如果不想按照这个方法来配置反代的话可以参考：[利用 Nginx 进行反代](https://mantyke.icu/posts/2021/rsshub-miniflux/#%E5%88%A9%E7%94%A8nginx%E8%BF%9B%E8%A1%8C%E5%8F%8D%E4%BB%A3)中的配置
 
 ```bash
 sudo nano /etc/nginx/conf.d/lwt.conf

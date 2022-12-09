@@ -140,7 +140,7 @@ server {
 }
 ```
 
-SSL/TLS 配置可以看我之前这篇：[配置 Cloudflare 的免费 SSL 证书](2022-06-12-cloudflare)，或者用 certbot 配置
+SSL/TLS 配置可以看我之前这篇：[配置 Cloudflare 的免费 SSL 证书](/2022-06-12-cloudflare)，或者用 certbot 配置
 
 最后 `sudo nginx -t` 以及 `sudo systemctl reload nginx` 一下就可以在相应域名看到初始界面啦。
 
