@@ -4,7 +4,7 @@ created: 2022-12-08
 summary: Geohash / Rewind / Code Editor Slander
 tags:
   - 我在看什么
-image: /2022-12-01-reading-11/Noverber.png
+image: /2022-12-01-reading-11/Noverber.jpg
 ---
 
 这个月基本上是没看什么，就不分类了
