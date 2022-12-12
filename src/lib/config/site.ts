@@ -23,7 +23,7 @@ export const site: SiteConfig = {
       },
       {
         icon: 'i-heroicons-solid-key',
-        link: 'https://keys.openpgp.org/vks/v1/by-fingerprint/76DF9F9CC0C3619AA12CB914AFF18B986818D8AD',
+        link: '/assets/CCE2DDDDDDDDDDDD.gpg',
         rel: 'pgpkey'
       },
       {
