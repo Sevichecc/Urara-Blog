@@ -31,16 +31,9 @@ lastmod: 2022-05-20T04:07:08.760Z
 
 ### 联系我
 
-可以通过[Matrix](https://matrix.to/#/@seviche:kongwoo.icu)或者通过邮箱`sevichecc[AT]outlook[DOT]com` 联系我，如果需要发加密邮件的话，下面是我的相关信息：
+可以通过[Matrix](https://matrix.to/#/@seviche:kongwoo.icu)或者通过邮箱`seviche[AT]seviche[DOT]cc` 联系我，如果需要发加密邮件的话，我的 PGP 公钥是: [`CFD2 D8F4 88C6 E58C 1735 FD88 CCE2 DDDD DDDD DDDD`](/pgp/CCE2DDDDDDDDDDDD) (`ed25519/CCE2DDDDDDDDDDDD`)
 
-```bash
-pub   ed25519 2022-08-13 [SC] [expires: 2025-08-12]
-      76DF9F9CC0C3619AA12CB914AFF18B986818D8AD
-uid           [ unknown] Seviche CC <sevichecc@outlook.com>
-sub   cv25519 2022-08-13 [E] [expires: 2025-08-12]
-```
-
-我的最新公钥: [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/76DF9F9CC0C3619AA12CB914AFF18B986818D8AD)
+或者通过[keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/CFD2D8F488C6E58C1735FD88CCE2DDDDDDDDDDDD)获取最新 PGP 公钥
 
 ### 写码进度
 
