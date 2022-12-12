@@ -31,7 +31,7 @@ lastmod: 2022-05-20T04:07:08.760Z
 
 ### 联系我
 
-可以通过[Matrix](https://matrix.to/#/@seviche:kongwoo.icu)或者通过邮箱`seviche[AT]seviche[DOT]cc` 联系我，如果需要发加密邮件的话，我的 PGP 公钥是: [`CFD2 D8F4 88C6 E58C 1735 FD88 CCE2 DDDD DDDD DDDD`](/pgp/CCE2DDDDDDDDDDDD) (`ed25519/CCE2DDDDDDDDDDDD`)
+可以通过[Matrix](https://matrix.to/#/@seviche:kongwoo.icu)或者通过邮箱`seviche[AT]seviche[DOT]cc` 联系我，如果需要发加密邮件的话，我的 PGP 公钥是: [`CFD2 D8F4 88C6 E58C 1735 FD88 CCE2 DDDD DDDD DDDD`](/pgp/CCE2DDDDDDDDDDDD.pgp) (`ed25519/CCE2DDDDDDDDDDDD`)
 
 或者通过[keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/CFD2D8F488C6E58C1735FD88CCE2DDDDDDDDDDDD)获取最新 PGP 公钥
 
