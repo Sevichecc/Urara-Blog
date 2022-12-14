@@ -67,7 +67,7 @@
     "rehype-slug": "^5.1.0",
     "remark": "^14.0.2",
     "remark-fff": "~0.4.2",
-    "remark-footnotes": "~2.0.0",
+    "remark-footnotes": "~4.0.1",
     "shiki-twoslash": "^3.1.0",
     "svelte": "^3.55.0",
     "svelte-bricks": "^0.1.7",

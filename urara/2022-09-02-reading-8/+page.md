@@ -4,7 +4,7 @@ created: 2022-09-02
 summary: 蝴蝶 / 驴肉火烧 / 如何给你的代码祝寿 / The Chicken and the Pig
 tags:
   - 我在看什么
-image: /2022-09-02-reading-8/Augest.jpg
+image: /2022-09-02-reading-8/augest.JPG
 ---
 
 ## 小碎步
