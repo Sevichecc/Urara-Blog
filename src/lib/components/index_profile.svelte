@@ -1,7 +1,7 @@
 <script lang="ts">
   import { site } from '$lib/config/site'
-  import { src, width, height } from '/static/assets/any@512.png?width=384&metadata'
-  import srcset from '/static/assets/any@512.png?w=48;96;192&srcset'
+  import { src, width, height } from '/static/assets/avatar.jpg?width=384&metadata'
+  import srcset from '/static/assets/avatar.jpg?w=48;96;192&srcset'
 </script>
 
 <div
@@ -9,7 +9,7 @@
   <a href={site.protocol + site.domain} class="hidden u-url u-uid">{site.author.name}</a>
   <figure class="relative mx-auto group">
     <picture>
-      <source {srcset} type="image/avif" />
+      <source {srcset} type="image/jpg" />
       <img
         class="u-photo rounded-full shadow-xl transition-shadow z-10 w-24 h-24 md:w-32 md:h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
         {src}
