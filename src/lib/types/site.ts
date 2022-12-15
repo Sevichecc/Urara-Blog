@@ -1,8 +1,6 @@
 import type { FFFAuthor } from 'fff-flavored-frontmatter'
 
 export type SiteConfig = {
-  /** @deprecated - use `description` instead */
-  descr?: string
   /** site protocol. for example: `https://` */
   protocol: string
   /** site domain. for example: `example.com` */
@@ -17,7 +15,12 @@ export type SiteConfig = {
   description?: string
   /** site keywords. `<meta name="keywords" content={site.keywords}>` */
   keywords?: string[]
-  author: Omit<FFFAuthor, 'url'> & {
+  author: Omit<FFFAuthor, 'url' | 'avatar'> & {
+    /**
+     * @deprecated
+     * @see `$lib/components/index_profile.svelte`
+     */
+    avatar?: never
     status?: string
     bio?: string
     metadata?: (

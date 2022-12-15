@@ -1,15 +1,22 @@
 <script lang="ts">
   import { site } from '$lib/config/site'
+  import { src, width, height } from '/static/assets/any@512.png?width=384&metadata'
+  import srcset from '/static/assets/any@512.png?w=48;96;192&srcset'
 </script>
 
 <div
   class="h-card flex flex-col gap-4 sticky top-24 card card-body p-4 items-right xl:border-2 xl:py-8 border-base-content/10 xl:ml-auto xl:mr-8 xl:max-w-xs">
   <a href={site.protocol + site.domain} class="hidden u-url u-uid">{site.author.name}</a>
   <figure class="relative mx-auto group">
-    <img
-      class="rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
-      src={site.author.avatar}
-      alt={site.author.name} />
+    <picture>
+      <source {srcset} type="image/avif" />
+      <img
+        class="u-photo rounded-full shadow-xl transition-shadow z-10 w-24 h-24 md:w-32 md:h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
+        {src}
+        {width}
+        {height}
+        alt={site.author.name} />
+    </picture>
     {#if site.author.status}
       <div class="heart absolute rounded-full w-10 h-10 bottom-0 right-0 bg-base-100 shadow-xl text-xl text-center py-1.5">
         {site.author.status}
