@@ -9,7 +9,6 @@ export const site: SiteConfig = {
   description: 'Tech / Code / Random Life',
   author: {
     name: '酸橘汁腌鱼',
-    avatar: '/assets/avatar.jpg',
     status: '🖤',
     bio: ' Code / Tech  <br> Living a Random Life ',
     metadata: [
