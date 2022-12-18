@@ -22,7 +22,7 @@
         alt={name ?? site.author.name}
         loading="lazy"
         decoding="async" 
-        src="/assets/any@192.png"/>
+        src={avatar ?? site.author.avatar}/>
     </div>
   </div>
   {#if subname}
