@@ -2,7 +2,7 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'garden',
+    name: 'cupcake',
     text: 'Light'
   },
   {
@@ -34,8 +34,8 @@ export const theme: ThemeConfig = [
     text: 'Lemonade'
   },
   {
-    name: 'cupcake',
-    text: 'Cupcake'
+    name: 'garden',
+    text: 'Garden'
   },
   {
     name: 'cmyk',

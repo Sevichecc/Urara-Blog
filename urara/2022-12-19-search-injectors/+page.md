@@ -5,7 +5,7 @@ summary: Build your own search engine by Miniflux&Linkidng injector
 image: /2022-12-19-search-injectors/cover.png
 ---
 
-在前文 [搭建可一键 Archive 的书签应用-Linkding](/2022-12-18-linkding-intro) 中我里面提到了 [Linkding-Injector](https://github.com/Fivefold/linkding-injector) 这个插件，在用了一段时间后我特别喜欢，因为这样在某些程度上可以避免「稍后读」=>「永远不读」的困境，但是 Linkding 里面的内容又总是太少了，常常搜不到什么内容，然后……
+在前文 [搭建可一键 Archive 的书签应用-Linkding](/2022-12-18-linkding-intro) 中我提到了 [Linkding-Injector](https://github.com/Fivefold/linkding-injector) 这个插件，用了一段时间后我特别喜欢，因为这样在某些程度上可以避免「稍后读」=>「永远不读」的困境，但是 Linkding 里面的内容又总是太少了，常常搜不到什么内容，然后……
 面对 [Miniflux](https://miniflux.app/)中五万多条未读，我决定做些什么。
 
 ## 关于 Miniflux-Injector
