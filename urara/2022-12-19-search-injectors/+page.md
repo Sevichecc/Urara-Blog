@@ -59,7 +59,7 @@ Brave 浏览器同理
 
 ## 后记
 
-我目前的 RSS Feed 有 951 条，未读 53460 条……不过有了 Miniflux-injector 我相信不会积灰了，还看到有人在开发[shiori-injector](https://github.com/tezlm/shiori-injector)，[shiori](https://github.com/go-shiori/shiori) 跟 linkding 一样，也是一个书签管理器，和和 linkding 不一样的是，shiori 还保存了源网页的内容，类似 Pocket 的感觉，我之前试过，功能还不是很完善，所以没有用下去，未来还会不会再次尝试呢？暂不清楚
+我目前的 RSS Feed 有 951 条，未读 53460 条……不过有了 Miniflux-injector 后我相信不会积灰了，还看到有人在开发[shiori-injector](https://github.com/tezlm/shiori-injector)，[shiori](https://github.com/go-shiori/shiori) 跟 linkding 一样，也是一个书签管理器，但和 linkding 不一样的是，shiori 还保存了源网页的内容，类似 Pocket 的感觉，我之前试过，功能还不是很完善，所以没有用下去，未来还会不会再次尝试呢？暂不清楚
 
 - 发现更多的 RSS 源，我推荐 [RSS+](https://greasyfork.org/zh-CN/scripts/373252-rss-show-site-all-rss)
 
