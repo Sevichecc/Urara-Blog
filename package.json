@@ -86,6 +86,6 @@
     "workbox-window": "^6.5.4"
   },
   "dependencies": {
-    "netlify-cli": "^12.3.0"
+    "netlify-cli": "^12.4.0"
   }
 }

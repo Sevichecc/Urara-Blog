@@ -117,7 +117,7 @@ sudo systemctl reload nginx
 ```conf
 	server {
 		listen 443 ssl;
-		server_name 域名
+		server_name 域名;
 		location / {
 				proxy_pass http://127.0.0.1:反代端口;
 				proxy_set_header HOST $host;

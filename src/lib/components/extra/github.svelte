@@ -3,8 +3,8 @@
 </script>
 
 <script lang="ts">
-  export let user = undefined
-  export let repo = undefined
+  export let user = ''
+  export let repo = ''
   let info: {
     html_url: string
     description: string
