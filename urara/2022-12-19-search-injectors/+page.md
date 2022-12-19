@@ -5,7 +5,7 @@ summary: Build your own search engine by Miniflux&Linkidng injector
 image: /2022-12-19-search-injectors/cover.png
 ---
 
-在前文 [VPS · 搭建轻量便捷的书签应用 Linkding](/2022-12-18-linkding-intro) 中我提到了 [Linkding-Injector](https://github.com/Fivefold/linkding-injector) 这个插件，它是一个搜索引擎辅助工具，使用它可以在 DuckDuckGo/Google 中搜索某关键词的时候同时在书签数据库里搜索，并将搜索结果显示在页面上。用了一段时间后我特别喜欢，因为使用它可以在一定程度上避免「稍后读」=>「永远不读」的困境，但是 Linkding 里面的内容又总是太少了，常常搜不到什么对应的，然后……面对 [Miniflux](https://miniflux.app/)中五万多条未读，我决定做些什么。
+在前文 [VPS · 搭建轻量便捷的书签应用 Linkding](/2022-12-18-linkding-intro) 中我提到了 [Linkding-Injector](https://github.com/Fivefold/linkding-injector) 这个插件，它是一个搜索引擎辅助工具，它可以在 DuckDuckGo/Google 中搜索某关键词的时候同时在书签数据库里搜索，并将搜索结果显示在页面上。用了一段时间后我特别喜欢，因为使用它可以在一定程度上避免「稍后读」=>「永远不读」的困境，但是 Linkding 里面的内容又总是太少了，常常搜不到什么对应的，然后……面对 [Miniflux](https://miniflux.app/)中五万多条未读，我决定做些什么。
 
 ## 关于 Miniflux-Injector
 
