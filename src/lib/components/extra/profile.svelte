@@ -21,8 +21,8 @@
         class="hover:rotate-[360deg] transition-transform duration-1000 ease-in-out m-0"
         alt={name ?? site.author.name}
         loading="lazy"
-        decoding="async" 
-        src={avatar ?? site.author.avatar}/>
+        decoding="async"
+        src={avatar ?? site.author.avatar} />
     </div>
   </div>
   {#if subname}
