@@ -63,7 +63,7 @@ export const head: HeadConfig = {
           // Umami Analytics
           '<script data-cfasync="false"  defer data-do-not-track="true" data-website-id="2403ea30-74ff-4ffa-8264-556b9f3b2897" src="https://hexoverc.vercel.app/umami.js"></script>',
           // splitbee
-          '<script async data-cfasync="false"  src="https://cdn.splitbee.io/sb.js"></script>',
+          '<script async data-cfasync="false" src="https://cdn.splitbee.io/sb.js"></script>',
           // Block Baiduspider
           '<meta name="baiduspider" content="noindex,noarchive">',
           // Microsub

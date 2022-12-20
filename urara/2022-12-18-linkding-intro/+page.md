@@ -9,7 +9,7 @@ tags:
 
 ## 前言
 
-在前文[Airtable · 网页剪藏](/2022-03-06-airtable/) 中提到了我是如何使用[Airtable](https://airtable.com/)它来剪切网页的，虽然 Airtable 剪切时可以同时保留网页截图，但没办法自动 Archive 网页，有些内容时间久了还是一样在风里消散。于是某天我决定试试[Miniflux](https://miniflux.app/)最近支持的开源书签应用 [Linkding](https://github.com/sissbruecker/linkding)：
+在前文[Airtable · 网页剪藏](/2022-03-06-airtable/) 中提到了我是如何使用[Airtable](https://airtable.com/)来剪切网页的，虽然 Airtable 剪切时可以同时保留网页截图，但没办法自动 Archive 网页，有些内容时间久了还是一样在风里消散。于是某天我决定试试[Miniflux](https://miniflux.app/)最近支持的开源书签应用 [Linkding](https://github.com/sissbruecker/linkding)：
 
 <script lang="ts">
   import Github from '$lib/components/extra/github.svelte'
