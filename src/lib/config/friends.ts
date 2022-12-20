@@ -86,5 +86,14 @@ export const friends: Friend[] = [
     link: 'https://kwaa.dev',
     descr: '[DATA EXPUNGED]',
     avatar: 'https://kwaa.dev/assets/any@512.webp'
+  },
+  {
+    id: 'debula',
+    rel: 'friend',
+    title: '秘密花园',
+    name: '本宝宝',
+    link: 'https://blog.debula.ml',
+    descr: '月亮一直跟着我走，它迷路了吗？',
+    avatar: 'https://blog.debula.ml/usr/uploads/violet.jpg'
   }
 ]
