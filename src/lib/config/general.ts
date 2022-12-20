@@ -2,12 +2,16 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'cupcake',
+    name: 'lemonade',
     text: 'Light'
   },
   {
     name: 'dracula',
     text: 'Dark'
+  },
+  {
+    name: 'cupcake',
+    text: 'Cupcake'
   },
   {
     name: 'valentine',
@@ -28,10 +32,6 @@ export const theme: ThemeConfig = [
   {
     name: 'lofi',
     text: 'Lo-Fi'
-  },
-  {
-    name: 'lemonade',
-    text: 'Lemonade'
   },
   {
     name: 'garden',
