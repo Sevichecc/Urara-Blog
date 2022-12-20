@@ -9,7 +9,7 @@ summary: 代码高亮、行内图片、数学公式支持
   import Alert from '$lib/components/extra/alert.svelte'
 </script>
 
-<Alert status="warning" description="此mod可能会造成Pleroma-fe首次进入时页面白屏，需要强制刷新一下才可以正常显示" title="Warning"/>
+<Alert status="warning" description="此mod可能会造成Pleroma-fe首次进入页面时白屏，需要强制刷新一下才可以正常显示" title="Warning"/>
 
 更新前端版本后，我的 mod 又失效了，决定再装一遍。我所用的 mod 是：[falsycat/pleroma-mod.js](https://gist.github.com/falsycat/7ce1e340daebb1bfc9f1e3b3b451b3c5)
 
