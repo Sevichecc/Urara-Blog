@@ -30,7 +30,7 @@ node_bundler = "esbuild"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "style-src 'self' 'unsafe-inline'  http://fonts.cdnfonts.com/css/lato https://unpkg.com/heti/umd/heti.min.css; script-src 'self' 'unsafe-inline' https://*.seviche.cc https://giscus.app https://hexoverc.vercel.app/umami.js https://cdn.splitbee.io/sb.js  https://app.embed.im/snow.js"
+    Content-Security-Policy = "style-src 'self' 'unsafe-inline'  http://fonts.cdnfonts.com/css/lato; script-src 'self' 'unsafe-inline' https://*.seviche.cc https://giscus.app https://hexoverc.vercel.app/umami.js https://cdn.splitbee.io/sb.js https://app.embed.im/snow.js"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "usb=()"
 [[redirects]]
