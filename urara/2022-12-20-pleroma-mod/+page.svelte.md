@@ -74,7 +74,7 @@ summary: 代码高亮、行内图片、数学公式支持
 修改里面的 src 为`/instance/mods.js`，也就是：
 
 ```html title="index.html"
-  <script type=text/javascript src=/instance/mods.js></script>
+  <script type=text/javascript src=/instance/mod/mods.js></script>
 ```
 
 保存并退出，刷新一下 pleroma 页面就好了
