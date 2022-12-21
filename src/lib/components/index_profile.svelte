@@ -1,6 +1,5 @@
 <script lang="ts">
   import { site } from '$lib/config/site'
-  import Webring from './webring.svelte'
   // import { src, width, height } from '/static/assets/avatar.jpg?width=384&metadata'
   // import srcset from '/static/assets/avatar.jpg?w=48;96;192&srcset'
 </script>
@@ -10,7 +9,7 @@
     <a href={site.protocol + site.domain} class="hidden u-url u-uid">{site.author.name}</a>
     <figure class="relative mx-auto group">
       <img
-        class="rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
+        class="u-photo rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
         src={site.author.avatar}
         alt={site.author.name} />
       <!-- <picture>
