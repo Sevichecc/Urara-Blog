@@ -5,11 +5,6 @@ created: 2022-03-10T16:24:38.663Z
 tags:
   - RSS
   - Miniflux
-# changelogs:
-#   - tag: '202203011'
-#     summary:
-#       - 添加了`instapaper`的连接方式
-#       - 添加了Pocket按钮嵌入方式
 lastmod: 2022-04-07T07:38:52.406Z
 ---
 
