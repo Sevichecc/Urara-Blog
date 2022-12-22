@@ -25,7 +25,7 @@ Miniflux Injector 是 Fork 自 Linkding-injector 的一个浏览器插件，它�
 ![google](https://github.com/Sevichecc/miniflux-injector/raw/main/docs/google.png)
 
 直接在搜索栏输入`mj` + 空格 触发搜索：
-![omnibox](urara/2022-12-19-search-injectors/omnibox.png)
+![omnibox](/2022-12-19-search-injectors/omnibox.png)
 
 ## 安装
 
