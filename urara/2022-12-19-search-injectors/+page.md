@@ -17,10 +17,15 @@ image: /2022-12-19-search-injectors/cover.png
 
 Miniflux Injector 是 Fork 自 Linkding-injector 的一个浏览器插件，它可以将 Miniflux 的搜索结果注入到 Google 和 Duckduckgo 等搜索页面。
 
-使用效果：
+### 使用效果：
+
+在搜索结果页面插入
 ![duckduckgo](https://github.com/Sevichecc/miniflux-injector/raw/main/docs/duckduckgo.png)
 
 ![google](https://github.com/Sevichecc/miniflux-injector/raw/main/docs/google.png)
+
+直接在搜索栏输入`mj` + 空格 触发搜索：
+![omnibox](urara/2022-12-19-search-injectors/omnibox.png)
 
 ## 安装
 
