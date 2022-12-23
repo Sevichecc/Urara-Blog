@@ -93,11 +93,6 @@ export const header: HeaderConfig = {
       text: 'About',
       link: '/about'
     }
-    // ,
-    // {
-    //   text: 'Notes',
-    //   link: '/notes'
-    // }
   ]
 }
 

@@ -1,10 +1,8 @@
 ---
 title: About
 created: 2022-05-06
-updated: 2022-05-06
 flags:
   - unlisted
-lastmod: 2022-05-20T04:07:08.760Z
 ---
 
 <script lang="ts">
