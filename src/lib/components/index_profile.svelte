@@ -68,7 +68,9 @@
   </div>
   <div class="h-card p-4 items-right xl:py-2 xl:max-w-xs btn-group flex gap-2 justify-center">
     <button class="btn btn-ghost btn-xs">
-      <a href="https://xn--sr8hvo.ws/%F0%9F%94%9D%F0%9F%9A%B9%F0%9F%9A%90/previous" class="i-ic-round-keyboard-double-arrow-left h-5 w-5 p-0" />
+      <a
+        href="https://xn--sr8hvo.ws/%F0%9F%94%9D%F0%9F%9A%B9%F0%9F%9A%90/previous"
+        class="i-ic-round-keyboard-double-arrow-left h-5 w-5 p-0" />
     </button>
     <div class="-mt-1 -mr-2">
       <svg width="478" height="174" viewBox="0 0 478 174" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-7 w-auto">
@@ -91,7 +93,9 @@
       </svg>
     </div>
     <button class="btn btn-ghost btn-xs">
-      <a href="https://xn--sr8hvo.ws/%F0%9F%94%9D%F0%9F%9A%B9%F0%9F%9A%90/next" class="i-ic-round-keyboard-double-arrow-right h-5 w-5 p-0" />
+      <a
+        href="https://xn--sr8hvo.ws/%F0%9F%94%9D%F0%9F%9A%B9%F0%9F%9A%90/next"
+        class="i-ic-round-keyboard-double-arrow-right h-5 w-5 p-0" />
     </button>
   </div>
 </div>
