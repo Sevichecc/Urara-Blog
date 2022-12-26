@@ -43,11 +43,6 @@ windows.atob("aGlAc2V2aWNoZS5jYw==")
 
 <a href="https://wakatime.com/@75cfdcbc-7bca-41ef-90d1-b47d27818b7d"><img src="https://wakatime.com/badge/user/75cfdcbc-7bca-41ef-90d1-b47d27818b7d.svg?style=social" alt="Total time coded since Apr 12 2022" /></a>
 
-### 其他站点
-
-- [About Coding - Airtable](https://airtable.com/shrPHGWAGI8JypL16/tblEvtThXHNBMQ8lW)
-- [前端打怪笔记](https://book.seviche.cc)
-
 ### 博客日志
 
 - 2022-05-06 从 Zola 搬到 Urara

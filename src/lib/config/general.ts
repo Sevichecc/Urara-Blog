@@ -92,6 +92,19 @@ export const header: HeaderConfig = {
     {
       text: 'About',
       link: '/about'
+    },
+    {
+      text: 'etc',
+      children: [
+        {
+          text: 'Bookmarks',
+          link: 'https://airtable.com/shrPHGWAGI8JypL16/tblEvtThXHNBMQ8lW'
+        },
+        {
+          text: 'Daily Notes',
+          link: 'https://x.seviche.cc'
+        }
+      ]
     }
   ]
 }
