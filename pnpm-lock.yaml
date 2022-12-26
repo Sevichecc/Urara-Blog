@@ -20,7 +20,7 @@ specifiers:
   '@types/workbox-build': ^5.0.1
   '@typescript-eslint/eslint-plugin': ^5.47.0
   '@typescript-eslint/parser': ^5.47.0
-  '@vite-pwa/sveltekit': ^0.0.1
+  '@vite-pwa/sveltekit': ^0.1.0
   autoprefixer: ^10.4.13
   chalk: ^5.2.0
   chokidar: ^3.5.3
@@ -35,7 +35,7 @@ specifiers:
   github-slugger: ^2.0.0
   mdast-util-to-string: ^3.1.0
   mdsvex: ^0.10.6
-  netlify-cli: ^12.4.1
+  netlify-cli: ^12.5.0
   npm-run-all: ^4.1.5
   postcss: ^8.4.20
   prettier: ^2.8.1
@@ -49,7 +49,7 @@ specifiers:
   shiki-twoslash: ^3.1.0
   svelte: ^3.55.0
   svelte-bricks: ^0.1.7
-  svelte-check: ^2.10.3
+  svelte-check: ^3.0.1
   svelte-preprocess: ^5.0.0
   svelte-preprocess-import-assets: ^0.2.5
   svelte-typeahead: ^4.4.1
@@ -63,7 +63,7 @@ specifiers:
   workbox-window: ^6.5.4
 
 dependencies:
-  netlify-cli: 12.4.1_@types+node@18.11.17
+  netlify-cli: 12.5.0_@types+node@18.11.17
 
 devDependencies:
   '@iconify-json/heroicons-outline': 1.1.5
@@ -85,7 +85,7 @@ devDependencies:
   '@types/workbox-build': 5.0.1
   '@typescript-eslint/eslint-plugin': 5.47.0_ncmi6noazr3nzas7jxykisekym
   '@typescript-eslint/parser': 5.47.0_lzzuuodtsqwxnvqeq4g4likcqa
-  '@vite-pwa/sveltekit': 0.0.1_n46hanechhcb4seycmn3d5vts4
+  '@vite-pwa/sveltekit': 0.1.0_g44reapwivs7njcwlqiaafvh4a
   autoprefixer: 10.4.13_postcss@8.4.20
   chalk: 5.2.0
   chokidar: 3.5.3
@@ -113,7 +113,7 @@ devDependencies:
   shiki-twoslash: 3.1.0
   svelte: 3.55.0
   svelte-bricks: 0.1.7
-  svelte-check: 2.10.3_qs7rgzvahok4cbkjoy5bgypde4
+  svelte-check: 3.0.1_qs7rgzvahok4cbkjoy5bgypde4
   svelte-preprocess: 5.0.0_uldce6htlskfyklq5y55tk7pdy
   svelte-preprocess-import-assets: 0.2.5_svelte@3.55.0
   svelte-typeahead: 4.4.1
@@ -451,7 +451,6 @@ packages:
     hasBin: true
     dependencies:
       '@babel/types': 7.20.5
-    dev: true
 
   /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.18.6_@babel+core@7.20.5:
     resolution: {integrity: sha512-Dgxsyg54Fx1d4Nge8UnvTrED63vrwOdPmyvPzlNN/boaliRP54pm3pGzZD1SJUwrBA+Cs/xdG8kXX6Mn/RfISQ==}
@@ -1793,15 +1792,15 @@ packages:
     resolution: {integrity: sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==}
     dev: false
 
-  /@netlify/build/29.2.1_@types+node@18.11.17:
-    resolution: {integrity: sha512-7Ff5QzCiTerFUou9yIvt3p9zB2rfLl/4+BqF5vYFC09ogtus8FpKHCadFH09h1Dfg7TZwV62eLmCBmpkkdOerw==}
+  /@netlify/build/29.3.0_@types+node@18.11.17:
+    resolution: {integrity: sha512-ukQlZNOYPnnhfcDWBaX5i5FLN5dUENyPgS/ng2E/g5jW0kuVWf83Fz608nOmO9MACzujDDj87rq1GTdX7ym6tA==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
     dependencies:
       '@bugsnag/js': 7.18.0
       '@netlify/cache-utils': 5.1.0_supports-color@9.3.1
       '@netlify/config': 20.2.0
-      '@netlify/edge-bundler': 7.1.0
+      '@netlify/edge-bundler': 8.0.0
       '@netlify/functions-utils': 5.1.1_supports-color@9.3.1
       '@netlify/git-utils': 5.1.0
       '@netlify/plugins-list': 6.61.0
@@ -1906,8 +1905,8 @@ packages:
       yargs: 17.6.2
     dev: false
 
-  /@netlify/edge-bundler/7.1.0:
-    resolution: {integrity: sha512-hYi6kT5qJ+thJbk9ouus0Gcwt9S3MAbAeI1TC9sS8wR3dwGS9T/TNRLgq0cjpV0cjJZMK+4NRsyw12Dn6c99/A==}
+  /@netlify/edge-bundler/8.0.0:
+    resolution: {integrity: sha512-th0HKJ0oqsSVq+kyElP2e1goVZtElz+1b0dK+ddRj6BYAZfGjskoiN1LZo58QPHtZ8Vim3EYQwhDCaLddqGIQw==}
     engines: {node: ^14.16.0 || >=16.0.0}
     dependencies:
       '@import-maps/resolve': 1.0.1
@@ -3499,14 +3498,14 @@ packages:
       - supports-color
     dev: false
 
-  /@vite-pwa/sveltekit/0.0.1_n46hanechhcb4seycmn3d5vts4:
-    resolution: {integrity: sha512-ybdYNM9Qq21RwvMiYflBfwm5QaT8SRyh1e5HwBEcZEfglIjPGhY3p7TCPHKtZMpbjLtwLcTJcrJiQjfu3jn1gg==}
+  /@vite-pwa/sveltekit/0.1.0_g44reapwivs7njcwlqiaafvh4a:
+    resolution: {integrity: sha512-IHn5iFuYpxhevKFr7W5zwu6sQoKD28TwToJIewCEiToVzQPNEnHsv63Cm+3Q+FwOtPJTuQer9uToJHaCiot3Rg==}
     engines: {node: '>=16.14'}
     peerDependencies:
-      '@types/workbox-build': ^5.0.1
-      vite-plugin-pwa: ^0.13.3
+      '@sveltejs/kit': ^1.0.0
+      vite-plugin-pwa: ^0.14.0
     dependencies:
-      '@types/workbox-build': 5.0.1
+      '@sveltejs/kit': 1.0.1_svelte@3.55.0+vite@4.0.3
       vite-plugin-pwa: 0.14.0_kd2yym7bvosszn2volak4ngp5q
     dev: true
 
@@ -8957,15 +8956,15 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: false
 
-  /netlify-cli/12.4.1_@types+node@18.11.17:
-    resolution: {integrity: sha512-jx2vCOvjDB83MT7EYSru08K1Zq+ftx/1Y7UwylGBeATFjEmkHErZnlO6ZBpCR92ppYLMz7y8KKKGR+5QtTKXzA==}
+  /netlify-cli/12.5.0_@types+node@18.11.17:
+    resolution: {integrity: sha512-W8e+k7q0GOCHiVgq4LiV/FVtwcnbAy6G9u8tMdpjY0By7/lhnUzyxnntLaTFJ+40On4qflkin0DGYpzlnWtqEw==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@netlify/build': 29.2.1_@types+node@18.11.17
+      '@netlify/build': 29.3.0_@types+node@18.11.17
       '@netlify/config': 20.2.0
-      '@netlify/edge-bundler': 7.1.0
+      '@netlify/edge-bundler': 8.0.0
       '@netlify/framework-info': 9.5.3
       '@netlify/local-functions-proxy': 1.1.1
       '@netlify/zip-it-and-ship-it': 8.2.0
@@ -9174,14 +9173,14 @@ packages:
     resolution: {integrity: sha512-8Q1hXew6ETzqKRAs3jjLioSxNfT1cx74ooiF8RlAONwVMcfq+UdzLC2eB5qcPldUxaE5w3ytLkrmV1TGddhZTA==}
     engines: {node: '>=6.0'}
     dependencies:
-      '@babel/parser': 7.16.8
+      '@babel/parser': 7.20.5
     dev: false
 
   /node-source-walk/5.0.0:
     resolution: {integrity: sha512-58APXoMXpmmU+oVBJFajhTCoD8d/OGtngnVAWzIo2A8yn0IXwBzvIVIsTzoie/SrA37u+1hnpNz2HMWx/VIqlw==}
     engines: {node: '>=12'}
     dependencies:
-      '@babel/parser': 7.16.8
+      '@babel/parser': 7.20.5
     dev: false
 
   /node-stream-zip/1.15.0:
@@ -11705,11 +11704,11 @@ packages:
     resolution: {integrity: sha512-2wJseuhlVYVRoCKJGQuwCySTMsvBVS4dchah6Ecz9RNng0zufx6NxToXc7iGf0QOHjo9wwAsOczRI+Ou2q4gEg==}
     dev: true
 
-  /svelte-check/2.10.3_qs7rgzvahok4cbkjoy5bgypde4:
-    resolution: {integrity: sha512-Nt1aWHTOKFReBpmJ1vPug0aGysqPwJh2seM1OvICfM2oeyaA62mOiy5EvkXhltGfhCcIQcq2LoE0l1CwcWPjlw==}
+  /svelte-check/3.0.1_qs7rgzvahok4cbkjoy5bgypde4:
+    resolution: {integrity: sha512-7YpHYWv6V2qhcvVeAlXixUPAlpLCXB1nZEQK0EItB3PtuYmENhKclbc5uKSJTodTwWR1y+4stKGcbH30k6A3Yw==}
     hasBin: true
     peerDependencies:
-      svelte: ^3.24.0
+      svelte: ^3.55.0
     dependencies:
       '@jridgewell/trace-mapping': 0.3.17
       chokidar: 3.5.3
@@ -11718,13 +11717,12 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.55.0
-      svelte-preprocess: 4.10.7_uldce6htlskfyklq5y55tk7pdy
+      svelte-preprocess: 5.0.0_uldce6htlskfyklq5y55tk7pdy
       typescript: 4.9.4
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
       - less
-      - node-sass
       - postcss
       - postcss-load-config
       - pug
@@ -11758,58 +11756,6 @@ packages:
       magic-string: 0.27.0
       svelte: 3.55.0
       svelte-parse-markup: 0.1.1_svelte@3.55.0
-    dev: true
-
-  /svelte-preprocess/4.10.7_uldce6htlskfyklq5y55tk7pdy:
-    resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
-    engines: {node: '>= 9.11.2'}
-    requiresBuild: true
-    peerDependencies:
-      '@babel/core': ^7.10.2
-      coffeescript: ^2.5.1
-      less: ^3.11.3 || ^4.0.0
-      node-sass: '*'
-      postcss: ^7 || ^8
-      postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0
-      pug: ^3.0.0
-      sass: ^1.26.8
-      stylus: ^0.55.0
-      sugarss: ^2.0.0
-      svelte: ^3.23.0
-      typescript: ^3.9.5 || ^4.0.0
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      coffeescript:
-        optional: true
-      less:
-        optional: true
-      node-sass:
-        optional: true
-      postcss:
-        optional: true
-      postcss-load-config:
-        optional: true
-      pug:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      '@types/pug': 2.0.6
-      '@types/sass': 1.43.1
-      detect-indent: 6.1.0
-      magic-string: 0.25.9
-      postcss: 8.4.20
-      sorcery: 0.10.0
-      strip-indent: 3.0.0
-      svelte: 3.55.0
-      typescript: 4.9.4
     dev: true
 
   /svelte-preprocess/5.0.0_uldce6htlskfyklq5y55tk7pdy:
