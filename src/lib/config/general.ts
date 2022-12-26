@@ -98,7 +98,7 @@ export const header: HeaderConfig = {
       children: [
         {
           text: 'Bookmarks',
-          link: 'https://airtable.com/shrPHGWAGI8JypL16/tblEvtThXHNBMQ8lW'
+          link: 'https://airtable.com/shrpftxf6JgRomP2X'
         },
         {
           text: 'Daily Notes',
