@@ -71,7 +71,7 @@ summary: 代码高亮、行内图片、数学公式支持
   </html>
 ```
 
-修改里面的 src 为`/instance/mods.js`，也就是：
+修改里面的 src 为`/instance/mod/mods.js`，也就是：
 
 ```html title="index.html"
   <script type=text/javascript src=/instance/mod/mods.js></script>
