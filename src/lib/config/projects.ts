@@ -20,6 +20,16 @@ export const projects: Project[] = [
   //   link: 'https://haibian.seviche.cc'
   // },
   {
+    id: 'miniflux-injector',
+    name: 'Miniflux-injector',
+    tags: ['Svelte', 'Browser Extension', 'Miniflux', 'RSS'],
+    description:
+      "Browser extension for the self-hosted miniflux bookmark service. Fork from <a href='https://github.com/Fivefold/linkding-injector' target='_blank'>linkding-injector</a>",
+    feature: 'Svelte',
+    img: 'https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/12/7ae29e6a539895491fbb88a28c95aed7.png',
+    link: 'https://github.com/Sevichecc/miniflux-injector/blob/main/docs/API.png'
+  },
+  {
     id: 'fokify',
     name: 'Fokify ',
     tags: ['MVC', 'Vanilla JS', 'ES6', 'Parcel', 'SCSS', 'HTML5'],
