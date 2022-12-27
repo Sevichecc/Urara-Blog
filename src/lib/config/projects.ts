@@ -27,7 +27,7 @@ export const projects: Project[] = [
       "Browser extension for the self-hosted miniflux bookmark service. Fork from <a href='https://github.com/Fivefold/linkding-injector' target='_blank'>linkding-injector</a>",
     feature: 'Svelte',
     img: 'https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2022/12/7ae29e6a539895491fbb88a28c95aed7.png',
-    link: 'https://github.com/Sevichecc/miniflux-injector/blob/main/docs/API.png'
+    link: 'https://github.com/Sevichecc/miniflux-injector'
   },
   {
     id: 'fokify',
