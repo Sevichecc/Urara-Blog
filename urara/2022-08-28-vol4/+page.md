@@ -11,15 +11,12 @@ tags:
 ### 1. [PLOG](https://hing9u.tistory.com/)
 
 一个喜欢薰衣草紫的韩国前端工程师，网页设计简洁优雅，
-[PLOG — PLOG](https://hing9u.tistory.com/)
 
-### 2. [Passo uno](https://passo.uno/)
+### 2. [Passo uno](https://passo.uno/why-technical-writing/)
 
 > **About “passo uno”**
 > Passo uno is Italian for stop-motion. It also means step one.
 > Choosing the first step of a procedure is often the most critical part of technical writing. At the same time, good UX writing can be seen as a sequence of discrete steps, a stop-motion dialogue which flows like a real conversation. I also wanted the domain name to reflect my ancestry: I was born in Italy and consider myself Italian, though I’ve lived in Spain for longer.
->
-> [Passo uno/why-technical-writing/](https://passo.uno/why-technical-writing/)
 
 ### 3. [政治学的邀约](https://finelin.notion.site/finelin/8f0e84b281894a9fb599e5ac8c511faf)
 
