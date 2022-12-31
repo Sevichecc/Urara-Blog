@@ -5,6 +5,7 @@ summary: linkding is a simple bookmark service that you can host yourself. It's 
 cover: https://github.com/sissbruecker/linkding/blob/master/docs/linkding-screenshot.png?raw=true
 tags:
   - VPS
+  - Self-host
 ---
 
 ## 前言

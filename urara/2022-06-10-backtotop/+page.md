@@ -4,7 +4,6 @@ created: 2022-06-10
 summary: 结合流畅的动画平滑滚动到页面顶部
 tags:
   - Vue3
-  - BootStrap
 ---
 
 主要参考：[Simple Vue.js and Tailwind.css Scroll To Top Button | Adam Bailey](https://adambailey.io/blog/scroll-to-top-button-vue/)

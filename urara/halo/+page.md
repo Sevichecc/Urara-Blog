@@ -3,7 +3,7 @@ title: 用 docker 安装 Halo 博客
 created: 2022-02-16 14:04:17
 tags:
   - Docker
-  - Self-hosted
+  - Self-host
 slug: halo
 summary: ''
 lastmod: 2022-05-07T05:39:19.169Z

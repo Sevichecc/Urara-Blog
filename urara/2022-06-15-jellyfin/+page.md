@@ -7,6 +7,7 @@ tags:
   - Nginx
   - VPS
   - Docker
+  - Self-host
 ---
 
 昨天搭了一下 Pleroma，完全失败，完全没信心了，所以今天决定随便在[Awesome Self Hosted | LibHunt](https://selfhosted.libhunt.com/)找了一个排名很靠前的东西搭一下，给自己建立一点没有必要的信心……

@@ -4,6 +4,7 @@ created: 2022-05-30
 summary: OSS自建图床笔记
 tags:
   - OSS
+  - Self-host
 ---
 
 ## 1. 购买套餐
