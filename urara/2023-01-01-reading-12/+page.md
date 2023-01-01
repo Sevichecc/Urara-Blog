@@ -7,8 +7,6 @@ tags:
 image: /2023-01-01-reading-12/December.jpg
 ---
 
-这个月看了很多关于 GPG / PGP / Neovim / Vim 的东西
-
 ## 工具
 
 - [kitty -- 一个被严重忽视的生产力利器](https://ttys3.dev/post/kitty/)
