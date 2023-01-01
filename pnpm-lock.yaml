@@ -27,11 +27,11 @@ specifiers:
   cross-env: ^7.0.3
   cssnano: ^5.1.14
   daisyui: ^2.46.0
-  eslint: ^8.31.0
+  eslint: ^8.30.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
   fenceparser: 2.2.0
-  fff-flavored-frontmatter: ~0.5.0
+  fff-flavored-frontmatter: ~0.4.2
   github-slugger: ^2.0.0
   mdast-util-to-string: ^3.1.0
   mdsvex: ^0.10.6
@@ -44,7 +44,7 @@ specifiers:
   rehype-external-links: ^2.0.1
   rehype-slug: ^5.1.0
   remark: ^14.0.2
-  remark-fff: ~0.5.0
+  remark-fff: ~0.4.2
   remark-footnotes: ~2.0.0
   shiki-twoslash: ^3.1.0
   svelte: ^3.55.0
@@ -96,7 +96,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.31.0
   eslint-plugin-svelte3: 4.0.0_6go7qzsvzihesfwmyvq3tnl5qq
   fenceparser: 2.2.0
-  fff-flavored-frontmatter: 0.5.0
+  fff-flavored-frontmatter: 0.4.2
   github-slugger: 2.0.0
   mdast-util-to-string: 3.1.0
   mdsvex: 0.10.6_svelte@3.55.0
@@ -108,7 +108,7 @@ devDependencies:
   rehype-external-links: 2.0.1
   rehype-slug: 5.1.0
   remark: 14.0.2
-  remark-fff: 0.5.0
+  remark-fff: 0.4.2
   remark-footnotes: 2.0.0
   shiki-twoslash: 3.1.0
   svelte: 3.55.0
@@ -6204,8 +6204,8 @@ packages:
       jest-validate: 25.5.0
     dev: false
 
-  /fff-flavored-frontmatter/0.5.0:
-    resolution: {integrity: sha512-Y81Zy3MNmi/RxEEmRhDYnyP2UCYn6J6vXc8IdkXE27rTQOxq7RWOY1RxNdMrhbJrhZkXLEp3vAk2LiPak5R4tQ==}
+  /fff-flavored-frontmatter/0.4.2:
+    resolution: {integrity: sha512-N5/LMZ5Luz3j97Ev+oruO/+fxkSWi/25HwP5QHOHqI08TnYwfHGzEerCUlnrfI5xQx5C0YLpqo1IMSSqFRalPQ==}
     dev: true
 
   /figures/1.7.0:
@@ -10773,8 +10773,8 @@ packages:
       unist-util-visit: 4.1.1
     dev: true
 
-  /remark-fff/0.5.0:
-    resolution: {integrity: sha512-txNSub6cmmOGGKhBl2HLMruKY1aCjeAM2ob5rsP/wnRpQyh0WqDuFgLBeWY84WpY2MJtGdE75URo2aMKb6VtLA==}
+  /remark-fff/0.4.2:
+    resolution: {integrity: sha512-vhK8O7PscY9dpiKFQmKlLrxNB7gCzn/APZ9EgJik0/EwGf9GCRYpnO3fL7Llu5vQ1RmS53cB7WolbZ7Ep4Bziw==}
     dev: true
 
   /remark-footnotes/2.0.0:
