@@ -23,7 +23,7 @@ export const site: SiteConfig = {
       },
       {
         icon: 'i-heroicons-solid-key',
-        link: '/assets/CCE2DDDDDDDDDDDD.gpg',
+        link: '/assets/DDDDDDDD.asc',
         rel: 'pgpkey'
       },
       {
