@@ -105,7 +105,7 @@ cd static
 在 themes 文件夹下放主题 json 文档，然后在
 Styles.json 默认下添加自定义主题路径：
 
-```json style.json
+```json
 {
   "pleroma-dark": ["Pleroma Dark", "#121a24", "#182230", "#b9b9ba", "#d8a070", "#d31014", "#0fa00f", "#0095ff", "#ffa500"],
   "pleroma-light": ["Pleroma Light", "#f2f4f6", "#dbe0e8", "#304055", "#f86f0f", "#d31014", "#0fa00f", "#0095ff", "#ffa500"],
@@ -119,7 +119,7 @@ Styles.json 默认下添加自定义主题路径：
   "breezy-dark": "/static/themes/breezy-dark.json",
   "breezy-light": "/static/themes/breezy-light.json",
   "mammal": "/static/themes/mammal.json",
-  "你的主题名字": "/static/themes/my-awesome-theme.json" ///主题路径
+  "你的主题名字": "/static/themes/my-awesome-theme.json"
 }
 ```
 
