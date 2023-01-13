@@ -30,20 +30,20 @@ tags:
 
 ### 4. [bt.ht](https://bt.ht/)
 
-> Rambling about design, programming, hardware and Linux
->
-> I'm Brad Taunt, a UX-focused front-end designer, technical writer, and self-taught developer who creates enjoyable experiences for humans.
->
-> Passionate about open source software, usability, performance, privacy, and minimal design.
->
-> This small piece of the internet stores a growing collection of my personal brain dumps.
+> Rambling about design, programming, hardware and Linux\
+> \
+> I'm Brad Taunt, a UX-focused front-end designer, technical writer, and self-taught developer who creates enjoyable experiences for humans.\
+> \
+> Passionate about open source software, usability, performance, privacy, and minimal design.\
+> \
+> This small piece of the internet stores a growing collection of my personal brain dumps.\
 
 博文：[Don't Make a Blog, Make a Brain Dump](https://bt.ht/dump)
 
 ### 5. [Top - oimo.io](https://oimo.io/)
 
-> saharan / さはら
-> I make something.
+> saharan / さはら\
+> I make something.\
 > 何か作ってます。触って楽しいものが好き。
 
 ### 6. [ Patrick Collison](https://patrickcollison.com/about)
@@ -56,15 +56,16 @@ tags:
 
 一个关于 minimalism 的博客
 
-> Bloggers and website creators get so caught up in things that they lose sight of what’s the most important thing: creating a great experience for the reader. The person coming to your site isn’t a customer, a potential mailing list subscriber, a consumer of advertising, a person who wants to be marketed to, a buyer of your affiliate products, a Facebook or Twitter follower … he’s a person who simply wants some information or entertainment from what you’ve written.
->
+> Bloggers and website creators get so caught up in things that they lose sight of what’s the most important thing: creating a great experience for the reader. The person coming to your site isn’t a customer, a potential mailing list subscriber, a consumer of advertising, a person who wants to be marketed to, a buyer of your affiliate products, a Facebook or Twitter follower … he’s a person who simply wants some information or entertainment from what you’ve written.\
+> \
 > 博主和网站创建者过于专注于一些事情，以至于他们忽视了最重要的事情：为读者创造良好的体验。 访问您网站的人不是客户、潜在的邮件列表订阅者、广告消费者、想要营销的人、您附属产品的购买者、Facebook 或 Twitter 的追随者……他只是一个人想从你写的东西中得到一些信息或娱乐。
 > —— [» minimal web mnmlist](https://mnmlist.com/w/)
 
 ### 8. [Quentin Hocdé - Creative Developer & Digital Artist](https://quentinhocde.com/)
 
 > I'm addicted to well thought-through animations and smart user-experiences. Small websites is what I like to create, especially for a social cause. I also do generative art, creating algorithms which generate visuals and animations, mixing technology and colorful palettes. I’m in love with infinite mesmerizing loops but also with beautiful and smart generative compositions.
-> 动效很好的一个个人作品集网站
+
+动效很好的一个个人作品集网站
 
 ### 9. [Max Böck](https://mxb.dev/)
 
@@ -72,10 +73,10 @@ tags:
 
 ### 10. [POURIA](https://pouria.dev/)
 
-> Hello there!
->
-> I’m unemployed, sorry I mean I’m POURIA 🦋. Currently based in Tehran.
->
+> Hello there!\
+> \
+> I’m unemployed, sorry I mean I’m POURIA 🦋. Currently based in Tehran.\
+> \
 > I use web technologies such as TypeScript, React and Node.js to create things I find useful and interesting. Right now I’m fascinated by WebGL, Three.js, 3D graphics, math and generative art and music and I’m shifting my focus there.
 
 下面的轮播太好笑了
@@ -112,23 +113,24 @@ tags:
 
 ![](https://mysterio.yahoo.com/api/res/1.2/AfC0.tGChL2_y4WZvymhhg--/ZHByPTI7dz04NzU7YXBwaWQ9ZW5nYWRnZXQ-/https://s.yimg.com/os/creatr-uploaded-images/2022-09/1d4ab3f0-3dea-11ed-b79d-c10b529d1fc4.cf.webp)
 
-> Last year, [I tried the Freewrite Smart Typewriter](https://www.engadget.com/astrohaus-freewrite-one-month-writing-test-140008132.html) — an expensive, single-purpose E Ink typewriter that does one thing very well. It lets you draft text with an excellent keyboard and zero distractions. If you're a serious writer, there's a lot to like about it, but it is most definitely not cheap; Astrohaus, the company behind the Freewrite, even raised the prices of its products, including the full-size model and the [portable laptop-style Freewrite Traveler](https://www.engadget.com/astrohaus-freewrite-traveler-eink-typewriter-review-130000032.html), earlier this year.
->
+> Last year, [I tried the Freewrite Smart Typewriter](https://www.engadget.com/astrohaus-freewrite-one-month-writing-test-140008132.html) — an expensive, single-purpose E Ink typewriter that does one thing very well. It lets you draft text with an excellent keyboard and zero distractions. If you're a serious writer, there's a lot to like about it, but it is most definitely not cheap; Astrohaus, the company behind the Freewrite, even raised the prices of its products, including the full-size model and the [portable laptop-style Freewrite Traveler](https://www.engadget.com/astrohaus-freewrite-traveler-eink-typewriter-review-130000032.html), earlier this year.\
+> \
 > 去年， [我试用了 Freewrite 智能打字机](https://www.engadget.com/astrohaus-freewrite-one-month-writing-test-140008132.html) ——一种昂贵的单一用途 E Ink 打字机，但它只做一件事。 它使您可以使用出色的键盘和零干扰来起草文本。 如果您是一位认真的作家，那么它有很多值得喜欢的地方，但绝对不便宜； 今年早些时候，Freewrite 背后的公司 Astrohaus 甚至提高了其产品的价格，包括全尺寸型号和  [便携式笔记本电脑风格的 Freewrite Traveler](https://www.engadget.com/astrohaus-freewrite-traveler-eink-typewriter-review-130000032.html) 。
 
 一个有墨水屏的键盘
 
 ### 7. [The elusiveness of digital paper — Stephan Ango](https://stephanango.com/the-elusiveness-of-digital-paper)
 
-> Our cyberpunk future is made of darkness and artificial light, but I’m not sure that’s the only future I want.
+> Our cyberpunk future is made of darkness and artificial light, but I’m not sure that’s the only future I want.\
+> \
 > 我们的赛博朋克未来是由黑暗和人造光构成的，但我不确定那是我唯一想要的未来。
 
 一个电子纸普遍应用的未来会是什么样的呢？
 
 ### 8. [The Kindle Test | Eric's Blog](https://blog.ericfrisch.com/kindle-test/)
 
-> So what does this have to do with the Kindle? Much like the news sites I mentioned above, I doubt the Kindle web browser was intended to provide a superior internet experience. For me, it's primarily used for logging into wifi networks on the road. But I decided a few years ago that all my web content should look good on that limited, oft-forgotten browser. This is **not** because I think lots of people are viewing my sites on their Kindles (they aren't). Instead, I figure that if something looks good in an experimental browser on a tiny e-ink screen, it will likely work on any other device, too. "The Kindle Test" is my simplicity standard for web design, and that standard has served me well. In fact, Bear is so lightweight that I could actually write posts on my Kindle if I wanted to!
->
+> So what does this have to do with the Kindle? Much like the news sites I mentioned above, I doubt the Kindle web browser was intended to provide a superior internet experience. For me, it's primarily used for logging into wifi networks on the road. But I decided a few years ago that all my web content should look good on that limited, oft-forgotten browser. This is **not** because I think lots of people are viewing my sites on their Kindles (they aren't). Instead, I figure that if something looks good in an experimental browser on a tiny e-ink screen, it will likely work on any other device, too. "The Kindle Test" is my simplicity standard for web design, and that standard has served me well. In fact, Bear is so lightweight that I could actually write posts on my Kindle if I wanted to!\
+> \
 > 那么这与 Kindle 有什么关系呢？ 就像我上面提到的新闻网站一样，我怀疑 Kindle 网络浏览器旨在提供卓越的互联网体验。 对我来说，它主要用于在路上登录 wifi 网络。 但几年前我决定，我所有的网络内容都应该在那个受限的、经常被遗忘的浏览器上看起来不错。 这 并不是 因为我认为很多人都在他们的 Kindle 上查看我的网站（他们不是）。 相反，我 数字 如果某些东西在微型电子墨水屏幕上的实验性浏览器中看起来不错，那么它也可能在任何其他设备上运行。 “Kindle 测试”是我的网页设计简单标准，这个标准对我很有帮助。 事实上，Bear 非常轻巧，如果我愿意，我实际上可以在 Kindle 上写文章！
 
 ### 9. [A smart E Ink calendar comes to my kitchen – Six Colors](https://sixcolors.com/post/2022/09/a-smart-e-ink-calendar-comes-to-my-kitchen/)
@@ -141,7 +143,8 @@ tags:
 ![](https://www.engineersneedart.com/systemsix/systemsix_and_stand.jpeg)
 
 > SystemSix is a desk calendar that displays the weather forecast and phase of the moon on an e-ink display. This is a kind of love-letter to my first Macintosh.
-> 这个博文所在网站也很有意思
+
+这个博文所在网站也很有意思
 
 ### 11. [Digital License Plates Are Here, But Do We Need Them? | Hackaday](https://hackaday.com/2019/02/01/digital-license-plates-are-here-but-do-we-need-them/)
 
@@ -167,7 +170,7 @@ Links to Free Computer, Mathematics, Technical Books all over the World
 
 ### 3. [Granary](https://granary.io/)
 
-> Fetches and converts data between [social networks](https://indiewebcamp.com/silo), HTML and JSON with [microformats2](http://microformats.org/wiki/microformats2), [ActivityStreams](http://activitystrea.ms/) 1 and 2, [Atom](http://atomenabled.org/), [RSS](http://www.rssboard.org/rss-specification), [JSON Feed](https://jsonfeed.org/), and more. Try it below! [Docs](https://granary.readthedocs.io/), [source](https://github.com/snarfed/granary).
+> Fetches and converts data between [social networks](https://indiewebcamp.com/silo), HTML and JSON with [microformats2](http://microformats.org/wiki/microformats2), [ActivityStreams](http://activitystrea.ms/) 1 and 2, [Atom](http://atomenabled.org/), [RSS](http://www.rssboard.org/rss-specification), [JSON Feed](https://jsonfeed.org/), and more.
 
 ### 4.[一次性临时电子邮件 - Temp Mail](https://temp-mail.io/zh)
 
@@ -179,8 +182,7 @@ Links to Free Computer, Mathematics, Technical Books all over the World
 
 ### 1. [punkism - the ideology of punk](https://www.punk.ist/)
 
-> A HUNDRED AND TWENTYTHREE THINGS A PUNKIST SHOULD KNOW
->
+> A HUNDRED AND TWENTYTHREE THINGS A PUNKIST SHOULD KNOW\
 > 一百二十三件朋克主义者应该知道的事
 
 ### 2. [HackAllTheThings](https://notes.akenofu.me/)
