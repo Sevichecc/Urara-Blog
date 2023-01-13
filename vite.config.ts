@@ -13,6 +13,12 @@ import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
 
 export default defineConfig({
+  build: {
+    sourcemap: false,
+    rollupOptions: {
+      cache: false
+    }
+  },
   envPrefix: 'URARA_',
   css: {
     postcss: {
