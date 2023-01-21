@@ -20,7 +20,7 @@ My Tech Blog, base on [Urara](https://github.com/importantimport/urara)
 ## TODO
 
 - [ ] Note Page
-- [ ] Archie Page
+- [ ] Archvie Page
 - [ ] Refactoring the atom feed format
 - [ ] NeoDB component
 - [ ] ...
