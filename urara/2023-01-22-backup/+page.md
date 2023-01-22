@@ -113,12 +113,13 @@ sudo duplicacy init -e pleroma s3c://usc1@usc1.contabostorage.com/pleroma
 ```
 
 然后输入密码，如 1234
+
 其他平台： [Supported storage backends - How-to - Duplicacy Forum](https://forum.duplicacy.com/t/supported-storage-backends/1107)
 
 #### 2. 创建脚本：
 
 ```bash
-sudo vim bash.env
+sudo vim backup.sh
 ```
 
 写入：
