@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 // vite plugin
 import UnoCSS from 'unocss/vite'
 import { presetTagify, presetIcons, extractorSvelte } from 'unocss'
-// import { imagetools } from 'vite-imagetools'
+import { imagetools } from 'vite-imagetools'
 import { SvelteKitPWA } from '@vite-pwa/sveltekit'
 import { sveltekit } from '@sveltejs/kit/vite'
 // postcss & tailwindcss
@@ -46,7 +46,7 @@ export default defineConfig({
         presetIcons({ scale: 1.5 })
       ]
     }),
-    // imagetools(),
+    imagetools(),
     sveltekit(),
     SvelteKitPWA({
       registerType: 'autoUpdate',
