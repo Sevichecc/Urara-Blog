@@ -9,9 +9,10 @@
   export let fs = true
   export let loop = false
   const src = `https://www.youtube.com/embed/${id}?${new URLSearchParams({
-    ...(list ? { listType: 'playlist', list }: {}),
+    ...(list ? { listType: 'playlist', list } : {}),
     ...(playlist ? { playlist } : {}),
     ...(start ? { start } : {}),
+    autoplay: autoplay ? '1' : '0',
     disablekb: disablekb ? '1' : '0',
     controls: controls ? '1' : '0',
     fs: fs ? '1' : '0',
