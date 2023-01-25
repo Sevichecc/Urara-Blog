@@ -40,7 +40,7 @@
             {#if link}
               <a
                 href={link}
-                rel={rel ?? 'me noopener external'}
+                rel={rel ?? 'me noopener  noreferrer external'}
                 class:btn-square={!text}
                 class="btn btn-sm btn-ghost normal-case gap-2 u-url"
                 target="_blank">
@@ -52,7 +52,7 @@
                 {/if}
               </a>
             {:else}
-              <button class:btn-square={!text} class="btn btn-sm btn-ghost normal-case gap-2" {rel}>
+              <button class:btn-square={!text} class="btn btn-sm btn-ghost normal-case gap-2">
                 {#if icon}
                   <span class="{icon} !w-5 !h-5" />
                 {/if}
