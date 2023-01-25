@@ -5,7 +5,7 @@ import UnoCSS from 'unocss/vite'
 import { presetTagify, presetIcons, extractorSvelte } from 'unocss'
 import { imagetools } from 'vite-imagetools'
 import { SvelteKitPWA } from '@vite-pwa/sveltekit'
-import { sveltekit } from '@sveltejs/kit/vite'
+import { sveltekit as SvelteKit } from '@sveltejs/kit/vite'
 // postcss & tailwindcss
 import TailwindCSS from 'tailwindcss'
 import tailwindConfig from './tailwind.config'
@@ -47,7 +47,7 @@ export default defineConfig({
       ]
     }),
     imagetools(),
-    sveltekit(),
+    SvelteKit(),
     SvelteKitPWA({
       registerType: 'autoUpdate',
       manifest: false,
