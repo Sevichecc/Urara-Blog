@@ -1,6 +1,6 @@
 <script lang="ts">
   import { site } from '$lib/config/site'
-  import Image from '$lib/components/prose/img.svelte'
+  // import Image from '$lib/components/prose/img.svelte'
 </script>
 
 <div class="sticky flex flex-col gap-4 top-24 xl:ml-auto xl:mr-8 xl:max-w-xs">
@@ -8,7 +8,7 @@
     <a href={site.protocol + site.domain} class="hidden u-url u-uid">{site.author.name}</a>
     <figure class="relative mx-auto group">
        {#if site.author.avatar}
-      <Image
+      <img
         class="u-photo rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
         src={site.author.avatar}
         alt={site.author.name} />
