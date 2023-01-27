@@ -1,7 +1,7 @@
 import type { SiteConfig } from '$lib/types/site'
 
 export const site: SiteConfig = {
-  protocol: import.meta.env.URARA_SITE_PROTOCOL ?? 'https://',
+  protocol: import.meta.env.URARA_SITE_PROTOCOL ?? import.meta.env.DEV ? 'http://' : 'https://',
   domain: 'seviche.cc',
   title: 'Seviche.cc',
   subtitle: 'Tech / Code / Random Life',
