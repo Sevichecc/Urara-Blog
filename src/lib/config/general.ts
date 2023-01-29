@@ -120,7 +120,8 @@ export const footer: FooterConfig = {
       link: '/privacy'
     }
   ],
-  html: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
+  html: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>',
+  since: '2021'
 }
 
 export const date: DateConfig = {
