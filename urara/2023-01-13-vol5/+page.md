@@ -114,7 +114,7 @@ tags:
 
 ### 6. [Freewrite Alpha is the cheapest smart typewriter Astrohaus has made yet | Engadget](https://www.engadget.com/freewrite-alpha-portable-smart-typewriter-140005201.html)
 
-![](https://mysterio.yahoo.com/api/res/1.2/AfC0.tGChL2_y4WZvymhhg--/ZHByPTI7dz04NzU7YXBwaWQ9ZW5nYWRnZXQ-/https://s.yimg.com/os/creatr-uploaded-images/2022-09/1d4ab3f0-3dea-11ed-b79d-c10b529d1fc4.cf.webp)
+![](https://raw.githubusercontent.com/Sevichecc/obsidian-image/main/img202301291811522.png)
 
 > Last year, [I tried the Freewrite Smart Typewriter](https://www.engadget.com/astrohaus-freewrite-one-month-writing-test-140008132.html) — an expensive, single-purpose E Ink typewriter that does one thing very well. It lets you draft text with an excellent keyboard and zero distractions. If you're a serious writer, there's a lot to like about it, but it is most definitely not cheap; Astrohaus, the company behind the Freewrite, even raised the prices of its products, including the full-size model and the [portable laptop-style Freewrite Traveler](https://www.engadget.com/astrohaus-freewrite-traveler-eink-typewriter-review-130000032.html), earlier this year.
 >
