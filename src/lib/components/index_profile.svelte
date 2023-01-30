@@ -7,18 +7,17 @@
   <div class="h-card flex flex-col gap-4  card card-body p-4 items-right xl:border-2 xl:py-8 border-base-content/10 ">
     <a href={site.protocol + site.domain} class="hidden u-url u-uid">{site.author.name}</a>
     <figure class="relative mx-auto group">
-       {#if site.author.avatar}
-      <img
-        class="u-photo rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
-        src={site.author.avatar}
-        alt={site.author.name} />
-    {/if}
-    {#if site.author.status}
-      <div
-        class="heart absolute rounded-full w-10 h-10 bottom-0 right-0 bg-base-100 shadow-xl text-xl text-center py-1.5">
-        {site.author.status}
-      </div>
-    {/if}
+      {#if site.author.avatar}
+        <img
+          class="u-photo rounded-full shadow-xl w-32 h-32 hover:rotate-[360deg] transition-transform duration-1000 ease-in-out"
+          src={site.author.avatar}
+          alt={site.author.name} />
+      {/if}
+      {#if site.author.status}
+        <div class="heart absolute rounded-full w-10 h-10 bottom-0 right-0 bg-base-100 shadow-xl text-xl text-center py-1.5">
+          {site.author.status}
+        </div>
+      {/if}
     </figure>
     <div class="text-center flex flex-col gap-2">
       <h2 class="text-2xl font-bold mt-0 mb-2 p-name">{site.author.name}</h2>

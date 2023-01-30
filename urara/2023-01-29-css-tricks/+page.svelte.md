@@ -1,5 +1,5 @@
 ---
-title: CSS · 玻璃按钮和优雅的文字描边
+title: CSS · 新拟态玻璃按钮和优雅的文字描边
 created: 2023-01-29
 summary: Glass buttons and elegant text stroke
 tags:
