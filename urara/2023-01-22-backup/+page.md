@@ -12,14 +12,23 @@ tags:
   - 本地备份
   - 远端加密备份
   - 定时自动清理备份
+- 存在的问题：
+  - 用`root`操作脚本不安全
+- 操作环境：`Ubuntn 20.04` `Pleroma 2.5.0`
 - 关于 duplicacy：
   - [Duplicacy CLI 备份工具基本使用笔记](https://www.dejavu.moe/posts/duplicacy-cli-basic-guide/)
   - [Quick Start · gilbertchen/duplicacy Wiki · GitHub](https://github.com/gilbertchen/duplicacy/wiki/Quick-Start)
-- 存在的问题：
-  - 用`root`操作脚本不安全
-- GitHub： [Sevichecc/pleroma-backup-script](https://github.com/Sevichecc/pleroma-backup-script)
+- 如果不需要 duplicacy 备份的话，忽略下述带 `*` 内容
 
-## 需要备份什么内容
+<script lang="ts">
+  import Github from '$lib/components/extra/github.svelte'
+</script>
+
+<Github user='Sevichecc' repo='pleroma-backup-script'/>
+
+## 备份原理
+
+### 备份什么
 
 - 上传的文件：`/var/lib/pleroma/upload`
 - 静态文件：`/var/lib/pleroma/static`
@@ -28,84 +37,36 @@ tags:
 
 参考：[Backup/Restore/Move/Remove your instance - Pleroma Documentation](https://docs-develop.pleroma.social/backend/administration/backup/)
 
-## 备份方式
+### 如何备份
 
-### 本地备份：
+- Pleroma 停机后，备份数据库
+- 用`tar` 结合`gzip` 压缩打包 `static/` 和 `uploads/`文件夹
+- 复制配置文件`config.exs`
+- 用 [duplicacy](https://duplicacy.com/) 将所有本地备份内容上传至 S3 存储中
+- 用`expect`脚本在 duplicacy 备份过程中自动输入
 
-如果需要结合 duplicacy 异地备份的话，请直接看异地备份的部分
+## 备份准备
 
-原理：复制上述内容到目录： `/opt/pleroma-backup`
+- 确定上述备份内容的所在位置
+- 创建一个备份存放的文件夹并进入:
+  ```bash
+  sudo mkdir /opt/pleroma-backup && cd /opt/pleroma-backup
+  ```
+- \*安装 `expect`：
+  ```bash
+  sudo apt-get install tcl tk expect
+  ```
+- \*安装 `duplicacy`，详见 [Duplicacy CLI 备份工具基本使用笔记](https://www.dejavu.moe/posts/duplicacy-cli-basic-guide/)
 
-下面是具体的操作，我是在 root 用户下操作的，
+## 备份流程
 
-1. 创建备份文件夹并进入
+我是在 root 用户下操作的
 
-```bash
-sudo mkdir /opt/pleroma-backup && cd /opt/pleroma-backup
-```
+### 1. \*初始化 duplicacy
 
-2. 创建`.env` 文件：
+在开始之前，确保按照安装好了 duplicacy，然后进入到备份文件夹中(下为`/opt/pleroma-backup`)，
 
-```bash
-PLEROMA_DB=pleroma
-PLEROMA_PATH=/var/lib/pleroma
-PLEROMA_CONFIG_PATH=/etc/pleroma/config.exs
-BACKUP_PATH=/opt/pleroma-backup
-```
-
-- PLEROMA_DB: pleroma 数据库的名字
-- PLEROMA_PATH: pleroma 静态文件的位置，下面应该会有`static` 和`uploads` 文件
-- PLEROMA_CONFIG_PATH： pleroma 设置文件的位置
-- BACKUP_PATH：备份文件夹的位置
-
-3. 创建 shell 脚本
-
-```bash
-sudo vim backup.sh
-```
-
-写入：
-
-```bash
-#!/bin/bash
-source /etc/profile
-source ./.env
-
-echo `date +"%Y-%m-%d %H:%M:%S"` " now starting backup"
-echo "————————————backup to local directory——————————"
-echo 'stop pleroma'
-sudo systemctl stop pleroma
-
-echo "1.dump database"
-sudo -Hu postgres pg_dump -d $PLEROMA_DB --format=custom -f ${BACKUP_PATH}/pleroma.pgdump
-
-echo "2. copy upload & static folder"
-cp -r ${PLEROMA_PATH}/static ${BACKUP_PATH}
-cp -r ${PLEROMA_PATH}/uploads ${BACKUP_PATH}
-
-echo "3. copy config file"
-cp ${PLEROMA_CONFIG_PATH} ${BACKUP_PATH}
-
-echo "restart pleroma"
-sudo systemctl start pleroma
-echo `date +"%Y-%m-%d %H:%M:%S"` " done!"
-```
-
-运行脚本：
-
-```bash
-sudo bash backup.sh
-```
-
-### 异地备份
-
-方式：使用 duplicay 备份到远端存储中，我这里用的是 contabo storage，推荐 cloudflare 的 R2，但我不清楚如何配置……
-
-在开始之前，确保按照[Duplicacy CLI 备份工具基本使用笔记](https://www.dejavu.moe/posts/duplicacy-cli-basic-guide/) 安装好了 duplicacy，然后进入到备份文件夹中(下为`/opt/pleroma-backup`)
-
-#### 1. 初始化
-
-这里设置 duplicacy Snapshot ID 为 pleroma，bucket 名为`pleroma`
+这里设置 duplicacy Snapshot ID 为 pleroma，bucket 名为`pleroma`：
 
 ```bash
 # contabo storage
@@ -114,104 +75,90 @@ sudo duplicacy init -e pleroma s3c://usc1@usc1.contabostorage.com/pleroma
 
 然后输入密码，如 1234
 
-其他平台： [Supported storage backends - How-to - Duplicacy Forum](https://forum.duplicacy.com/t/supported-storage-backends/1107)
+我所用的是 Contabo storage，比较推荐 Cloudflare 的 R2，但我尚不清楚如何配置……
 
-#### 2. 创建脚本：
+其他平台的配置参考： [Supported storage backends - How-to - Duplicacy Forum](https://forum.duplicacy.com/t/supported-storage-backends/1107)
 
-```bash
-sudo vim backup.sh
-```
+### 2. 获取备份脚本
 
-写入：
+从 Github 获取并解压：
 
 ```bash
-#!/bin/bash
-source /etc/profile
-source ./.env
-
-echo `date +"%Y-%m-%d %H:%M:%S"` " now starting backup"
-echo 'stop pleroma'
-sudo systemctl stop pleroma
-
-echo "————————————backup to local directory——————————"
-echo "1.dump database"
-sudo -Hu postgres pg_dump -d $PLEROMA_DB --format=custom -f ${BACKUP_PATH}/pleroma.pgdump
-
-echo "2.copy upload & static folder"
-cp -r ${PLEROMA_PATH}/static ${BACKUP_PATH}
-cp -r ${PLEROMA_PATH}/uploads ${BACKUP_PATH}
-
-echo "3.copy config file"
-cp ${PLEROMA_CONFIG_PATH} ${BACKUP_PATH}
-
-echo "————————————upload to remote——————————"
-echo "4.backup to remote"
-/usr/bin/expect <<EOF
-    set time 30
-    spawn duplicacy backup -threads 4
-    expect {
-        "ID" { send "$ACCESS_KEY_ID\n"; exp_continue }
-        "Secret" { send "$SECRET_ACCESS_KEY\n"; exp_continue }
-        "password" { send "$PASSWORD\n" }
-    }
-    spawn duplicacy prune -keep 7:30
-    expect {
-        "ID" { send "$ACCESS_KEY_ID\n"; exp_continue }
-        "Secret" { send "$SECRET_ACCESS_KEY\n"; exp_continue }
-        "password" { send "$PASSWORD\n" }
-    }
-    expect eof
-EOF
-
-echo "restart pleroma"
-sudo systemctl start pleroma
-echo `date +"%Y-%m-%d %H:%M:%S"` " done!"
+sudo curl -L  https://github.com/Sevichecc/pleroma-backup-script/releases/download/1.0.0/backup-script.zip -o backup-script.zip
+sudo unzip backup-script.zip
+sudo rm -rf backup-script.zip
 ```
 
-我这里用`duplicacy prune -keep 7:30`设置了对于超过 30 天的版本，每 7 天保留一次新版本。如果不需要的话，删掉下面这段：
-
-```bash
-    spawn duplicacy prune -keep 7:30
-    expect {
-        "ID" { send "$ACCESS_KEY_ID\n"; exp_continue }
-        "Secret" { send "$SECRET_ACCESS_KEY\n"; exp_continue }
-        "password" { send "$PASSWORD\n" }
-    }
-```
-
-#### 3. 编辑`.env`:
+### 3. 修改设置
 
 ```bash
 sudo vim .env
 ```
 
-```bash
-# duplicacy
-SNAPSHOT_ID=pleroma
-ACCESS_KEY_ID=
-SECRET_ACCESS_KEY=
-PASSWORD=1234 #刚设置的storage的密码
+其中：
 
-#pleroma
+- PLEROMA_DB: pleroma 数据库的名字
+- PLEROMA_PATH: pleroma 静态文件的位置，下面应该会有`static` 和`uploads` 文件
+- PLEROMA_CONFIG_PATH： pleroma 设置文件的位置
+- BACKUP_PATH：备份文件夹的位置
+
+以下为默认值：
+
+```bash
 PLEROMA_DB=pleroma
 PLEROMA_PATH=/var/lib/pleroma
 PLEROMA_CONFIG_PATH=/etc/pleroma/config.exs
 BACKUP_PATH=/opt/pleroma-backup
 ```
 
-安装 expect 包：
+### 4. \*设置 duplicacy
+
+打开`duplicacy` 脚本：
 
 ```bash
-sudo apt-get install tcl tk expect
+sudo vim duplicacy.sh
 ```
 
-运行脚本：
+在引号内填入自己的各项配置：
+
+```bash
+set ACCESS_KEY_ID "YOUR_ACCESS_KEY_ID"
+set SECRET_ACCESS_KEY "YOUR_SECRET_ACCESS_KEY"
+set PASSWORD "YOUR_PASSWORD"
+```
+
+下面这段表示的是用`duplicacy prune -keep 7:30`设置了对于超过 30 天的版本，每 7 天保留一次新版本。
+
+如果需要的话，删掉前面的注释，如：
+
+```bash
+##### (optional) Keep a revision every 7 days for revisions older than 30 days
+expect "completed"
+spawn duplicacy prune -keep 7:30
+
+expect "ID"
+send "$ACCESS_KEY_ID\r"
+
+expect "Secret"
+send "$SECRET_ACCESS_KEY\r"
+
+expect "password"
+send "$PASSWORD\r"
+```
+
+最后，给 `duplicacy` 备份脚本执行权限
+
+```bash
+sudo chmod +x duplicacy.sh
+```
+
+### 3. 运行脚本
 
 ```bash
 sudo bash backup.sh
 ```
 
-### 定时备份
+### 4. 定时备份
 
 用 crontab 设置定时运行该脚本，这里设置的是每 7 天备份一次，如果还没有 crontab 的话，需要安装一下，这里不再赘述
 
@@ -229,6 +176,76 @@ sudo crontab -e
 
 保存退出。
 
+## 停机通知 bot
+
+创建了一个简单的停机 bot，在停机备份前 1 小时发嘟提醒
+
+安装依赖：
+
+```
+sudo pip3 install requests beautifulsoup4 Mastodon.py
+
+```
+
+创建 bot：
+
+```bash
+sudo vim bot.py
+```
+
+写入：
+
+```py
+#!/usr/bin/python
+import random
+from mastodon import Mastodon
+
+Mastodon.create_app(
+    'backupbot',
+     api_base_url = 'https://your_pleoma_instance.com',
+     to_file = 'backupbot_clientcred.secret'
+)
+
+mastodon = Mastodon(
+    client_id = 'backupbot_clientcred.secret',
+    api_base_url = 'https://your_pleoma_instance.com'
+)
+
+mastodon.log_in(
+    'bot_account_username',
+    'bot_account_password',
+    to_file = 'backupbot_usercred.secret'
+)
+
+mastodon = Mastodon(
+    access_token = 'backupbot_usercred.secret',
+    api_base_url = 'https://your_pleoma_instance.com',
+    feature_set = 'pleroma'
+)
+
+mastodon.status_post('各位居民们,很抱歉,1小时后将停机备份10分钟,喝杯咖啡稍等一下吧~:cafe_cappucino:')
+```
+
+其中
+
+- `api_base_url`：实例 URL
+- `bot_account_username` ： bot 登录的用户名
+- `bot_account_password` ：bot 登录密码
+
+设置定时：
+
+```bash
+sudo crontab -e
+```
+
+```bash
+0 0 */7 * *  cd /opt/pleroma-backup && python3 bot.py
+```
+
+然后就做完了！
+
 ## 参考：
 
 - [Mastodon 媒体存储和数据库备份](https://tech.konata.co/2022-02-20-mastodon-backup/)
+- [Mastodon | 做完这个没关系 bot 就去打游戏 | 小球飞鱼](https://mantyke.icu/posts/2022/dontworry-bot/)
+- [麻瓜念咒之时间线轰炸机 - 秘密花园](https://blog.debula.ml/index.php/archives/6/)
