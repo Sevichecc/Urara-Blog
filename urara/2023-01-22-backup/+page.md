@@ -84,7 +84,7 @@ sudo duplicacy init -e pleroma s3c://usc1@usc1.contabostorage.com/pleroma
 从 Github 获取并解压：
 
 ```bash
-sudo curl -L  https://github.com/Sevichecc/pleroma-backup-script/releases/download/1.0.0/backup-script.zip -o backup-script.zip
+sudo curl -L  https://github.com/Sevichecc/pleroma-backup-script/releases/download/1.0.1/backup-script.zip -o backup-script.zip
 sudo unzip backup-script.zip
 sudo rm -rf backup-script.zip
 ```
