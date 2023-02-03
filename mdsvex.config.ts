@@ -95,7 +95,7 @@ export default defineConfig({
     [
       remarkFFF as any,
       {
-        presets: ['hugo'],
+        presets: [],
         target: 'mdsvex',
         autofill: {
           provider: 'fs',
