@@ -49,7 +49,7 @@ image: /2023-02-03-reading-1/jan.jpg
 
 ## Art / 像素画
 
-- [带你领略马赛克之美，游戏像素画基本原理分析]()
+- [带你领略马赛克之美，游戏像素画基本原理分析](https://mp.weixin.qq.com/s/2sgLpsflpj_ZYNZRg0TrDQ)
 - [saint11 像素宝典- 文集 哔哩哔哩专栏](https://www.bilibili.com/read/readlist/rl38114)
 - [LDtk – 2D level editor](https://ldtk.io/)
 - [GitHub - giventofly/pixelit: Create pixel art from an image](https://github.com/giventofly/pixelit)
