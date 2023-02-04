@@ -110,7 +110,6 @@ image: /2023-02-03-reading-1/jan.jpg
 - [Self Host Your Own Message Board Forum With Flarum](https://noted.lol/self-host-your-own-message-board-forum-with-flarum/)
 - [Self-hosting | Briefkasten Home](https://docs.briefkastenhq.com/docs/self-hosting.html)
 - [Duplicacy CLI 备份工具基本使用笔记](https://www.dejavu.moe/posts/duplicacy-cli-basic-guide/)
-  - [Duplicacy CLI 备份工具基本使用笔记](https://www.dejavu.moe/posts/duplicacy-cli-basic-guide/)
 
 好了，什么东西都写了，那么 Nonsense Wander 5 写什么好呢？
 
