@@ -79,8 +79,8 @@ summary: 好像每个博客都有这么一篇博文呢
 - Reddit 的可替代前端 App：
   - [Stealth](https://gitlab.com/cosmosapps/stealth)
   - [RedReader](https://github.com/QuantumBadger/RedReader)
-  - 把 URL 变成 markdown 格式：[Markdownr](https://github.com/sanzoghenzo/markdownr)
-  - 图片大小修改：[Image Resizer](https://github.com/T8RIN/ImageResizer)
+- 把 URL 变成 markdown 格式：[Markdownr](https://github.com/sanzoghenzo/markdownr)
+- 图片大小修改：[Image Resizer](https://github.com/T8RIN/ImageResizer)
 
 反正没事在 [Driod-ify](https://github.com/Iamlooker/Droid-ify) 瞎逛，总能发现有意思的。
 
