@@ -1,7 +1,6 @@
 [build]
-command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm build"
+command = "corepack prepare pnpm@8.4.0 --activate &&  pnpm i  && npx pnpm build"
 publish = "build"
-
 
 [build.environment]
 NPM_FLAGS = "--version"
