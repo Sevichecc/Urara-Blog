@@ -2,7 +2,8 @@
 import { defineConfig } from 'vite'
 // vite plugin
 import UnoCSS from 'unocss/vite'
-import { presetTagify, presetIcons, extractorSvelte } from 'unocss'
+import { presetTagify, presetIcons } from 'unocss'
+import extractorSvelte from '@unocss/extractor-svelte'
 import { imagetools } from 'vite-imagetools'
 import { SvelteKitPWA } from '@vite-pwa/sveltekit'
 import { sveltekit as SvelteKit } from '@sveltejs/kit/vite'

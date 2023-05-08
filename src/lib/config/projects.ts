@@ -20,6 +20,24 @@ export const projects: Project[] = [
   //   link: 'https://haibian.seviche.cc'
   // },
   {
+    id: 'Raycast-miniflux',
+    name: 'Raycast - Miniflux',
+    tags: ['React', 'React Hooks', 'Miniflux', 'TypeScript'],
+    description: 'Search RSS entries from Raycast, and more features',
+    feature: 'React',
+    img: 'https://github.com/raycast/extensions/raw/3fdad375dd06b7f390b629235c6a10c37d05fc79/extensions/miniflux//media/commands.png',
+    link: 'https://www.raycast.com/SevicheCC/miniflux'
+  },
+  {
+    id: 'Raycast-Akkoma',
+    name: 'Raycast - Akkoma',
+    tags: ['React', 'React Hooks', 'Akkoma', 'TypeScript'],
+    description: 'Publish status from Raycast to Akkoma or Pleroma, and view your bookmarked status',
+    feature: 'React',
+    img: 'https://github.com/raycast/extensions/raw/42e765bc6bf970054fd69abfdc6ab3dd2ea4942d/extensions/akkoma//media/command.png',
+    link: 'https://www.raycast.com/SevicheCC/akkoma'
+  },
+  {
     id: 'miniflux-injector',
     name: 'Miniflux-injector',
     tags: ['Svelte', 'Browser Extension', 'Miniflux', 'RSS'],
