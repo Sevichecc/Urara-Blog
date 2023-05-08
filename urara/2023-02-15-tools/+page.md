@@ -54,25 +54,25 @@ summary: 好像每个博客都有这么一篇博文呢
 
 我不喜欢用手机，所以用得都不是很多，像支付宝、淘宝这些人均一个的就不说了
 
-| 功能     | App                                                                                                                                                                                                  |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 社交     | [Fedilab](https://fedilab.app/), [Tooot](https://tooot.app/), [Moshidon](https://github.com/LucasGGamerM/moshidon), [Megalodon](https://github.com/sk22/megalodon), [Kaiteki,](https://kaiteki.app/) |
-| 密码     | bitwarden                                                                                                                                                                                            |
-| 浏览器   | [Fennec](https://f-droid.org/packages/org.mozilla.fennec_fdroid/), [Kiwi Browser](https://kiwibrowser.com/)                                                                                          |
-| 阅读     | Readwise Reader, 静读天下 Pro, 废文, 晋江, 长佩,                                                                                                                                                     |
-| RSS      | Miniflux 网页版, Readwise Reader                                                                                                                                                                     |
-| 效率     | Forest, [Yeolpumta](https://play.google.com/store/apps/details?id=com.pallo.passiontimerscoped),                                                                                                     |
-| 书签     | 浏览器自带，发给 Matrix 账号, Cubox                                                                                                                                                                  |
-| Git      | [GitNex](https://gitnex.com/), Github                                                                                                                                                                |
-| 搜索     | [Setter](https://github.com/scubajeff/Setter)（可以直接搜微博、公众号的内容）                                                                                                                        |
-| 应用下载 | [Obtainium](https://github.com/ImranR98/Obtainium), [Driod-ify](https://github.com/Iamlooker/Droid-ify)( Goodbye [~~NeoStore~~](https://github.com/NeoApplications/Neo-Store)~~)~~                   |
-| 视频     | 其实很少看视频，但是这些挺好用的：[AnimePipe](https://codeberg.org/NullPointerException/AnimePipe), [Seal](https://github.com/JunkFood02/Seal), [LibreTube](https://libre-tube.github.io/)           |
-| 资讯     | 稀土掘金、[Hacki](https://github.com/Livinglist/Hacki)                                                                                                                                               |
-| 文件     | Syncthing                                                                                                                                                                                            |
-| 图片     | [FIMO](https://fimo.app/), [Immich](https://immich.app/)                                                                                                                                             |
-| IM       | ~~微信~~, Element, [FluttyChat](https://fluffychat.im/)                                                                                                                                              |
-| 系统工具 | [轻启动](https://wpengapp.com/lightstart)、[清浊](https://www.dircleaner.com/)、炼妖壶([Insular](https://secure-system.gitlab.io/Insular/))、[TrackerControl](https://trackercontrol.org/)           |
-| 输入法   | Gboard                                                                                                                                                                                               |
+| 功能     | App                                                                                                                                                                                                                                                  |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 社交     | [Fedilab](https://fedilab.app/), [Tooot](https://tooot.app/), [Moshidon](https://github.com/LucasGGamerM/moshidon), [Megalodon](https://github.com/sk22/megalodon), [Kaiteki,](https://kaiteki.app/)                                                 |
+| 密码     | bitwarden                                                                                                                                                                                                                                            |
+| 浏览器   | [Fennec](https://f-droid.org/packages/org.mozilla.fennec_fdroid/), [Kiwi Browser](https://kiwibrowser.com/)                                                                                                                                          |
+| 阅读     | Readwise Reader, 静读天下 Pro, 废文, 晋江, 长佩,                                                                                                                                                                                                     |
+| RSS      | Miniflux 网页版, Readwise Reader                                                                                                                                                                                                                     |
+| 效率     | Forest, [Yeolpumta](https://play.google.com/store/apps/details?id=com.pallo.passiontimerscoped),                                                                                                                                                     |
+| 书签     | 浏览器自带，发给 Matrix 账号, Cubox                                                                                                                                                                                                                  |
+| Git      | [GitNex](https://gitnex.com/), Github                                                                                                                                                                                                                |
+| 搜索     | [Setter](https://github.com/scubajeff/Setter)（可以直接搜微博、公众号的内容）                                                                                                                                                                        |
+| 应用下载 | [Obtainium](https://github.com/ImranR98/Obtainium), [Driod-ify](https://github.com/Iamlooker/Droid-ify)( Goodbye [~~NeoStore~~](https://github.com/NeoApplications/Neo-Store)~~)~~                                                                   |
+| 视频     | 其实很少看视频，但是这些挺好用的：[AnimePipe](https://codeberg.org/NullPointerException/AnimePipe), [Seal](https://github.com/JunkFood02/Seal), [LibreTube](https://libre-tube.github.io/)                                                           |
+| 资讯     | 稀土掘金、[Hacki](https://github.com/Livinglist/Hacki)                                                                                                                                                                                               |
+| 文件     | Syncthing                                                                                                                                                                                                                                            |
+| 图片     | [FIMO](https://fimo.app/), [Immich](https://immich.app/)                                                                                                                                                                                             |
+| IM       | ~~微信~~, Element, [FluttyChat](https://fluffychat.im/)                                                                                                                                                                                              |
+| 系统工具 | [轻启动](https://wpengapp.com/lightstart)、[清浊](https://www.dircleaner.com/)、炼妖壶([Insular](https://secure-system.gitlab.io/Insular/))、[TrackerControl](https://trackercontrol.org/)    [UrlChecker](https://github.com/TrianguloY/UrlChecker) |
+| 输入法   | Gboard                                                                                                                                                                                                                                               |
 
 最近还发现几个蛮有意思的 App，但是我用得不是很多：
 
