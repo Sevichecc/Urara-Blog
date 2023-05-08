@@ -7,9 +7,9 @@ tags:
 image: /2023-04-29-readings/cover.jpg
 ---
 
-很久没更新这个系列了，因为博客构建时 Out of Memory的问题，一直懒得去写什么，加上现在AI好像什么都会了，感觉写什么都没什么意义，「我想做的前人都做过了」，是这样的感觉。
+很久没更新这个系列了，因为博客构建时 Out of Memory 的问题，一直懒得去写什么，加上现在 AI 好像什么都会了，感觉写什么都没什么意义，「我想做的前人都做过了」，是这样的感觉。
 
-这几个月没有看什么特别的东西，当然没有做什么特别的记录，之前每看一篇就要在Fediverse上记录，但是这样会打断思绪，也很容易沉浸到另一个语境中，感觉很低效，所以就没记录，然后下面的梳理来自Readwise Reader 和 Cubox。
+这几个月没有看什么特别的东西，当然没有做什么特别的记录，之前每看一篇就要在 Fediverse 上记录，但是这样会打断思绪，也很容易沉浸到另一个语境中，感觉很低效，所以就没记录，然后下面的梳理来自 Readwise Reader 和 Cubox。
 
 ## 前端
 - [Controlled and uncontrolled form inputs in React don't have to be complicated](https://goshacmd.com/controlled-vs-uncontrolled-inputs-react/)
