@@ -29,43 +29,26 @@ flags:
 ## 接触过的技术
 
 ### 姑且熟悉
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+`JavaScript` | `TypeScript` | `React`| `Redux` |  `Vue.js` | `Nuxt.js`| `TailwindCSS` | `SASS`
 
 ### 简单用过
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-![Less](https://img.shields.io/badge/less-2B4C80?style=for-the-badge&logo=less&logoColor=white)
-![Deno JS](https://img.shields.io/badge/deno%20js-000000?style=for-the-badge&logo=deno&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
+`Shell Script` |`Svelte` | `Deno JS` | `NodeJS` | `Express.js` | `Mongoose` `MongoDB` | `Prisma` 
 
 ### 了解
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
-![Stylus](https://img.shields.io/badge/stylus-%23ff6347.svg?style=for-the-badge&logo=stylus&logoColor=white)
+`MySQL` | `Styled Components` 
+
 ## 最近
 
 ### 在做
-- [ ] 找工作 (广州的前端岗位求推荐 😭)
-- [ ] [Airbnb clone](https://github.com/Sevichecc/Airbnb-Clone)
-- [ ] [Seigwai](https://codeberg.org/Sevichecc/Seigwai)
+[ ] 找工作 (广州的前端岗位求推荐 😭)
+[ ] [Airbnb clone](https://github.com/Sevichecc/Airbnb-Clone)
+[ ] [Seigwai](https://codeberg.org/Sevichecc/Seigwai)
 
 ### 完成
-- [x] [Full Stack Open](https://fullstackopen.com/) (Part 1 - Part7) (2023.1-2023.4)
-- [X] [Raycast Extension for Miniflux](https://www.raycast.com/SevicheCC/miniflux) (2023.4)
-- [X] [Raycast Extension for Akkoma](https://www.raycast.com/SevicheCC/akkoma) (2023.4)
-- [X] Pleroma 和 Forgejo 的备份脚本
+[x] [Full Stack Open](https://fullstackopen.com/) (Part 1 Part7) (2023.1-2023.4)
+[X] [Raycast Extension for Miniflux](https://www.raycast.com/SevicheCC/miniflux) (2023.4)
+[X] [Raycast Extension for Akkoma](https://www.raycast.com/SevicheCC/akkoma) (2023.4)
+[X] Pleroma 和 Forgejo 的备份脚本
   - Pleroma： [pleroma-backup-script](https://github.com/Sevichecc/pleroma-backup-script)
   - Forgejo: [forgejo-backup-script](https://codeberg.org/Sevichecc/forgejo-backup-script)
   

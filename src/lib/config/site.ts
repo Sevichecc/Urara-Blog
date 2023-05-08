@@ -4,14 +4,14 @@ export const site: SiteConfig = {
   protocol: import.meta.env.URARA_SITE_PROTOCOL ?? import.meta.env.DEV ? 'http://' : 'https://',
   domain: 'seviche.cc',
   title: 'Seviche.cc',
-  subtitle: 'Tech / Code / Random Life',
+  subtitle: 'Random Frontend-Developer',
   lang: 'zh',
-  description: 'Tech / Code / Random Life',
+  description: 'Random Frontend-Developer',
   author: {
-    name: '酸橘汁腌鱼',
-    avatar: '/assets/avatar.jpg',
+    name: 'Seviche CC',
+    avatar: '/assets/avatar.png',
     status: '🖤',
-    bio: ' Code / Tech  <br> Living a Random Life ',
+    bio: 'Random Frontend-Developer',
     metadata: [
       {
         icon: 'i-mdi-github',
@@ -40,6 +40,6 @@ export const site: SiteConfig = {
       // }
     ]
   },
-  keywords: ['Tech', 'Code', 'Random Life'],
+  keywords: ['Tech', 'Code', 'Seviche CC', 'Frondend Developer', 'Programming'],
   themeColor: '#3D4451'
 }
