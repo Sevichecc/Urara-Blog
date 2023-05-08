@@ -5,10 +5,6 @@ summary: Raycast插件 / 鼠须管主题 / Akkoma 和 Forgejo备份脚本  / Shi
 image: /2023-04-29-recent/certificate-fullstack.png
 ---
 
-<a href="https://notbyai.fyi">
-<img src="/2023-04-29-recent/Written-By-Human-Not-By-AI-Badge-white.svg" alt="written by human, not by AI">
-</a>
-
 ## Full Stack Open
 
 
@@ -33,11 +29,11 @@ image: /2023-04-29-recent/certificate-fullstack.png
 
 **事情的发展**
 
-为了练习 React， 我开始写Raycast的Miniflux插件：[Miniflux](https://www.raycast.com/SevicheCC/miniflux https://www.raycast.com/SevicheCC/miniflux)，后面写着写着发现不太会处理缓存，于是又跑去写[Akkoma插件](https://www.raycast.com/SevicheCC/akkoma https://www.raycast.com/SevicheCC/akkoma)，想着这是个只能发帖文的插件，功能简单，实现起来应该也很简单吧，乱七八糟地写了一通，终于懂Raycast是怎么缓存的了，最后这两个插件上架后又开始在Akkoma插件的基础上改Mastodon的插件，但是改之前忘记搜下有没有人在做了，于是现在暂时搁置了：A[dd Mastodon extension](https://github.com/raycast/extensions/pull/6156) , 不过可能过几天会开始合之前别人的代码、加功能。
+为了练习 React， 我开始写Raycast的Miniflux插件：[Miniflux](https://www.raycast.com/SevicheCC/miniflux) ，后面写着写着发现不太会处理缓存，于是又跑去写 [Akkoma插件](https://www.raycast.com/SevicheCC/akkoma) ，想着这是个只能发帖文的插件，功能简单，实现起来应该也很简单吧，乱七八糟地写了一通，终于懂Raycast是怎么缓存的了，最后这两个插件上架后又开始在Akkoma插件的基础上改Mastodon的插件，但是改之前忘记搜下有没有人在做了，于是现在暂时搁置了：[Add Mastodon extension](https://github.com/raycast/extensions/pull/6156) , 不过可能过几天会开始合之前别人的代码、加功能。
 
 以及最近发现在Miniflux前端搜索内容的时候，条目内容总比通过调用API出来的结果少，不知道为什么。
 
-**难点和不解和bug们**
+**难点和不解**
 
 写Raycast插件，一开始最让我不解的是：什么Command和什么组件对应？后面发现command名是和组件名绑定的，需要在package.json里面指定，如图所示：  
 
@@ -78,7 +74,7 @@ image: /2023-04-29-recent/certificate-fullstack.png
 
 前段时间从Pleroma搬到Akkoma了，感想：好 卡 啊！然后把Pleroma备份脚本修理了一下：
 
-- [pleroma-backup-script](https://github.com/Sevichecc/pleroma-backup-script https://github.com/Sevichecc/pleroma-backup-script)
+- [pleroma-backup-script](https://github.com/Sevichecc/pleroma-backup-script)
 - [forgejo-backup-script](https://codeberg.org/Sevichecc/forgejo-backup-script)
 
 本来是写了一个service定时备份这两个的，不知怎的，使徒袭来，没有工作起来，于是现在在手动bash了，或许过段时间修理一下。以及我觉得是crontab的权限我没设置好，所以Music Bot和定时备份都没生效。

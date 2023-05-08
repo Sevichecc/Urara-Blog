@@ -59,9 +59,7 @@ const remarkUraraSpoiler = () => (tree: Node<Data>) =>
     return node
   })
 
-const defineConfig = (config: MdsvexOptions) => config
-
-export default defineConfig({
+export default {
   extensions: ['.svelte.md', '.md'],
   smartypants: {
     dashes: 'oldschool'
@@ -95,7 +93,7 @@ export default defineConfig({
     [
       remarkFFF as any,
       {
-        presets: [],
+        presets: ['hugo'],
         target: 'mdsvex',
         autofill: {
           provider: 'fs',
@@ -118,4 +116,4 @@ export default defineConfig({
       }
     ]
   ]
-})
+} as MdsvexOptions
