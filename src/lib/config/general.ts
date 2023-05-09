@@ -2,12 +2,16 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, FooterConfig, DateConfig, F
 
 export const theme: ThemeConfig = [
   {
-    name: 'lemonade',
+    name: 'lofi',
     text: 'Light'
   },
   {
     name: 'dracula',
-    text: 'Dark'
+    text: 'Dracula'
+  },
+  {
+    name: 'coffee',
+    text: 'Coffee'
   },
   {
     name: 'cupcake',
@@ -29,13 +33,17 @@ export const theme: ThemeConfig = [
     name: 'night',
     text: 'Night'
   },
-  {
-    name: 'lofi',
-    text: 'Lo-Fi'
-  },
+  // {
+  //   name: 'lofi',
+  //   text: 'Lo-Fi'
+  // },
   {
     name: 'garden',
     text: 'Garden'
+  },
+  {
+    name: 'lemonade',
+    text: 'Lemonade'
   },
   {
     name: 'cmyk',
