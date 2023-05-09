@@ -74,6 +74,36 @@
 </script>
 
 <div class="flex flex-col gap-8">
+  {#if config?.form === true}
+    <form id="webmention-form" method="post" action="https://webmention.io/{config.username}/webmention">
+      <input type="hidden" name="target" value={site.protocol + site.domain + post.path} />
+      <div class="label gap-4">
+        <span class="label-text">send webmentions here:</span>
+        {#if config?.commentParade === true}
+          <span class="label-text-alt text-right">
+            or <a
+              class="hover:!text-primary"
+              href="https://quill.p3k.io/?dontask=1&me=https://commentpara.de/&reply={encodeURI(
+                site.protocol + site.domain + post.path
+              )}">
+              comment anonymously
+            </a>
+          </span>
+        {/if}
+      </div>
+      <div class="flex gap-2">
+        <div class="flex-1">
+          <input
+            class="input input-bordered focus:input-primary w-full"
+            type="text"
+            id="reply-url"
+            name="source"
+            placeholder="https://example.com/my-post" />
+        </div>
+        <button class="btn btn-primary flex-none mt-auto" type="submit" id="webmention-submit">Send</button>
+      </div>
+    </form>
+  {/if}
   <div class="flex">
     <p class="flex-1 m-auto italic opacity-50">
       <!-- {`Sort by=${config?.sortBy ?? 'Created'}&sort-dir=${sortDirUp ? 'up' : 'down'}`} -->
@@ -171,35 +201,5 @@
     {/if}
   {:else}
     <button id="webmention-loading" class="btn btn-lg btn-block flex btn-ghost loading" />
-  {/if}
-  {#if config?.form === true}
-    <form id="webmention-form" method="post" action="https://webmention.io/{config.username}/webmention">
-      <input type="hidden" name="target" value={site.protocol + site.domain + post.path} />
-      <div class="label gap-4">
-        <span class="label-text">send webmentions here:</span>
-        {#if config?.commentParade === true}
-          <span class="label-text-alt text-right">
-            or <a
-              class="hover:!text-primary"
-              href="https://quill.p3k.io/?dontask=1&me=https://commentpara.de/&reply={encodeURI(
-                site.protocol + site.domain + post.path
-              )}">
-              comment anonymously
-            </a>
-          </span>
-        {/if}
-      </div>
-      <div class="flex gap-2">
-        <div class="flex-1">
-          <input
-            class="input input-bordered focus:input-primary w-full"
-            type="text"
-            id="reply-url"
-            name="source"
-            placeholder="https://example.com/my-post" />
-        </div>
-        <button class="btn btn-primary flex-none mt-auto" type="submit" id="webmention-submit">Send</button>
-      </div>
-    </form>
   {/if}
 </div>

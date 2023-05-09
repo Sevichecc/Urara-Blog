@@ -19,7 +19,7 @@
     <div class="card-body p-4">
       <div class="flex flex-col md:flex-row items-start gap-4">
         <div class="mb-auto aspect-video w-full max-w-full shrink-0 md:max-w-xs">
-          <img class="rounded-md  " src={project.img} alt={project.description} />
+          <img class="rounded-md" src={project.img} alt={project.description} />
         </div>
         <div class="card-title flex-1 flex-col items-start gap-4">
           <div>

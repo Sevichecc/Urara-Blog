@@ -4,7 +4,7 @@
 </script>
 
 <div class="sticky flex flex-col gap-4 top-24 xl:ml-auto xl:mr-8 xl:max-w-xs">
-  <div class="h-card flex flex-col gap-4  card card-body p-4 items-right xl:border-2 xl:py-8 border-base-content/10 ">
+  <div class="h-card flex flex-col gap-4 card card-body p-4 items-right xl:border-2 xl:py-8 border-base-content/10">
     <a href={site.protocol + site.domain} class="hidden u-url u-uid">{site.author.name}</a>
     <figure class="relative mx-auto group">
       {#if site.author.avatar}
@@ -22,7 +22,7 @@
     <div class="text-center flex flex-col gap-2">
       <h2 class="text-2xl font-bold mt-0 mb-2 p-name">{site.author.name}</h2>
       <p class="opacity-75 p-note">{@html site.author.bio}</p>
-      <label for="remote-follow" class="btn  btn-active  btn-outline btn-xs modal-button w-fit mx-auto normal-case mt-4 gap-2 ">
+      <label for="remote-follow" class="btn btn-active btn-outline btn-xs modal-button w-fit mx-auto normal-case mt-4 gap-2">
         <span class="i-material-symbols-group-add-rounded" />
         Remote Follow
       </label>
