@@ -20,7 +20,7 @@
   })
 </script>
 
-<div class="card bg-base-100 !bg-base-200 my-4 ">
+<div class="card bg-base-100 !bg-base-200 my-4">
   <div class="p-6">
     {#key info}
       {#if info}

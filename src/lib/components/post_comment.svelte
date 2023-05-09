@@ -14,7 +14,7 @@
 {#if config?.use.length > 0}
   <div id="post-comment" class="card card-body">
     {#if config.use.length > 1}
-      <div class="tabs w-full mb-8" class:tabs-boxed={config?.['style'] === 'boxed'}>
+      <div class="tabs w-full" class:tabs-boxed={config?.['style'] === 'boxed'}>
         {#each config.use as name}
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <span
