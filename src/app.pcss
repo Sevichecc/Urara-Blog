@@ -56,7 +56,12 @@ html {
 /* .urara-prose a */
 
 .urara-prose :is(p, li) > a {
-  @apply bg-[length:100%_0.2em] hover:bg-[length:100%_100%] bg-[position:0_88%] bg-gradient-to-t from-secondary/50 to-secondary/40 bg-no-repeat transition-all ease-in-out !no-underline;
+  @apply underline 
+  font-normal 
+  hover:decoration-red-700/50
+  hover:text-red-700 
+  decoration-2
+  underline-offset-4  decoration-gray-700/30;
 }
 
 /* .urara-prose misc */
