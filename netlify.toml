@@ -1,5 +1,5 @@
 [build]
-command = "corepack prepare pnpm@8.4.0 --activate &&  pnpm i  && npx pnpm build"
+command = "corepack prepare pnpm@8.5.1 --activate &&  pnpm i  && npx pnpm build"
 publish = "build"
 
 [build.environment]

@@ -8,13 +8,12 @@ tags:
   - 计算机图形学
 ---
 
-前前后后花了大概五天的时间，一天看2～3个小时不等，终于把这个 CS291 的课看完了。因为线上练习不太方便，所以基本上没有做 coding 练习，只是做了简单的 quiz。
+前前后后花了大概五天的时间，一天看2～3个小时不等，终于把这个 [Interactive 3D Graphics - CS291](https://www.udacity.com/course/interactive-3d-graphics--cs291)的课看完了。因为线上练习不太方便，所以基本上没有做 coding 练习，只是做了简单的 quiz。
 
 ## 课程笔记
 [CS291](https://x.seviche.cc/#/page/cs291)
 
 不太全面的随堂笔记，基本上如果是我觉得已经完全理解的、不重要的就不会记录。
-
 
 ##  课程评价
 
