@@ -29,7 +29,7 @@ node_bundler = "esbuild"
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "style-src 'self' http://fonts.cdnfonts.com/css/lato https://giscus.app/default.css; script-src 'self' 'unsafe-inline' https://*.seviche.cc https://giscus.app https://hexoverc.vercel.app/umami.js https://cdn.splitbee.io/sb.js https://plausiable.seviche.cc/js/script.js"
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://*.seviche.cc https://giscus.app https://hexoverc.vercel.app/umami.js https://cdn.splitbee.io/sb.js https://plausiable.seviche.cc/js/script.js"
     Referrer-Policy = "strict-origin-when-cross-origin"
 [[redirects]]
   from = "/.well-known/webfinger"
