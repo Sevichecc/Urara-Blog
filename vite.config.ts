@@ -11,6 +11,7 @@ import { SvelteKitPWA } from '@vite-pwa/sveltekit'
 import TailwindCSS from 'tailwindcss'
 import tailwindConfig from './tailwind.config'
 import LightningCSS from 'postcss-lightningcss'
+import { presetWebFonts } from 'unocss'
 
 export default defineConfig({
   envPrefix: 'URARA_',
@@ -33,7 +34,25 @@ export default defineConfig({
         presetTagify({
           extraProperties: (matched: string) => (matched.startsWith('i-') ? { display: 'inline-block' } : {})
         }),
-        presetIcons({ scale: 1.5 })
+        presetIcons({ scale: 1.5 }),
+        presetWebFonts({
+          provider: 'bunny',
+          fonts: {
+            sans: 'Lato',
+            mono: ['Fira Code', 'Fira Mono:400,700'],
+            lato: [
+              {
+                name: 'Lato',
+                weights: ['400', '700'],
+                italic: true
+              },
+              {
+                name: 'sans-serif',
+                provider: 'none'
+              }
+            ]
+          }
+        })
       ]
     }),
     imagetools(),

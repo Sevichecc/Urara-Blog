@@ -16,7 +16,7 @@ export default {
     adapter: Object.keys(process.env).some(key => key === 'VERCEL')
       ? adapterVercel()
       : Object.keys(process.env).some(key => key === 'NETLIFY')
-      ? adapterNetlify({ edge: true })
+      ? adapterNetlify()
       : adapterStatic({
           pages: 'build',
           assets: 'build',
@@ -25,6 +25,11 @@ export default {
     prerender: {
       handleMissingId: 'warn'
     },
-    csp: { mode: 'auto' }
+    csp: {
+      mode: 'auto',
+      directives: {
+        'style-src': ['self', 'unsafe-inline', 'https://giscus.app']
+      }
+    }
   }
 } as Config
