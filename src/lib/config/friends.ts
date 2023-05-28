@@ -74,7 +74,7 @@ export const friends: Friend[] = [
     rel: 'friend',
     name: '鲨',
     title: '一只脆脆鲨',
-    link: 'http://blog.sharktale.xyz/',
+    link: 'https://woods.sharktale.xyz/',
     descr: '遇见一只脆脆鲨',
     avatar: 'https://s2.loli.net/2022/03/30/xwOzn9G8TIqFPvR.jpg'
   },
