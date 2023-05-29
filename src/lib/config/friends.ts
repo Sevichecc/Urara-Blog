@@ -57,7 +57,7 @@ export const friends: Friend[] = [
     rel: 'friend',
     name: '夏诤',
     title: 'SummberBlue',
-    link: 'https://blog.summerblue.space/',
+    link: 'https://blog.summerrrrrr.blue',
     descr: '早睡早起身体好'
   },
   {
