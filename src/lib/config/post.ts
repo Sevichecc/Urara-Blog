@@ -5,14 +5,14 @@ export const post: PostConfig = {
     post: ['mastodon']
   },
   comment: {
-    use: ['Webmention', 'Giscus', 'Remark42'],
+    use: ['Remark42','Webmention', 'Giscus'],
     style: 'boxed',
     webmention: {
       username: 'seviche.cc',
       sortBy: 'created',
       sortDir: 'down',
       form: true,
-      commentParade: true
+      commentParade: false
     },
     giscus: {
       // src: 'https://giscus.kwaa.dev/client.js',

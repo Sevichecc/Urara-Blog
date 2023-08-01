@@ -79,7 +79,7 @@
       <input type="hidden" name="target" value={site.protocol + site.domain + post.path} />
       <div class="label gap-4">
         <span class="label-text">send webmentions here:</span>
-        {#if config?.commentParade === true}
+        <!-- {#if config?.commentParade === true}
           <span class="label-text-alt text-right">
             or <a
               class="hover:!text-primary"
@@ -89,7 +89,7 @@
               comment anonymously
             </a>
           </span>
-        {/if}
+        {/if} -->
       </div>
       <div class="flex gap-2">
         <div class="flex-1">
