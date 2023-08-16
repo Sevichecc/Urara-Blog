@@ -64,7 +64,7 @@ export const friends: Friend[] = [
     id: 'loikin',
     rel: 'friend',
     name: 'Loikin',
-    title: '此生未命名',
+    title: '浣心',
     link: 'https://blog.loikein.one/',
     descr: '用爱和理性对抗荒谬',
     avatar: '/assets/loikin.png'
