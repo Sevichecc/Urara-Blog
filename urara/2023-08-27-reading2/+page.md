@@ -108,12 +108,10 @@ tags:
 - [Git is simply too hard](https://changelog.com/posts/git-is-simply-too-hard)
   > But I think whatever the next iteration of the people’s version control is… it should be something that is more reflective of how we think about what version control is for us.
 
-  > I feel that version control systems (the next version of them) should not be something that was specifically made for the Linux Kernel community. It should be something that was specifically designed to be used by the wider community.
+  > I feel that version control systems (the next version of them) should not be something that was specifically made for the Linux Kernel community. It should be something that was specifically designed to be used by the wider community.  
 
-  我想找一个Git的替代品，了解到有一个叫 [Fossil](https://fossil-scm.org/home/doc/trunk/www/index.wiki)) 的东西，最近还有一个叫 [Jujutsu](https://github.com/martinvonz/jj) 的，不过还没深入使用
-
-- [skiff](https://skiff.com/) 
-  
+  我想找一个Git的替代品，了解到有一个叫 [Fossil](https://fossil-scm.org/home/doc/trunk/www/index.wiki) 的东西，最近还有一个叫 [Jujutsu](https://github.com/martinvonz/jj) 的，不过还没深入使用
+- [skiff](https://skiff.com/)  
   免费的加密邮箱，功能很多，但是：[PSA: Skiff.com is lying about being open source!](https://raikas.dev/skiff-is-lying-about-being-open-source/)
 - [Apprise - Push Notifications that work with just about every platform!](https://github.com/caronc/apprise)
 - [Twine: A Compose multiplatform RSS reader app](https://github.com/msasikanth/twine)
@@ -137,8 +135,7 @@ tags:
 - [Why I'm Quitting the Japanese Duolingo Course (An Honest Review)](https://www.youtube.com/watch?v=jf-SbSfiXn4)
 - [如何学习语言：输入假说（为什么大多数方法没有效果） - YouTube](https://www.youtube.com/watch?v=J_EQDtpYSNM)
 - [Learn to Read Korean in 5 Minutes (seriously)](https://www.youtube.com/watch?v=TE4eplsFSms)
-- [法语学习入门补充 | Xuanqi](https://xuanqi.life/post/2022/03/29/%E6%B3%95%E8%AF%AD%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%E8%A1%A5%E5%85%85/)
-  
+- [法语学习入门补充 | Xuanqi](https://xuanqi.life/post/2022/03/29/%E6%B3%95%E8%AF%AD%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%E8%A1%A5%E5%85%85/)  
   这人的博客有很多不错的内容，虽然页面比较复古。
 
 ## 其他
