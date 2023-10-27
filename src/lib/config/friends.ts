@@ -81,7 +81,7 @@ export const friends: Friend[] = [
   {
     id: 'kwaa',
     rel: 'friend',
-    name: '藍+85CD',
+    name: '藍 +85CD',
     title: './kwaa.dev',
     link: 'https://kwaa.dev',
     descr: '[DATA EXPUNGED]',
@@ -95,5 +95,13 @@ export const friends: Friend[] = [
     link: 'https://blog.debula.ml',
     descr: '月亮一直跟着我走，它迷路了吗？',
     avatar: 'https://blog.debula.ml/usr/uploads/violet.jpg'
+  },
+  {
+    id: 'zhuzi',
+    rel: 'friend',
+    title: 'Bambooom',
+    name: '竹子',
+    link: 'https://zhuzi.dev',
+    descr: 'Blah Blah Booooom'
   }
 ]
