@@ -23,7 +23,7 @@ flags:
 </div>
 </Profile>
 
-我是 Seviche，意为「酸橘汁腌鱼」，这是朋友给我起的名字，你也可以叫我「鱼」。大学的时候在学工业设计，然后现在在学前端，对 UX/交互设计也有一些了解。
+我是 Seviche，意为「酸橘汁腌鱼」，这是朋友给我起的名字，你也可以叫我「鱼」。大学的时候在学工业设计，然后现在在学前端和后端，对 UX/交互设计也有一些了解。
 
 这里是我的部落格，随便看看喔。
 
@@ -31,11 +31,11 @@ flags:
 
 ### 姑且熟悉
 
-`JavaScript` `TypeScript` `React` `Redux` `Vue.js` `Nuxt.js` `TailwindCSS` `SASS`
+`JavaScript` `TypeScript` `React` `Redux` `Next.js` `Vue.js` `Nuxt.js` `TailwindCSS` `SASS`
 
 ### 简单用过
 
-`Shell Script` `Svelte` `Deno JS` `NodeJS` `Express.js` `Mongoose` `MongoDB` `Prisma`
+`GO` `Shell Script` `Svelte` `Deno JS` `NodeJS` `Express.js` `Mongoose` `MongoDB` `Prisma`
 
 ### 了解
 
@@ -45,8 +45,7 @@ flags:
 
 ### 在做
 
-- [ ] 找工作 (广州的前端岗位求推荐 😭)
-- [ ] [Airbnb clone](https://github.com/Sevichecc/Airbnb-Clone)
+- [ ] [Zeitdose](https://github.com/importantimport/zeitdose) (基本功能做完会开源)
 - [ ] [Seigwai](https://codeberg.org/Sevichecc/Seigwai)
 
 ### 完成
@@ -57,10 +56,11 @@ flags:
 - [x] Pleroma 和 Forgejo 的备份脚本
   - Pleroma: [pleroma-backup-script](https://github.com/Sevichecc/pleroma-backup-script)
   - Forgejo: [forgejo-backup-script](https://codeberg.org/Sevichecc/forgejo-backup-script)
+- [x] [Airbnb clone](https://github.com/Sevichecc/Airbnb-Clone)
 
 ### 联系我
 
-可以通过 [Matrix](https://matrix.to/#/@seviche:kongwoo.icu) 或者通过邮箱联系我，如果需要发加密邮件的话，我的 GPG 公钥是: [`CFD2 D8F4 88C6 E58C 1735 FD88 CCE2 DDDD DDDD DDDD`](/assets/DDDDDDDD.asc) (`ed25519/CCE2DDDDDDDDDDDD`)，邮箱：
+可以通过 [Matrix](https://matrix.to/#/@seviche:kongwoo.icu) 或者通过邮箱联系我，如果需要发加密邮件的话，我的 GPG 公钥是：[`CFD2 D8F4 88C6 E58C 1735 FD88 CCE2 DDDD DDDD DDDD`](/assets/DDDDDDDD.asc) (`ed25519/CCE2DDDDDDDDDDDD`)，邮箱：
 
 ```
 hi[[@]]seviche.cc
@@ -76,6 +76,6 @@ hi[[@]]seviche.cc
 
 - 2023-04-29 Out of Memory
 - 2022-05-06 从 Zola 搬到 Urara
-- 之前：静态博客尝试过 Hugo / Zola / Hexo / Nextra ，动态博客尝试过 Ghost / WordPress / QQ 空间（？，部署平台 Vercel 和 Netlify 都试过，目前还没有试过的是 CloudFare Page。
+- 之前：静态博客尝试过 Hugo / Zola / Hexo / Nextra，动态博客尝试过 Ghost / WordPress / QQ 空间（？，部署平台 Vercel 和 Netlify 都试过，目前还没有试过的是 CloudFare Page。
 
 \*所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0 协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)，转载请注明出处
