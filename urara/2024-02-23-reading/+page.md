@@ -58,6 +58,7 @@
 - [mp.weixin.qq.com/s/e7S\_USwAkg6ACLOcHHX9rg](https://mp.weixin.qq.com/s/e7S_USwAkg6ACLOcHHX9rg)
 - [How To Code Everyday](https://www.youtube.com/watch?v=a0eB7tMkvs4)
 	> Coding Menu就是把不同的Coding Task按时间分类，按当天的精力选取适合的Task
+- [互联网故障背后的草台班子们](https://mp.weixin.qq.com/s/e7S_USwAkg6ACLOcHHX9rg)
 ## 有意思
 - [André Staltz - Some people want to run their own servers](https://staltz.com/some-people-want-to-run-their-own-servers.html)
 - [Four Magic Words](https://www.fortressofdoors.com/four-magic-words/)  
