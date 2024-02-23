@@ -1,5 +1,12 @@
-又上班之后看的东西就少了，但还是攒了一些。
+---
+title: 我在看什么 · 2023年9月~2024年2月
+created: 2024-02-23
+summary: 如何设计优秀的 URL / 游戏机黑客词汇表 / Coding Menu / Four Magic Words
+tags: 
+  - 我在看什么
+---
 
+又上班之后看的东西就少了，但还是攒了一些。
 
 ## 电子设备
 - [E-ink is so Retropunk](https://rmkit.dev/eink-is-so-retropunk/)
@@ -55,7 +62,6 @@
 - [gilest.org: Make the indie web easier](https://gilest.org/indie-easy.html)  
   ![](https://pub-eb20299ee95f451585d2c46aebc230cf.r2.dev/59022fcc9e65db4b2621aeee3e3b097aae8ae45c5b836be76675b593bfa8cfc7.jpeg?name=muWaI4e68RxaWw.jpeg)
 - [Rich Bowen: 无论你在创造什么，最终交付的是信任](https://segmentfault.com/a/1190000044267214)
-- [mp.weixin.qq.com/s/e7S\_USwAkg6ACLOcHHX9rg](https://mp.weixin.qq.com/s/e7S_USwAkg6ACLOcHHX9rg)
 - [How To Code Everyday](https://www.youtube.com/watch?v=a0eB7tMkvs4)
 	> Coding Menu就是把不同的Coding Task按时间分类，按当天的精力选取适合的Task
 - [互联网故障背后的草台班子们](https://mp.weixin.qq.com/s/e7S_USwAkg6ACLOcHHX9rg)
