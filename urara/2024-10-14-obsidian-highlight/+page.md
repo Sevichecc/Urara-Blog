@@ -6,11 +6,17 @@ tags:
   - Obsidian
   - CSS
 ---
-
-把这个[Codepen](https://codepen.io/cassidoo/pen/JjQOBZB)里面的荧光笔效果搬到了Obsidain里面。鉴于安装的插件和CSS样式太多，我强制用了`!important`, 所以代码比较丑陋。
-
 效果如图：
 ![](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2024/10/0822652da55dab7b75749172c24e96a7.png)
+
+参考：
+<iframe height="300" style="width: 100%;" scrolling="no" title="Subtle text &quot;highlighter&quot; in pure CSS" src="https://codepen.io/cassidoo/embed/JjQOBZB?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/cassidoo/pen/JjQOBZB">
+  Subtle text &quot;highlighter&quot; in pure CSS</a> by Cassidy (<a href="https://codepen.io/cassidoo">@cassidoo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+鉴于安装的插件和CSS样式太多，我强制用了`!important`, 所以代码比较丑陋。
 
 ## 如何安装
 
@@ -25,7 +31,7 @@ highlight method设置为`css-classed`
 首先打开CSS代码片段存放的文件夹：
 ![image.png](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2024/10/8bc2771da002bf9ba87da2a320dca5ef.png)
 
-然后点击 -> [subtle-hightlight.css](blob:https://github.com/442ee1e8-3492-43d7-9767-223f792522e1)下载css代码，下载后将`subtle-highlight.css`存到代码片段的文件夹中
+然后点击 -> [subtle-hightlight.css](/2024-10-14-obsidian-highlight/subtle-highlight.css)下载css代码，下载后将`subtle-highlight.css`存到代码片段的文件夹中
 
 或者复制下面的代码后在该文件夹下创建一个叫`subtle-highlight.css` 的文件：
 ```css
