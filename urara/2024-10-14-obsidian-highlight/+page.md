@@ -25,7 +25,7 @@ highlight method设置为`css-classed`
 首先打开CSS代码片段存放的文件夹：
 ![image.png](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2024/10/8bc2771da002bf9ba87da2a320dca5ef.png)
 
-然后点击 -> [subtle-hightlight.css](/2024-10-14-obsidian-highlight/subtle-highlight.css)下载css代码，下载后将`subtle-highlight.css`存到代码片段的文件夹中
+然后点击 -> [subtle-hightlight.css](blob:https://github.com/442ee1e8-3492-43d7-9767-223f792522e1)下载css代码，下载后将`subtle-highlight.css`存到代码片段的文件夹中
 
 或者复制下面的代码后在该文件夹下创建一个叫`subtle-highlight.css` 的文件：
 ```css
