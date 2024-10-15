@@ -48,7 +48,6 @@ span.cm-highlight{
   linear-gradient(182deg, #ffffaf00, #ffffaf4d 8%, #ffffaf00 15%) !important;
 }
 
-
 mark:not([class]) {
   background: linear-gradient(
     100deg,
