@@ -49,7 +49,7 @@ span.cm-highlight{
 }
 
 
-mark {
+mark:not([class]) {
   background: linear-gradient(
     100deg,
     #ffffaf00 1%,
