@@ -99,9 +99,7 @@ mark:not([class]) {
     ),
     linear-gradient(182deg, #afd7ff00, #afd7ff4d 8%, #afd7ff00 15%) !important;
 }
-
 ```
-
 
 添加css文件后点击左边的“重新加载按钮”：
 ![image.png](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2024/10/9fcc32f430e89f8d2c8df0fb439cb794.png)
