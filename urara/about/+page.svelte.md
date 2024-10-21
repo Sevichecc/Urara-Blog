@@ -31,15 +31,15 @@ flags:
 
 ### 姑且熟悉
 
-`JavaScript` `TypeScript` `React` `Redux` `Next.js` `Vue.js` `Nuxt.js` `TailwindCSS` `SASS`
+`JavaScript` `Vue.js` `Nuxt.js`  `TypeScript` `React` `Redux` `Next.js` `TailwindCSS` `SASS` `GO` 
 
 ### 简单用过
 
-`GO` `Shell Script` `Svelte` `Deno JS` `NodeJS` `Express.js` `Mongoose` `MongoDB` `Prisma`
+`Shell Script` `Svelte` `NodeJS` `Express.js` `Mongoose` `MongoDB` `Prisma` `MySQL`
 
 ### 了解
 
-`MySQL` `Styled Components`
+`Styled Components`  `Deno JS`
 
 ## 最近
 
