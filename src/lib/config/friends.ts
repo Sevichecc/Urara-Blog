@@ -103,5 +103,13 @@ export const friends: Friend[] = [
     name: '竹子',
     link: 'https://zhuzi.dev',
     descr: 'Blah Blah Booooom'
+  },
+  {
+    id: 'litomore',
+    rel: 'friend',
+    title: "LitoMore's Mind",
+    name: 'LitoMore',
+    link: 'https://litomore.me',
+    avatar: 'https://avatars.githubusercontent.com/u/8186898?v=4'
   }
 ]

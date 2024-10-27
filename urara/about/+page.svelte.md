@@ -8,7 +8,6 @@ flags:
 <script lang="ts">
   import Profile from '$lib/components/extra/profile.svelte'
 </script>
-
 <Profile subname="sevichecc" bio={`An ordinary front-end engineer who spends her days wrestling with CSS and JavaScript at work, but dreams about the exciting world of backend development at night.`} >
 
 <div class="flex flex-col md:flex-row gap-4 mt-4">
