@@ -42,24 +42,29 @@ tags:
 - 一般不在`main` 或`master` 修改代码，而是开一个 branch，确定好后再 merge
 - 下载叫做 pull，上传是 push
 
-| 命令                                                         | 作用                                              |
-| :----------------------------------------------------------- | ------------------------------------------------- |
-| `git config --global user.name 名字`                         | 设置名字                                          |
-| `git config --global user.email 邮箱`                        | 设置邮件                                          |
-| `git init`                                                   | 初始化                                            |
-| `git add -A`                                                 | 追踪所有文件(除了 gitignore 里面的)，也可以单独加 |
-| `git commit -m`                                              | m 代表信息，后面要写 commit 相关信息              |
-| `git status`                                                 | 查看 git 状态/信息                                |
-| `git log`                                                    | 查看 commit 日志，按 Q 才可以退出                 |
-| `git reset hard (commit的id）`                               | 回到特定版本                                      |
-| `git reset hard --HEAD`                                      | 返回上一次改动 （还没有 commit)                   |
-| `git branch`                                                 | 列出现在有的 branch,按 Q 退出                     |
-| `git branch （branch'name)`                                  | 创建新 branch                                     |
-| `git merge （branch'name)`                                   | 合并 branch 到 main                               |
-| `git checkout (branch's name)`                               | 切换 branch                                       |
-| `git remote add origin https://github.com/用户名/仓库名.git` | 链接到 remote repo                                |
-| `git pull`                                                   | 拉更新                                            |
-| `git push origin (branch'name)`                              | push 到 remote repo                               |
+| 命令                                                           | 作用                                               |
+| :------------------------------------------------------------- | -------------------------------------------------- |
+| `git config --global user.name "名字"`                         | 设置全局用户名                                     |
+| `git config --global user.email "邮箱"`                        | 设置全局邮箱                                       |
+| `git init`                                                     | 初始化仓库                                         |
+| `git add -A`                                                   | 追踪所有文件（除了.gitignore里的），也可以单独添加 |
+| `git commit -m "提交信息"`                                     | 提交更改，-m 后跟提交信息                          |
+| `git status`                                                   | 查看仓库状态                                       |
+| `git log`                                                      | 查看提交日志，按 Q 退出                            |
+| `git reset --hard <commit_id>`                                 | 回到特定版本                                       |
+| `git reset --hard HEAD^`                                       | 返回上一次改动（还没有commit）                     |
+| `git branch`                                                   | 列出所有分支，按 Q 退出                            |
+| `git branch <branch_name>`                                     | 创建新分支                                         |
+| `git merge <branch_name>`                                      | 将指定分支合并到当前分支                           |
+| `git checkout -b <new_branch>`                                 | 创建新分支并切换到该分支                           |
+| `git checkout <branch_name>`                                   | 切换到指定分支                                     |
+| `git remote add origin https://github.com/username/repo.git`   | 添加远程仓库                                       |
+| `git pull`                                                     | 从远程仓库拉取更新                                 |
+| `git push origin <branch_name>`                                | 推送指定分支到远程仓库                             |
+| `git config --global push.default current`                     | 设置推送默认行为为推送当前分支到同名远程分支 [^1]  |
+| `git commit --amend --author="Name <email@example.com>"`       | 修改最近一次提交的作者信息                         |
+| `git config --global push.autoSetupRemote true`                | 自动设置远程跟踪分支                               |
+| `git config --global http.proxy http://proxy.example.com:8080` | 设置全局 HTTP 代理[^2]                             |
 
 ## 常见问题
 
@@ -81,7 +86,7 @@ tags:
 - [GitHub Pages 绑定来自阿里云的域名](https://blog.csdn.net/qq_29232943/article/details/52786603)
 - [Hexo 发布到 Github 丢失 readme 和 CNAME 解决方案](https://www.cnblogs.com/LandWind/articles/8269636.html)
 - [把 HUGO 博客托管到 GITHUB 上](https://www.freesion.com/article/37111127345/)
-
+  
 ### 其他
 
 - [Github 上如何添加 LICENSE 文件？](https://www.cnblogs.com/chenmingjun/p/8555906.html)
