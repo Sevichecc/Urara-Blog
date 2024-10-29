@@ -115,8 +115,11 @@ git cancel
 - [gitchat](https://wkevin.github.io/GitChat/gitchat.html#round-1-%E8%B5%B7%E6%AD%A5): 风趣易懂的文字教程
 - [Learn Git with Bitbucket Cloud | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 - [Pro Git 第二版（中文版） · 看云](https://www.kancloud.cn/kancloud/progit)
+- [Git Time](https://git.bradwoods.io/)：一个交互式的Git教程/游戏，更像玩游戏，玩了没记住什么（
 
-## Commit 规范
+## 其他
+- [git cheatsheet](https://ndpsoftware.com/git-cheatsheet.html)
+- [github skills](https://skills.github.com/)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 借此机会，我对之前的文章：[Git · 常用操作笔记](https://seviche.cc/2022-05-25-git/) 中的命令表格进行了更新。
