@@ -125,7 +125,7 @@ docker-compose up -d
 
 ### 6.SSL 证书和其他书签
 
-安装证书，详情参考这篇：[用 docker 安装 Halo 博客并用 Nginx 反代](https://halo.seviche.cc/archives/halo-in-docker)
+安装证书，详情参考这篇：[用 docker 安装 Halo 博客并用 Nginx 反代](https://halo.sevic.me/archives/halo-in-docker)
 
 ```bash
 certbot --nginx -d example.com -d www.example.com

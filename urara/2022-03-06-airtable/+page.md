@@ -12,7 +12,7 @@ lastmod: 2022-04-16T12:54:20.049Z
 
 ## 书签这回事
 
-上回说到用 [自建网页书签 Flare](https://seviche.cc/blog/flare/) ，今天不小心把 SSH 链接弄坏了（也就是连不上了），因为搭载的服务不多，所以把整个服务器都重装了，Flare 网页书签也炸了。
+上回说到用 [自建网页书签 Flare](https://sevic.me/blog/flare/) ，今天不小心把 SSH 链接弄坏了（也就是连不上了），因为搭载的服务不多，所以把整个服务器都重装了，Flare 网页书签也炸了。
 
 其实搭建之后我没有用过（一次都没有），平时的书签管理主要靠搜索，各个浏览器之间的书签互相导入后，直接在搜索栏搜，如果是常用的网址，我用 Chorme 扩展 [eesel](https://chrome.google.com/webstore/detail/eesel-productivity-at-wor/jffaiidojfhflballoapgofphkadiono) 来解决，它可以列出最近用过的网页，按站点分类，查找起来很方便
 

@@ -8,7 +8,7 @@ export const post: PostConfig = {
     use: ['Remark42','Webmention', 'Giscus'],
     style: 'boxed',
     webmention: {
-      username: 'seviche.cc',
+      username: 'sevic.me',
       sortBy: 'created',
       sortDir: 'down',
       form: true,

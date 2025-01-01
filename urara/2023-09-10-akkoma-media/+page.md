@@ -61,7 +61,7 @@ summary: 配置 Cloudflare R2、Media Proxy、Varnish Cache、Media Cache 的简
 >
 > 跨源资源共享 (CORS) 是一种机制，允许从提供第一个资源的域之外的另一个域请求网页上的受限资源（例如字体）。网页可以自由嵌入跨源图像、样式表、脚本、iframe 和视频。某些“跨域”请求，特别是 Ajax 请求，默认情况下被同源安全策略禁止。[^1]
 
-当我们使用主域名（比如`seviche.cc`来访问子域名`m.seviche.cc` 上面的内容时，就会产生跨域问题，可以通过 CORS 来解决这个问题，在这里可以很方便地设置，滑动到下方 **CORS Policy** 的部分，点击右边按钮 `Add CROS policy` 添加：
+当我们使用主域名（比如`sevic.me`来访问子域名`m.sevic.me` 上面的内容时，就会产生跨域问题，可以通过 CORS 来解决这个问题，在这里可以很方便地设置，滑动到下方 **CORS Policy** 的部分，点击右边按钮 `Add CROS policy` 添加：
 ![image.png](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2023/09/8b753bed24fb1c0026b875e9b2097fc7.png)
 设置里默认添加了一个`http://localhost:3000`的 URL，可以删掉，然后在`AllowedOrigins` 下面添加 Akkoma 的链接，比如`https://example.com`，以及在`AllowedMethods` 里加上 `POST`、`PUT`、`DELETE`, 如果下方没有任何报错就可以点右下角的 `Save` 保存，这部分就配置好了，但先不要关闭 Cloudflare 的页面。
 ![image.png](https://usc1.contabostorage.com/cc0b816231a841b1b0232d5ef0c6deb1:image/2023/09/9fdab9e3ec71523fd56565a3d0c0b301.png)

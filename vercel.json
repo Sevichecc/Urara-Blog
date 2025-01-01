@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://seviche.cc"
+          "value": "https://sevic.me"
         },
         {
           "key": "X-Frame-Options",

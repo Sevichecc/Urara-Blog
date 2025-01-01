@@ -122,4 +122,4 @@ git cancel
 - [github skills](https://skills.github.com/)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-借此机会，我对之前的文章：[Git · 常用操作笔记](https://seviche.cc/2022-05-25-git/) 中的命令表格进行了更新。
+借此机会，我对之前的文章：[Git · 常用操作笔记](https://sevic.me/2022-05-25-git/) 中的命令表格进行了更新。
