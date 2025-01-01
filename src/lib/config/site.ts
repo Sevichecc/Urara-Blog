@@ -2,16 +2,16 @@ import type { SiteConfig } from '$lib/types/site'
 
 export const site: SiteConfig = {
   protocol: import.meta.env.URARA_SITE_PROTOCOL ?? import.meta.env.DEV ? 'http://' : 'https://',
-  domain: 'seviche.cc',
-  title: 'Seviche.cc',
+  domain: 'sevic.me',
+  title: 'sevic.me',
   subtitle: 'Random Frontend-Developer',
   lang: 'zh',
   description: 'Random Frontend-Developer',
   author: {
-    name: 'Seviche CC',
+    name: 'Sevi.C',
     avatar: '/assets/avatar.png',
     status: '🖤',
-    bio: 'Random Frontend-Developer',
+    bio: 'Full-stack wizard.',
     metadata: [
       {
         icon: 'i-mdi-github',

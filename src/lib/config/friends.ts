@@ -110,6 +110,6 @@ export const friends: Friend[] = [
     title: "LitoMore's Mind",
     name: 'LitoMore',
     link: 'https://litomore.me',
-    avatar: 'https://avatars.githubusercontent.com/u/8186898?v=4'
+    avatar: 'https://litomore.me/favicon.svg'
   }
 ]
