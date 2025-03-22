@@ -25,6 +25,6 @@ My Tech Blog, base on [Urara](https://github.com/importantimport/urara)
 - [ ] NeoDB component
 - [ ] ...
 
-### License:
+### License
 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+© 2024 Sevi.C All Rights Reserved. 
